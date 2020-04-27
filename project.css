@@ -1,0 +1,41 @@
+/* navigation bar */
+.main-navbar {
+  background-color: #FFFAF6;
+  overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+/* navigation bar links */
+ nav a {
+  color: black;
+  display: inline-block;
+  float: right;
+  margin: 5px 5px;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#contact_nav {
+  background-color: #F3DDCC;
+  color: black;
+  padding: 14px 25px;
+  margin: 5px 5px;
+
+}
+
+#logo  {
+  float: left;
+  object-fit: contain;
+  margin: 5px 0px 5px 50px;
+}
+
+/* Change color on hover */
+nav a:hover {
+  background-color: white;
+  color: black;
+}
