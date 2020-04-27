@@ -1,61 +1,139 @@
 
+
 * {
   box-sizing: border-box;
 }
 
 
-/* Style the top navigation bar */
-.navbar {
+
+/* navigation bar */
+.main-navbar {
   background-color: #FFFAF6;
   overflow: hidden;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 
-/* Style the navigation bar links */
-.navbar a {
+/* navigation bar links */
+ nav a {
   color: black;
   display: inline-block;
   float: right;
+  margin: 5px 5px;
   padding: 14px 20px;
   text-align: center;
   text-decoration: none;
 }
 
 #contact_nav {
-  background-color: rgba(195, 148, 111, .4);
+  background-color: #F3DDCC;
   color: black;
   padding: 14px 25px;
+  margin: 5px 5px;
+
 }
 
-/* logo */
 #logo  {
   float: left;
   object-fit: contain;
-  margin-left: 50px;
+  margin: 5px 0px 5px 50px;
 }
 
 /* Change color on hover */
-.navbar a:hover {
+nav a:hover {
   background-color: white;
   color: black;
 }
 
 
-/*** hero ***/
+/*hero */
 
-#hero {
+.hero {
    background-color: #FFFAF6;
-   height: 800px;
+   height: 600px;
    margin: auto;
    padding: 10px;
    text-align: center;
  }
 
-#hero a:link, a:visited {
-  background-color: rgba(195, 148, 111, .4);
+/* buttons */
+
+.capstone_project a:link, a:visited {
+  background-color: #F3DDCC;
+  color: black;
+  display: inline-block;
+  font-size: 18px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+ .capstone_project a:hover, a:active {
+  background-color: #F3DDCC;
+}
+
+.trove_project a:link, a:visited {
+  background-color: #F3DDCC;
+  color: black;
+  display: inline-block;
+  font-size: 18px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.trove_project a:hover, a:active {
+  background-color: #F3DDCC;
+}
+
+.blocjams_project a:link, a:visited {
+  background-color: #F3DDCC;
+  color: black;
+  display: inline-block;
+  font-size: 18px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+ .blocjams_project a:hover, a:active {
+  background-color: #F3DDCC;
+}
+
+.busybus_project a:link, a:visited {
+  background-color: #F3DDCC;
+  color: black;
+  display: inline-block;
+  font-size: 18px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.busybus_project a:hover, a:active {
+  background-color: #F3DDCC;
+}
+
+
+.connect a:link, a:visited {
+  background-color: #F3DDCC;
+  color: black;
+  display: inline-block;
+  font-size: 18px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+ .connect a:hover, a:active {
+  background-color: #F3DDCC;
+}
+
+ .hero a:link, a:visited {
+  background-color: #F3DDCC;
   color: black;
   display: inline-block;
   font-size: 18px;
@@ -65,39 +143,31 @@
   margin: 20px 60px;
 }
 
-#hero a:hover, a:active {
-  background-color: rgba(195, 148, 111, .4);
+ .hero a:hover,  a:active {
+  background-color: #F3DDCC;
 }
 
-/*** main ***/
-#main {
-  flex: 70%; /* Set the width of the main content */
-  background-color: white; /* White background color */
-  padding: 50px; /* Some padding */
-  margin: 40px;
-}
-
-#main a:link, a:visited {
-  background-color: rgba(195, 148, 111, .4);
-  color: black;
-  display: inline-block;
-  font-size: 18px;
-  padding: 14px 25px;
+/* connect */
+.connect {
   text-align: center;
-  text-decoration: none;
 }
 
-#main a:hover, a:active {
-  background-color: rgba(195, 148, 111, .4);
+/* footer */
+footer ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+footer li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+  margin: 10px;
 }
 
 
-
-/*** buttons ***/
-
-
-
-/*** typography ***/
+/* typography */
 body {
   font-family: montserrat;
 }
@@ -114,38 +184,95 @@ h3 {
   line-height: 167%;
 }
 
-#hero p {
+.hero p {
   font-size: 30px;
-  line-height: 167%;
 }
 
-#main p {
+.main p {
+  font-family: montserrat;
+  font-size: 24px;
+}
+
+.connect p {
   font-family: montserrat;
   font-size: 24px;
   line-height: 167%;
+  padding: 10px 10px;
+}
+
+.design_process {
+  text-align: center;
+}
+
+.testimonials {
+  text-align: center;
 }
 
 
+/* structure */
+.capstone_project {
+  width: 50%;
+  background-color: red;
+  display: inline-block;
+  text-align: right;
+}
 
+.cap {
+  width: 30%;
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 40px;
+}
 
-/*** structure ***/
-#main p {
-  width: 200px;
-  padding: 40px;
-  margin: 10px;
+.trove_project {
+  width: 50%;
+  display: inline-block;
+  background-color: white;
+  margin-left: 200px;
+
+}
+
+.trove {
+  width: 30%;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.blocjams_project {
+  width: 50%;
+  background-color: white;
+  display: inline-block;
+  text-align: right;
+
+}
+
+.bloc {
+  width: 30%;
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 40px;
+}
+
+.busybus_project {
+  width: 50%;
+  background-color: white;
+  display: inline-block;
+  margin-left: 150px;
+}
+
+.busy {
+  width: 30%;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.design_process {
+    width: 1000px;
+    background-color: white;
+    padding: 50px;
+    margin-left: 200px;
+    margin-top: 40px;
 }
 
 
-
-
-/*** images ***/
-
-.capstone_project, .blocjams_project  img {
-  float: right;
-}
-
-.trove_project, .busybus_project img {
-  float: left;
-}
-
-/*** footer ***/
+/* responsiveness */

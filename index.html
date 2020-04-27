@@ -1,64 +1,71 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-
 <!--  Meta  -->
 <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Imani Ricks | Portfolio</title>
 <!-- stylesheet -->
+<link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="style.css">
 <!-- font awesome -->
 <script src="https://kit.fontawesome.com/84aa5f5e2b.js" crossorigin="anonymous"></script>
-
-
 </head>
 
 <body>
 
-<!-- header -->
-  <div id="header">
-    <img id="logo" src="../images/dotlogo2.svg" alt="imani ricks logo" width="50" height="50">
+  <nav class="navbar">
 <!-- nav bar -->
-      <ul class="navbar">
-        <li><a href="_blank">Work</a></li>
-        <li><a href="/about-me.html">About</a></li>
+      <ul class="main-navbar">
+        <li><img id="logo" src="../images/dotlogo2.svg" alt="imani ricks logo" width="50" height="50"></li>
         <li><a id="contact_nav" href="/contact.html">Contact</a></li>
+        <li><a href="/about-me.html">About</a></li>
+        <li><a href="_blank.html">Work</a></li>
       </ul>
-  </div>
+   </nav>
+
 <!-- hero image -->
-	<div id="hero">
+	<section class="hero">
 		<h1>Hi, I'm Imani.</h1>
-		<p> I’m a UX Designer located in Charlotte, NC.<br>I have a passion for building satisfying user experiences.</p>
+		<p> I’m a UX Designer located in Charlotte, NC.<br>I have a passion for building satisfying<br>user experiences.</p>
     <a href="" target="_blank" class="button">About me</a>
     <a href="" target="_blank" class="button">My work</a><br>
     <i class="fas fa-angle-double-down fa-3x"></i>
-  </div>
+  </section>
+
   <!-- main content -->
-  	<div id="main">
+      <aside class="cap">
+        <img src="../images/iphone1.png" alt="capstone project mockup photo" width="370" height="370">
+        </aside>
       <section class="capstone_project">
           <h3>Capstone Project</h3>
           <p>This is a summary of my capstone project.</p>
           <a href="" target="_blank" class="button">Case study</a>
-          <img src="../images/iphone1.png" alt="capstone project mockup photo" width="370" height="370">
       </section>
       <section class="trove_project">
           <h3>Trove Project</h3>
           <p>This is the cloud storage project I created.</p>
           <a href="/project.html" target="_blank" class="button">Case study</a>
-            <img src="../images/iphone2.png" alt="trove mockup photo" width="370" height="370">
       </section>
+        <aside class="trove">
+          <img src="../images/iphone2.png" alt="trove mockup photo" width="370" height="370">
+          </aside>
+      <aside class="bloc">
+        <img src="../images/iphone3.png" alt="bloc jams project mockup photo" width="370" height="370">
+        </aside>
       <section class="blocjams_project">
           <h3>Bloc Jams Project</h3>
           <p>This is the music player application I created.</p>
           <a href="" target="_blank" class="button">Case study</a>
-          <img src="../images/iphone3.png" alt="bloc jams project mockup photo" width="370" height="370">
       </section>
       <section class="busybus_project">
           <h3>Busy Bus Project</h3>
           <p>This is the transportation application I created.</p>
           <a href="" target="_blank" class="button">Case study</a>
-          <img src="../images/iphone4.png" alt="busybus mockup photo" width="370" height="370">
       </section>
+      <aside class="busy">
+        <img src="../images/iphone4.png" alt="busybus mockup photo" width="370" height="370">
+        </aside>
       <section class="design_process">
           <h3>My Design Process</h3>
           <img src="../images/designblock.svg" alt="design process image" width="920" height="68">
@@ -83,25 +90,23 @@
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
           </div>
-        </div>
       </section>
  <!-- connect with me -->
-     <section>
+     <section class="connect">
       <h3>Connect with me:</h3>
-      <p>Thanks for stopping by.<br>Please reach out if you want to chat or have any questions!</p>
+      <p>Thanks for stopping by.<br>Please reach out if you want to chat or have<br>any questions!</p>
       <a href="" target="_blank" class="button">Message me</a>
      </section>
+
  <!-- footer -->
-   <div id="footer">
- <!-- social links -->
+  <footer>
     <ul class="socialmedia">
-      <li><a href="mailto:ricksimaniruby@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
-      <li><a href="https://github.com/IRRicks" target="_blank"><i class="fab fa-github-square"></i></a></li>
-      <li><a href="https://www.linkedin.com/in/imani-ricks/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-      <li><a href="https://dribbble.com/RRicks" target="_blank"><i class="fab fa-dribbble-square"></i></a></li>
+     <li><a href="mailto:ricksimaniruby@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></a></li>
+     <li><a href="https://github.com/IRRicks" target="_blank"><i class="fab fa-github-square fa-2x"></i></a></li>
+     <li><a href="https://www.linkedin.com/in/imani-ricks/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
+     <li><a href="https://dribbble.com/RRicks" target="_blank"><i class="fab fa-dribbble-square fa-2x"></i></a></li>
     </ul>
-   </div>
- </div>
+  </footer>
 </body>
 
 </html>
