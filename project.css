@@ -1,6 +1,110 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/* hero */
+
+
+.hero {
+   background-color: white;
+   text-align: center;
+ }
+
+/* main content */
+
+.main {
+  margin: 50px 150px;
+}
+
+/* connect */
+.connect {
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+/* buttons */
+
+
+.discovery a:link, a:visited {
+ background-color: #F3DDCC;
+ color: black;
+ display: inline-block;
+ font-size: 18px;
+ padding: 14px 25px;
+ text-align: center;
+ text-decoration: none;
+ margin: 50px 60px;
+}
+
+.discovery a:hover,  a:active {
+ background-color: #F3DDCC;
+}
+
+.wireframes a:link, a:visited {
+ background-color: #F3DDCC;
+ color: black;
+ display: inline-block;
+ font-size: 18px;
+ padding: 14px 25px;
+ text-align: center;
+ text-decoration: none;
+ margin: 50px 60px;
+}
+
+.wireframes a:hover,  a:active {
+ background-color: #F3DDCC;
+}
+
+.mockups a:link, a:visited {
+ background-color: #F3DDCC;
+ color: black;
+ display: inline-block;
+ font-size: 18px;
+ padding: 14px 25px;
+ text-align: center;
+ text-decoration: none;
+ margin: 50px 60px;
+}
+
+.mockups a:hover,  a:active {
+ background-color: #F3DDCC;
+}
+
+.connect a:link, a:visited {
+  background-color: #F3DDCC;
+  color: black;
+  display: inline-block;
+  font-size: 18px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+ .connect a:hover, a:active {
+  background-color: #F3DDCC;
+}
+
+.hero a:link, a:visited {
+ background-color: #F3DDCC;
+ color: black;
+ display: inline-block;
+ font-size: 18px;
+ padding: 14px 25px;
+ text-align: center;
+ text-decoration: none;
+ margin: 50px 60px;
+}
+
+.hero a:hover,  a:active {
+ background-color: #F3DDCC;
+}
+
+
 /* navigation bar */
 .main-navbar {
-  background-color: #FFFAF6;
+  background-color: white;
   overflow: hidden;
   list-style-type: none;
   margin: 0;
@@ -9,7 +113,6 @@
 }
 
 
-/* navigation bar links */
  nav a {
   color: black;
   display: inline-block;
@@ -31,11 +134,98 @@
 #logo  {
   float: left;
   object-fit: contain;
-  margin: 5px 0px 5px 50px;
+  margin: 5px 0px 5px 150px;
 }
 
-/* Change color on hover */
+
 nav a:hover {
   background-color: white;
   color: black;
+}
+
+
+/* typography */
+body {
+  font-family: montserrat;
+}
+
+h1{
+  font-family: Karla;
+  font-size: 50px;
+  line-height: 167%;
+  margin: 40px;
+}
+
+h3 {
+  font-family: Karla;
+  font-size: 36px;
+  line-height: 167%;
+  margin: 40px;
+}
+
+h2 {
+  font-family: Karla;
+  font-size: 24px;
+  line-height: 167%;
+  margin: 40px;
+
+}
+
+.hero p {
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+.main p {
+  font-family: montserrat;
+  font-size: 20px;
+  margin: 40px;
+  line-height: 167%;
+}
+
+.connect p {
+  font-family: montserrat;
+  font-size: 24px;
+  line-height: 167%;
+  padding: 10px 10px;
+}
+
+
+/*images*/
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* main */
+.summary {
+  display: inline-block;
+  width: 40%;
+  height: 300px;
+  margin: 20px 50px;
+}
+.problem {
+  display: inline-block;
+  width: 40%;
+  height: 300px;
+  margin:20px 50px;
+  vertical-align: top;
+}
+
+
+
+/* footer */
+footer ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+footer li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+  margin: 10px;
 }

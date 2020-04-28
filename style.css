@@ -1,5 +1,4 @@
 
-
 * {
   box-sizing: border-box;
 }
@@ -58,6 +57,28 @@ nav a:hover {
 
 .hero .fas {
   margin-top: 40px;
+}
+
+
+
+/* connect */
+.connect {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* footer */
+footer ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+footer li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+  margin: 10px;
 }
 
 
@@ -150,76 +171,6 @@ nav a:hover {
   background-color: #F3DDCC;
 }
 
-/* connect */
-.connect {
-  text-align: center;
-  margin-top: 40px;
-}
-
-/* footer */
-footer ul{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-footer li{
-  list-style-type: none;
-  display: inline-block;
-  padding: 15px;
-  margin: 10px;
-}
-
-
-/* typography */
-body {
-  font-family: montserrat;
-}
-
-h1{
-  font-family: Karla;
-  font-size: 72px;
-  line-height: 167%;
-}
-
-h3 {
-  font-family: Karla;
-  font-size: 36px;
-  line-height: 167%;
-}
-
-.hero p {
-  margin-top: 50px;
-  font-size: 30px;
-}
-
-.main p {
-  font-family: montserrat;
-  font-size: 24px;
-  margin: 50px 5px;
-}
-
-.connect p {
-  font-family: montserrat;
-  font-size: 24px;
-  line-height: 167%;
-  padding: 10px 10px;
-}
-
-.design_process {
-  text-align: center;
-  margin-top: 40px;
-}
-
-.design_process h3 {
-  margin-bottom: 40px;
-}
-
-.testimonials {
-  text-align: center;
-}
-
-
 /* structure */
 
 
@@ -290,7 +241,59 @@ img.design {
 }
 
 
+/* typography */
+body {
+  font-family: montserrat;
+}
 
+h1{
+  font-family: Karla;
+  font-size: 72px;
+  line-height: 167%;
+}
+
+h3 {
+  font-family: Karla;
+  font-size: 36px;
+  line-height: 167%;
+}
+
+.hero p {
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.main p {
+  font-family: montserrat;
+  font-size: 24px;
+  margin: 40px 5px;
+}
+
+.connect p {
+  font-family: montserrat;
+  font-size: 24px;
+  line-height: 167%;
+  padding: 10px 10px;
+}
+
+.design_process {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.design_process h3 {
+  margin-bottom: 40px;
+}
+
+.testimonials {
+  text-align: center;
+}
+
+/*typography end*/
+
+
+
+/* slider */
 .slider {
   margin: 50px;
   height: 100%;
@@ -421,3 +424,5 @@ img.design {
     box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
   }
 }
+
+/* slider end */
