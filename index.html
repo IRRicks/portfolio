@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Imani Ricks | Portfolio</title>
 <!-- stylesheet -->
-<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="reset.css">
 <link rel="stylesheet" href="style.css">
 <!-- font awesome -->
 <script src="https://kit.fontawesome.com/84aa5f5e2b.js" crossorigin="anonymous"></script>
@@ -17,7 +17,7 @@
   <nav class="navbar">
 <!-- nav bar -->
       <ul class="main-navbar">
-        <li><img id="logo" src="../images/dotlogo2.svg" alt="imani ricks logo" width="50" height="50"></li>
+        <li><img id="logo" src="images/dotlogo2.svg" alt="imani ricks logo" width="50" height="50"></li>
         <li><a id="contact_nav" href="/contact.html">Contact</a></li>
         <li><a href="/about-me.html">About</a></li>
         <li><a href="_blank.html">Work</a></li>
@@ -35,7 +35,7 @@
 
   <!-- main content -->
       <aside class="cap">
-        <img src="../images/iphone1.png" alt="capstone project mockup photo" width="370" height="370">
+        <img src="images/iphone1.png" alt="capstone project mockup photo" width="370" height="370">
         </aside>
       <section class="capstone_project">
           <h3>Capstone Project</h3>
@@ -48,10 +48,10 @@
           <a href="/project.html" target="_blank" class="button">Case study</a>
       </section>
         <aside class="trove">
-          <img src="../images/iphone2.png" alt="trove mockup photo" width="370" height="370">
+          <img src="images/iphone2.png" alt="trove mockup photo" width="370" height="370">
           </aside>
       <aside class="bloc">
-        <img src="../images/iphone3.png" alt="bloc jams project mockup photo" width="370" height="370">
+        <img src="images/iphone3.png" alt="bloc jams project mockup photo" width="370" height="370">
         </aside>
       <section class="blocjams_project">
           <h3>Bloc Jams Project</h3>
@@ -64,50 +64,44 @@
           <a href="" target="_blank" class="button">Case study</a>
       </section>
       <aside class="busy">
-        <img src="../images/iphone4.png" alt="busybus mockup photo" width="370" height="370">
+        <img src="images/iphone4.png" alt="busybus mockup photo" width="370" height="370">
         </aside>
       <section class="design_process">
           <h3>My Design Process</h3>
-          <img src="../images/designblock.svg" alt="design process image" width="920" height="68">
+          <img src="images/designblock.svg" alt="design process image" width="920" height="68">
       </section>
-      <section class="testimonials">
-        <h3>Testimonials</h3>
-<!-- Slideshow container -->
-          <div class="slideshow-container">
-<!-- Full-width images with number and caption text -->
-            <div class="mySlides fade">
-              <img src="../images/floatingtext.png" alt="quotation" width="490" height="300">
-              </div>
-            <div class="mySlides fade">
-              <p></p>
-             </div>
-            <div class="mySlides fade">
-              <p></p>
-            </div>
-<!-- The dots/circles -->
-          <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-          </div>
-      </div>
-   </section>
+
+
+<div class="slider">
+  <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+  <div class="slider__inner">
+    <div class="slider__contents"><i class="slider__image fa fa-codepen"></i>
+      <h2 class="slider__caption">codepen</h2>
+      <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+    </div>
+    <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
+      <h2 class="slider__caption">newspaper-o</h2>
+      <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+    </div>
+    <div class="slider__contents"><i class="slider__image fa fa-television"></i>
+      <h2 class="slider__caption">television</h2>
+      <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+    </div>
+    <div class="slider__contents"><i class="slider__image fa fa-diamond"></i>
+      <h2 class="slider__caption">diamond</h2>
+      <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+    </div>
+  </div>
+</div>
+
+
+
  <!-- connect with me -->
      <section class="connect">
       <h3>Connect with me:</h3>
       <p>Thanks for stopping by.<br>Please reach out if you want to chat or have<br>any questions!</p>
       <a href="" target="_blank" class="button">Message me</a>
-     </section>
-
- <!-- footer -->
-  <footer>
-    <ul class="socialmedia">
-     <li><a href="mailto:ricksimaniruby@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></a></li>
-     <li><a href="https://github.com/IRRicks" target="_blank"><i class="fab fa-github-square fa-2x"></i></a></li>
-     <li><a href="https://www.linkedin.com/in/imani-ricks/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
-     <li><a href="https://dribbble.com/RRicks" target="_blank"><i class="fab fa-dribbble-square fa-2x"></i></a></li>
-    </ul>
-  </footer>
-</body>
-
-</html>
+    </section>
