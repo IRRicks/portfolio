@@ -150,3 +150,319 @@ h2 {
    padding: 15px;
    margin: 10px;
  }
+
+ @media screen and (min-width: 575px){
+   .container {
+   }
+
+   .me {
+     height: 400px;
+     width: 350px;
+   }
+
+     /* navigation bar */
+     .main-navbar {
+       position: fixed;
+       background-color: #FFFAF6;
+       overflow: hidden;
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       width: 100%;
+     }
+
+
+      nav a {
+       color: black;
+       display: inline-block;
+       float: right;
+       margin: 5px 5px;
+       padding: 14px 20px;
+       text-align: center;
+       text-decoration: none;
+     }
+
+     #contact_nav {
+       background-color: #F3DDCC;
+       color: black;
+       padding: 14px 25px;
+       margin: 5px 5px;
+
+     }
+
+     #logo  {
+       float: left;
+       object-fit: contain;
+       margin: 5px 0px 5px 50px;
+     }
+
+
+     nav a:hover {
+       background-color: white;
+       color: black;
+     }
+
+
+     /*hero */
+
+     .hero {
+        height: 550px;
+        text-align: center;
+      }
+
+      /* connect */
+      .connect {
+        background-color: #FFFAF6;
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .connect p {
+        font-family: montserrat;
+        font-size: 20px;
+        line-height: 100%;
+        padding: 10px 10px;
+      }
+
+      .connect a:link, a:visited {
+        background-color: #F3DDCC;
+        color: black;
+        display: inline-block;
+        font-size: 18px;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        margin: 10px;
+      }
+
+       .connect a:hover, a:active {
+        background-color: #F3DDCC;
+      }
+     /* typography */
+
+      body {
+        font-family: montserrat;
+      }
+
+      h1{
+        font-family: Karla;
+        font-size: 30px;
+      }
+
+      h3 {
+        font-family: Karla;
+        font-size: 24px;
+        line-height: 167%;
+      }
+
+     h2 {
+        font-family: Karla;
+        font-size: 22px;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+     }
+      .hero p {
+        margin-top: 30px;
+        font-size: 22px;
+      }
+
+      .main p {
+        font-family: montserrat;
+        font-size: 18px;
+        line-height: 167%;
+        padding: 20px;
+      }
+
+
+      .main {
+       margin-right: auto;
+       margin-left: auto;
+       max-width: 500px;
+      }
+
+      ul {
+        line-height: 167%;
+        margin-left: 20px;
+      }
+
+      blockquote {
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+        background-color: #F3DDCC;
+        width: 300px;
+      }
+
+      /* footer */
+      footer ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+      }
+      footer li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 15px;
+        margin: 10px;
+      }
+
+   }
+
+@media screen and (min-width: 991px){
+      .container {
+        * {
+          box-sizing: border-box;
+        }
+
+        /* navigation bar */
+        .main-navbar {
+          position: fixed;
+          background-color: #FFFAF6;
+          overflow: hidden;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          width: 100%;
+        }
+
+
+         nav a {
+          color: black;
+          display: inline-block;
+          float: right;
+          margin: 5px 5px;
+          padding: 14px 20px;
+          text-align: center;
+          text-decoration: none;
+        }
+
+        #contact_nav {
+          background-color: #F3DDCC;
+          color: black;
+          padding: 14px 25px;
+          margin: 5px 5px;
+
+        }
+
+        #logo  {
+          float: left;
+          object-fit: contain;
+          margin: 5px 0px 5px 150px;
+        }
+
+
+        nav a:hover {
+          background-color: white;
+          color: black;
+        }
+
+
+        /*hero */
+
+        .hero {
+           height: 800px;
+           text-align: center;
+         }
+
+         /* connect */
+         .connect {
+           background-color: #FFFAF6;
+           text-align: center;
+           margin-top: 40px;
+         }
+
+         .connect p {
+           font-family: montserrat;
+           font-size: 20px;
+           line-height: 150%;
+           padding: 10px 10px;
+         }
+
+         .connect a:link, a:visited {
+           background-color: #F3DDCC;
+           color: black;
+           display: inline-block;
+           font-size: 18px;
+           padding: 14px 25px;
+           text-align: center;
+           text-decoration: none;
+           margin: 10px;
+         }
+
+          .connect a:hover, a:active {
+           background-color: #F3DDCC;
+         }
+        /* typography */
+
+         body {
+           font-family: montserrat;
+         }
+
+         h1{
+           font-family: Karla;
+           font-size: 50px;
+         }
+
+         h3 {
+           font-family: Karla;
+           font-size: 36px;
+           line-height: 167%;
+         }
+
+        h2 {
+           font-family: Karla;
+           font-size: 24px;
+           margin-left: 20px;
+           margin-top: 10px;
+           margin-bottom: 10px;
+        }
+         .hero p {
+           margin-top: 40px;
+           font-size: 24px;
+         }
+
+         .main p {
+           font-family: montserrat;
+           font-size: 20px;
+           line-height: 167%;
+           padding: 20px;
+         }
+
+
+         .main {
+          margin-right: auto;
+          margin-left: auto;
+          max-width: 700px;
+         }
+
+         ul {
+           line-height: 167%;
+           margin-left: 20px;
+         }
+
+         blockquote {
+           height: 300px;
+           margin-left: 150px;
+           margin-right: 150px;
+           line-height: 167%;
+           padding: 20px;
+           background-color: #F3DDCC;
+         }
+
+         /* footer */
+         footer ul{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+
+         }
+         footer li{
+           list-style-type: none;
+           display: inline-block;
+           padding: 15px;
+           margin: 10px;
+         }
+  }
