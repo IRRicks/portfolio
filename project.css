@@ -11,6 +11,54 @@
    text-align: center;
  }
 
+ .hero p {
+   font-size: 30px;
+ }
+
+
+
+ /* navigation bar */
+ .navbar {
+   position: fixed;
+   background-color: #FFFAF6;
+   overflow: hidden;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+ }
+
+
+  nav a {
+   color: black;
+   display: inline-block;
+   float: right;
+   margin: 5px 5px;
+   padding: 14px 20px;
+   text-align: center;
+   text-decoration: none;
+ }
+
+ #contact_nav {
+   background-color: #F3DDCC;
+   color: black;
+   padding: 14px 25px;
+   margin: 5px 5px;
+
+ }
+
+ #logo  {
+   float: left;
+   object-fit: contain;
+   margin: 5px 0px 5px 100px;
+ }
+
+
+ nav a:hover {
+   background-color: white;
+   color: black;
+ }
+
 /* main content */
 
 .main {
@@ -22,12 +70,33 @@
   }
 
 
-/* connect */
-.connect {
-  text-align: center;
-  margin-top: 40px;
-}
+  /* connect */
+  .connect p {
+    font-family: montserrat;
+    font-size: 20px;
+    line-height: 150%;
+  }
 
+  .connect {
+    background-color: #FFFAF6;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .connect a:link, a:visited {
+    background-color: #F3DDCC;
+    color: black;
+    display: inline-block;
+    font-size: 18px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+   .connect a:hover, a:active {
+    background-color: #F3DDCC;
+  }
 
 /* buttons */
 
@@ -81,48 +150,6 @@
 }
 
 
-/* navigation bar */
-.main-navbar {
-  position:fixed;
-  background-color: white;
-  overflow: hidden;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-
- nav a {
-  color: black;
-  display: inline-block;
-  float: right;
-  margin: 5px 5px;
-  padding: 14px 20px;
-  text-align: center;
-  text-decoration: none;
-}
-
-#contact_nav {
-  background-color: #F3DDCC;
-  color: black;
-  padding: 14px 25px;
-  margin: 5px 5px;
-
-}
-
-#logo  {
-  float: left;
-  object-fit: contain;
-  margin: 5px 0px 5px 150px;
-}
-
-
-nav a:hover {
-  background-color: white;
-  color: black;
-}
-
 
 /* typography */
 body {
@@ -131,7 +158,7 @@ body {
 
 h1{
   font-family: Karla;
-  font-size: 40px;
+  font-size: 36px;
   line-height: 167%;
 }
 
@@ -139,7 +166,6 @@ h3 {
   font-family: Karla;
   font-size: 30px;
   line-height: 167%;
-  margin: 40px;
 }
 
 h2 {
@@ -152,8 +178,8 @@ h2 {
 
 .hero p {
   margin-top: 30px;
-  font-size: 30px;
-  line-height: 167%;
+  font-size: 24px;
+  line-height: 150%;
 }
 
 .main p {
@@ -161,13 +187,6 @@ h2 {
   font-size: 20px;
   margin: 40px;
   line-height: 167%;
-}
-
-.connect p {
-  font-family: montserrat;
-  font-size: 24px;
-  line-height: 167%;
-  padding: 10px 10px;
 }
 
 
@@ -188,19 +207,34 @@ h2 {
 .user {
   width: 30%;
   height: 350px;
-  padding: 10px;
+  padding: 30px;
   text-align: center;
+  margin-left: 20px;
 }
 
 .mood {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 45%;
-  height: 300px;
+  width: 70%;
+  height: 400px;
   padding: 10px;
 }
 
+.mockupimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.wireframeimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 600px;
+}
 
 /* footer */
 footer ul{
@@ -215,6 +249,8 @@ footer li{
   padding: 15px;
   margin: 10px;
 }
+
+
 
 @media only screen and (max-width: 580px) {
 
@@ -239,7 +275,7 @@ footer li{
   #logo  {
     float: left;
     object-fit: contain;
-    margin: 5px 0px 5px 10px;
+    margin: 5px 0px 5px 30px;
   }
 
 
@@ -247,3 +283,88 @@ footer li{
     background-color: white;
     color: black;
   }
+
+  /* typography */
+  body {
+    font-family: montserrat;
+  }
+
+  h1{
+    font-family: Karla;
+    font-size: 40px;
+    line-height: 167%;
+  }
+
+  h3 {
+    font-family: Karla;
+    font-size: 30px;
+    line-height: 167%;
+    margin: 40px;
+  }
+
+  h2 {
+    font-family: Karla;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 20px;
+
+  }
+
+  .hero p {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 150%;
+  }
+
+  .main p {
+    font-family: montserrat;
+    font-size: 18px;
+    margin: 20px;
+    line-height: 150%;
+  }
+
+  .connect p {
+    font-family: montserrat;
+    font-size: 24px;
+    line-height: 167%;
+    padding: 10px 10px;
+  }
+
+
+  /*images*/
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+  }
+
+  .side {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 70%;
+  }
+
+  .user {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 50%;
+  }
+
+  .mood {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 10px;
+  }
+
+
+
+}
