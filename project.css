@@ -1,33 +1,18 @@
 
-* {
-  box-sizing: border-box;
-}
-
-/* hero */
-
-
-.hero {
-   background-color: white;
-   text-align: center;
+ * {
+   box-sizing: border-box;
  }
-
- .hero p {
-   font-size: 30px;
- }
-
-
 
  /* navigation bar */
  .navbar {
-   position: fixed;
    background-color: #FFFAF6;
-   overflow: hidden;
    list-style-type: none;
    margin: 0;
+   overflow: hidden;
+   position:fixed;
    padding: 0;
    width: 100%;
  }
-
 
   nav a {
    color: black;
@@ -49,8 +34,9 @@
 
  #logo  {
    float: left;
-   object-fit: contain;
    margin: 5px 0px 5px 100px;
+   object-fit: contain;
+
  }
 
 
@@ -68,6 +54,19 @@
    margin-left: auto;
    max-width: 700px;
   }
+
+  
+  /* hero */
+
+
+  .hero {
+     background-color: white;
+     text-align: center;
+   }
+
+   .hero p {
+     font-size: 30px;
+   }
 
 
   /* connect */
