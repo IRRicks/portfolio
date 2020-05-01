@@ -54,6 +54,7 @@ nav a:hover {
   color: black;
 }
 
+/* input box */
 
 #feedback-page{
 	text-align:center;
@@ -74,7 +75,7 @@ nav a:hover {
 }
 
 #form-div {
-	background-color:#3c3c3c;
+	background-color: #f3ddcc;
 	padding-left:35px;
 	padding-right:35px;
 	padding-top:35px;
@@ -209,13 +210,44 @@ input:focus, textarea:focus {
   background-color:white;
 }
 
+/* media queries */
+
 @media only screen and (max-width: 580px) {
 	#form-div{
 		left: 3%;
-		margin-right: 3%;
 		width: 88%;
-		margin-left: 0;
+    margin-left: 0;
+    margin-right: 20;
 		padding-left: 3%;
 		padding-right: 3%;
 	}
+  .navbar {
+    position: fixed;
+    background-color: #FFFAF6;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  #contact_nav {
+    background-color: #F3DDCC;
+    color: black;
+    padding: 14px 25px;
+    margin: 5px 5px;
+
+  }
+
+  #logo  {
+    float: left;
+    object-fit: contain;
+    margin: 5px 0px 5px 10px;
+  }
+
+
+  nav a:hover {
+    background-color: white;
+    color: black;
+  }
 }

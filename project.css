@@ -133,7 +133,6 @@ h1{
   font-family: Karla;
   font-size: 40px;
   line-height: 167%;
-  margin: 40px;
 }
 
 h3 {
@@ -216,3 +215,35 @@ footer li{
   padding: 15px;
   margin: 10px;
 }
+
+@media only screen and (max-width: 580px) {
+
+  .navbar {
+    position: fixed;
+    background-color: #FFFAF6;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  #contact_nav {
+    background-color: #F3DDCC;
+    color: black;
+    padding: 14px 25px;
+    margin: 5px 5px;
+
+  }
+
+  #logo  {
+    float: left;
+    object-fit: contain;
+    margin: 5px 0px 5px 10px;
+  }
+
+
+  nav a:hover {
+    background-color: white;
+    color: black;
+  }
