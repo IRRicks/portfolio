@@ -1,49 +1,54 @@
 
- * {
-   box-sizing: border-box;
- }
+* {
+  box-sizing: border-box;
+}
 
- /* navigation bar */
- .navbar {
-   background-color: #FFFAF6;
-   list-style-type: none;
-   margin: 0;
-   overflow: hidden;
-   position:fixed;
-   padding: 0;
-   width: 100%;
- }
+/* navigation bar */
+.navbar {
+  background-color: #FFFAF6;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  position:fixed;
+  padding: 0;
+  width: 100%;
+}
 
-  nav a {
-   color: black;
-   display: inline-block;
-   float: right;
-   margin: 5px 5px;
-   padding: 14px 20px;
-   text-align: center;
-   text-decoration: none;
- }
+ nav a {
+  color: black;
+  display: inline-block;
+  float: right;
+  margin: 5px 5px;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+}
 
- #contact_nav {
-   background-color: #F3DDCC;
-   color: black;
-   padding: 14px 25px;
-   margin: 5px 5px;
+#contact_nav {
+  background-color: #F3DDCC;
+  color: black;
+  padding: 14px 25px;
+  margin: 5px 5px;
 
- }
+}
 
- #logo  {
-   float: left;
-   margin: 5px 0px 5px 100px;
-   object-fit: contain;
+#contact_nav:hover {
+  background-color: #FFDFE3
+}
 
- }
+#logo  {
+  float: left;
+  margin: 5px 0px 5px 100px;
+  object-fit: contain;
+
+}
 
 
- nav a:hover {
-   background-color: white;
-   color: black;
- }
+nav a:hover {
+  background-color: #FFDFE3;
+  color: black;
+}
+
 
 /* main content */
 
@@ -54,8 +59,26 @@
    margin-left: auto;
    max-width: 700px;
   }
+  .main a:link, a:visited {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   width: 200px;
+   background-color: #F3DDCC;
+   color: black;
+   font-size: 18px;
+   padding: 14px 25px;
+   text-align: center;
+   text-decoration: none;
+  }
 
-  
+  .main a:hover,  a:active {
+   background-color: #FFDFE3;
+  }
+
+
   /* hero */
 
 
@@ -67,6 +90,21 @@
    .hero p {
      font-size: 30px;
    }
+   .hero a:link, a:visited {
+    background-color: #F3DDCC;
+    color: black;
+    display: inline-block;
+    font-size: 18px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 60px;
+   }
+
+   .hero a:hover,  a:active {
+    background-color: #FFDFE3;
+   }
+
 
 
   /* connect */
@@ -94,60 +132,8 @@
   }
 
    .connect a:hover, a:active {
-    background-color: #F3DDCC;
+    background-color: #FFDFE3;
   }
-
-/* buttons */
-
-
-.main a:link, a:visited {
- display: block;
- margin-left: auto;
- margin-right: auto;
- margin-top: 30px;
- margin-bottom: 30px;
- width: 200px;
- background-color: #F3DDCC;
- color: black;
- font-size: 18px;
- padding: 14px 25px;
- text-align: center;
- text-decoration: none;
-}
-
-.main a:hover,  a:active {
- background-color: #F3DDCC;
-}
-
-.connect a:link, a:visited {
-  background-color: #F3DDCC;
-  color: black;
-  display: inline-block;
-  font-size: 18px;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-}
-
- .connect a:hover, a:active {
-  background-color: #F3DDCC;
-}
-
-.hero a:link, a:visited {
- background-color: #F3DDCC;
- color: black;
- display: inline-block;
- font-size: 18px;
- padding: 14px 25px;
- text-align: center;
- text-decoration: none;
- margin: 10px 60px;
-}
-
-.hero a:hover,  a:active {
- background-color: #F3DDCC;
-}
-
 
 
 /* typography */
@@ -188,6 +174,10 @@ h2 {
   line-height: 167%;
 }
 
+footer p {
+  text-align: center;
+  font-size: 12px;
+}
 
 /*images*/
 
@@ -249,10 +239,32 @@ footer li{
   margin: 10px;
 }
 
+.fa-envelope:hover {
+ color: #ffb1c3;
+}
 
+.fa-envelope {
+  color: black;
+}
+
+.fa-github-square:hover{
+   color: #ffb1c3;
+}
+
+.fa-linkedin:hover{
+   color: #ffb1c3;
+}
+
+.fa-dribbble-square:hover{
+   color: #ffb1c3;
+}
+
+/* responsiveness */
 
 @media only screen and (max-width: 580px) {
-
+ .container {
+   width: 90%;
+ }
   .navbar {
     position: fixed;
     background-color: #FFFAF6;
@@ -337,7 +349,7 @@ footer li{
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    height: 80%;
+    height: 70%;
   }
 
   .side {
@@ -361,9 +373,20 @@ footer li{
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    height: 70%;
     padding: 10px;
   }
 
+
+.mockupimage {
+  width: 80%;
+  height:70%;
+}
+
+.wireframeimage {
+  width: 80%;
+  height:70%;
+}
 
 
 }

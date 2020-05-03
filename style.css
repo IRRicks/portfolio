@@ -33,6 +33,10 @@
 
 }
 
+#contact_nav:hover {
+  background-color: #FFDFE3;
+}
+
 #logo  {
   float: left;
   margin: 5px 0px 5px 100px;
@@ -42,7 +46,7 @@
 
 
 nav a:hover {
-  background-color: white;
+  background-color: #FFDFE3;
   color: black;
 }
 
@@ -55,8 +59,22 @@ nav a:hover {
    text-align: center;
  }
 
+ .hero a:link, a:visited {
+  background-color: #F3DDCC;
+  color: black;
+  display: inline-block;
+  font-size: 18px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 80px;
+ }
 
-/* buttons */
+ .hero a:hover,  a:active {
+  background-color:  #FFDFE3;
+ }
+
+/* projects */
 
 .capstone_project a:link, a:visited {
   background-color: #F3DDCC;
@@ -69,7 +87,7 @@ nav a:hover {
 }
 
  .capstone_project a:hover, a:active {
-  background-color: #F3DDCC;
+  background-color:  #FFDFE3;
 }
 
 .trove_project a:link, a:visited {
@@ -83,7 +101,7 @@ nav a:hover {
 }
 
 .trove_project a:hover, a:active {
-  background-color: #F3DDCC;
+  background-color:  #FFDFE3;
 }
 
 .blocjams_project a:link, a:visited {
@@ -97,7 +115,7 @@ nav a:hover {
 }
 
  .blocjams_project a:hover, a:active {
-  background-color: #F3DDCC;
+  background-color:  #FFDFE3;
 }
 
 .busybus_project a:link, a:visited {
@@ -111,23 +129,9 @@ nav a:hover {
 }
 
 .busybus_project a:hover, a:active {
-  background-color: #F3DDCC;
+  background-color:  #FFDFE3;
 }
 
- .hero a:link, a:visited {
-  background-color: #F3DDCC;
-  color: black;
-  display: inline-block;
-  font-size: 18px;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  margin: 20px 80px;
-}
-
- .hero a:hover,  a:active {
-  background-color: #F3DDCC;
-}
 
 /* connect */
 .connect p {
@@ -155,24 +159,9 @@ nav a:hover {
 }
 
  .connect a:hover, a:active {
-  background-color: #F3DDCC;
+  background-color:  #FFDFE3;
 }
 
-/* footer */
-
-footer ul{
-  align-items: center;
-  display: flex;
-  justify-content: center;
-
-}
-
-footer li{
-  display: inline-block;
-  list-style-type: none;
-  margin: 10px;
-  padding: 15px;
-}
 
 /* typography */
 
@@ -205,19 +194,10 @@ h4 {
   margin: 30px 5px;
 }
 
-/* design section */
-
-.design_process {
-  background-color: #FCFCFC;
+footer p {
   text-align: center;
-  margin-top: 30px;
+  font-size: 12px;
 }
-
-.designpic {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
 
 /* projects */
 .capstone_project {
@@ -279,7 +259,25 @@ h4 {
   margin-top: 40px;
 }
 
+
+/* design section */
+.design_process {
+  background-color: #FCFCFC;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.designpic {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /*slider*/
+.testimonials {
+  text-align: center;
+  margin-top: 30px;
+}
+
 .slider {
   height: 300px;
   position: relative;
@@ -306,7 +304,7 @@ h4 {
   margin: 2rem 12px;
   border-radius: 50%;
   z-index: 10;
-  outline: 6px solid #ccc;
+  outline: 6px solid #ffb1c3;
   outline-offset: -6px;
   box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
   cursor: pointer;
@@ -385,7 +383,7 @@ h4 {
 .slider__txt {
   color: #999;
   line-height: 1.5;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   max-width: 300px;
 }
 
@@ -410,6 +408,45 @@ h4 {
     box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
   }
 }
+
+
+/* footer */
+
+footer ul{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+footer li{
+  display: inline-block;
+  list-style-type: none;
+  margin: 10px;
+  padding: 15px;
+}
+
+.fa-envelope:hover {
+ color: #ffb1c3;
+}
+
+.fa-envelope {
+  color: black;
+}
+
+.fa-github-square:hover{
+   color: #ffb1c3;
+}
+
+.fa-linkedin:hover{
+   color: #ffb1c3;
+}
+
+.fa-dribbble-square:hover{
+   color: #ffb1c3;
+}
+
+/* responsiveness */
 
 @media only screen and (max-width: 580px) {
   .hero {
