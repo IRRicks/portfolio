@@ -4,6 +4,32 @@
   box-sizing: border-box;
 }
 
+/* typography */
+
+body {
+  font-family: montserrat;
+}
+
+h1{
+  font-family: Karla;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 167%;
+}
+
+h3 {
+  font-family: Karla;
+  font-size: 30px;
+  line-height: 150%;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 167%;
+  margin: 40px;
+}
+
+
 /* navigation bar */
 .navbar {
   background-color: #FFFAF6;
@@ -74,7 +100,13 @@ nav a:hover {
   background-color:  #FFDFE3;
  }
 
-/* projects */
+/* main */
+
+.main p {
+ font-family: montserrat;
+ font-size: 20px;
+ margin: 30px 5px;
+}
 
 .capstone_project a:link, a:visited {
   background-color: #F3DDCC;
@@ -132,74 +164,6 @@ nav a:hover {
   background-color:  #FFDFE3;
 }
 
-
-/* connect */
-.connect p {
-  font-family: montserrat;
-  font-size: 20px;
-  line-height: 150%;
-  padding: 10px 10px;
-}
-
-.connect {
-  background-color: #FFFAF6;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.connect a:link, a:visited {
-  background-color: #F3DDCC;
-  color: black;
-  display: inline-block;
-  font-size: 18px;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  margin: 10px;
-}
-
- .connect a:hover, a:active {
-  background-color:  #FFDFE3;
-}
-
-
-/* typography */
-
-body {
-  font-family: montserrat;
-}
-
-h1{
-  font-family: Karla;
-  font-weight: bold;
-  font-size: 50px;
-  line-height: 167%;
-}
-
-h3 {
-  font-family: Karla;
-  font-size: 30px;
-  line-height: 150%;
-}
-
-h4 {
-  font-size: 24px;
-  line-height: 167%;
-  margin: 40px;
-}
-
- .main p {
-  font-family: montserrat;
-  font-size: 20px;
-  margin: 30px 5px;
-}
-
-footer p {
-  text-align: center;
-  font-size: 12px;
-}
-
-/* projects */
 .capstone_project {
   width: 50%;
   display: inline-block;
@@ -261,6 +225,8 @@ footer p {
 
 
 /* design section */
+
+
 .design_process {
   background-color: #FCFCFC;
   text-align: center;
@@ -272,7 +238,8 @@ footer p {
   margin-bottom: 10px;
 }
 
-/*slider*/
+/* slider */
+
 .testimonials {
   text-align: center;
   margin-top: 30px;
@@ -409,6 +376,35 @@ footer p {
   }
 }
 
+/* connect */
+.connect p {
+  font-family: montserrat;
+  font-size: 20px;
+  line-height: 150%;
+  padding: 10px 10px;
+}
+
+.connect {
+  background-color: #FFFAF6;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.connect a:link, a:visited {
+  background-color: #F3DDCC;
+  color: black;
+  display: inline-block;
+  font-size: 18px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+}
+
+ .connect a:hover, a:active {
+  background-color:  #FFDFE3;
+}
+
 
 /* footer */
 
@@ -424,6 +420,11 @@ footer li{
   list-style-type: none;
   margin: 10px;
   padding: 15px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 12px;
 }
 
 .fa-envelope:hover {

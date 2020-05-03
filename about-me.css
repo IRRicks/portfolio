@@ -3,6 +3,33 @@
   box-sizing: border-box;
 }
 
+
+/* typography */
+
+ body {
+   font-family: montserrat;
+ }
+
+ h1{
+   font-family: Karla;
+   font-size: 50px;
+ }
+
+ h3 {
+   font-family: Karla;
+   font-size: 36px;
+   line-height: 167%;
+ }
+
+h2 {
+   font-family: Karla;
+   font-size: 24px;
+   margin-left: 20px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+
 /* navigation bar */
 .navbar {
   background-color: #FFFAF6;
@@ -57,6 +84,30 @@ nav a:hover {
    text-align: center;
  }
 
+
+/* main text */
+ .main {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 700px;
+ }
+
+ .main p {
+   font-family: montserrat;
+   font-size: 20px;
+   line-height: 167%;
+   padding: 20px;
+ }
+
+ blockquote {
+   height: 300px;
+   margin-left: 150px;
+   margin-right: 150px;
+   line-height: 167%;
+   padding: 20px;
+   background-color: #fff1f1;
+ }
+
  /* connect */
  .connect {
    background-color: #FFFAF6;
@@ -85,58 +136,7 @@ nav a:hover {
   .connect a:hover, a:active {
    background-color: #FFDFE3;
  }
-/* typography */
 
- body {
-   font-family: montserrat;
- }
-
- h1{
-   font-family: Karla;
-   font-size: 50px;
- }
-
- h3 {
-   font-family: Karla;
-   font-size: 36px;
-   line-height: 167%;
- }
-
-h2 {
-   font-family: Karla;
-   font-size: 24px;
-   margin-left: 20px;
-   margin-top: 10px;
-   margin-bottom: 10px;
-}
-
- .main p {
-   font-family: montserrat;
-   font-size: 20px;
-   line-height: 167%;
-   padding: 20px;
- }
-
- footer p {
-   text-align: center;
-   font-size: 12px;
- }
-
-/* main text */
- .main {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 700px;
- }
-
- blockquote {
-   height: 300px;
-   margin-left: 150px;
-   margin-right: 150px;
-   line-height: 167%;
-   padding: 20px;
-   background-color: #fff1f1;
- }
 
 
  /* footer */
@@ -144,13 +144,18 @@ h2 {
    display: flex;
    align-items: center;
    justify-content: center;
-
  }
+
  footer li{
    list-style-type: none;
    display: inline-block;
    padding: 15px;
    margin: 10px;
+ }
+
+ footer p {
+   text-align: center;
+   font-size: 12px;
  }
 
  .fa-envelope:hover {
@@ -172,6 +177,8 @@ h2 {
  .fa-dribbble-square:hover{
     color: #ffb1c3;
  }
+
+
 
  /* responsiveness */
 
