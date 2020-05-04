@@ -108,6 +108,16 @@ nav a:hover {
    background-color: #fff1f1;
  }
 
+.skills li {
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.tools li {
+  margin-left: 20px;
+  padding: 5px;
+}
+
  /* connect */
  .connect {
    background-color: #FFFAF6;
