@@ -302,6 +302,25 @@ nav a:hover {
       font-family: Karla;
       font-size: 30px;
     }
+    fa-envelope:hover {
+     color: #ffb1c3;
+    }
+
+    .fa-envelope {
+      color: black;
+    }
+
+    .fa-github-square:hover{
+       color: #ffb1c3;
+    }
+
+    .fa-linkedin:hover{
+       color: #ffb1c3;
+    }
+
+    .fa-dribbble-square:hover{
+       color: #ffb1c3;
+    }
 
 
 
@@ -408,6 +427,25 @@ nav a:hover {
       font-size: 30px;
     }
 
+    fa-envelope:hover {
+     color: #ffb1c3;
+    }
+
+    .fa-envelope {
+      color: black;
+    }
+
+    .fa-github-square:hover{
+       color: #ffb1c3;
+    }
+
+    .fa-linkedin:hover{
+       color: #ffb1c3;
+    }
+
+    .fa-dribbble-square:hover{
+       color: #ffb1c3;
+    }
 
 
 }

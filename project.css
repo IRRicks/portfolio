@@ -430,6 +430,25 @@ footer p {
   height:70%;
 }
 
+fa-envelope:hover {
+ color: #ffb1c3;
+}
+
+.fa-envelope {
+  color: black;
+}
+
+.fa-github-square:hover{
+   color: #ffb1c3;
+}
+
+.fa-linkedin:hover{
+   color: #ffb1c3;
+}
+
+.fa-dribbble-square:hover{
+   color: #ffb1c3;
+}
 
 }
 
@@ -586,6 +605,25 @@ footer p {
 .wireframeimage {
   width: 80%;
   height:70%;
+}
+fa-envelope:hover {
+ color: #ffb1c3;
+}
+
+.fa-envelope {
+  color: black;
+}
+
+.fa-github-square:hover{
+   color: #ffb1c3;
+}
+
+.fa-linkedin:hover{
+   color: #ffb1c3;
+}
+
+.fa-dribbble-square:hover{
+   color: #ffb1c3;
 }
 
 

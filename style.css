@@ -463,6 +463,10 @@ footer p {
 /* responsiveness */
 
 @media only screen and (max-width: 580px) {
+  .container {
+    width: 90%;
+  }
+
   .hero {
      background-color: #FFFAF6;
      height: 400px;
@@ -486,7 +490,7 @@ footer p {
      display: inline-block;
      float: right;
      margin: 5px 5px;
-     padding: 14px 20px;
+     padding: 10px 5px;
      text-align: center;
      text-decoration: none;
    }
@@ -496,7 +500,7 @@ footer p {
      display: inline-block;
      float: right;
      margin: 5px 5px;
-     padding: 14px 20px;
+     padding: 10px 5px;
      text-align: center;
      text-decoration: none;
    }
@@ -506,7 +510,7 @@ footer p {
      display: inline-block;
      float: right;
      color: black;
-     padding: 14px 25px;
+     padding: 10px 5px;
      margin: 5px 5px;
      text-align: center;
      text-decoration: none;
@@ -537,25 +541,25 @@ footer p {
   h1{
     font-family: Karla;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 30px;
     line-height: 167%;
   }
 
   h3 {
     font-family: Karla;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 150%;
   }
 
   h4 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 150%;
     margin: 4px;
   }
 
    p {
     font-family: montserrat;
-    font-size: 20px;
+    font-size: 18px;
     margin: 3px 5px;
   }
 
@@ -570,7 +574,7 @@ footer p {
     color: black;
     display: inline-block;
     font-size: 18px;
-    padding: 14px 25px;
+    padding: 14px 20px;
     text-align: center;
     text-decoration: none;
   }
@@ -722,6 +726,25 @@ footer p {
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
+}
+fa-envelope:hover {
+ color: #ffb1c3;
+}
+
+.fa-envelope {
+  color: black;
+}
+
+.fa-github-square:hover{
+   color: #ffb1c3;
+}
+
+.fa-linkedin:hover{
+   color: #ffb1c3;
+}
+
+.fa-dribbble-square:hover{
+   color: #ffb1c3;
 }
 
 
