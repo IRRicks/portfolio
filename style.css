@@ -7,20 +7,20 @@
 /* typography */
 
 body {
-  font-family: montserrat;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1{
-  font-family: Karla;
+  font-family: 'Karla', sans-serif;
   font-weight: bold;
   font-size: 50px;
   line-height: 167%;
 }
 
 h3 {
-  font-family: Karla;
-  font-size: 30px;
-  line-height: 150%;
+  font-family: 'Karla', sans-serif;
+  font-size: 36px;
+  line-height: 167%;
 }
 
 h4 {
@@ -82,7 +82,7 @@ h4 {
   float: left;
   margin: 5px 0px 5px 100px;
   object-fit: contain;
-
+  width: 3%;
 }
 
 
@@ -118,7 +118,7 @@ nav a:hover {
 /* main */
 
 .main p {
- font-family: montserrat;
+ font-family: 'Montserrat', sans-serif;
  font-size: 20px;
  margin: 30px 5px;
 }
@@ -391,7 +391,7 @@ nav a:hover {
 
 /* connect */
 .connect p {
-  font-family: montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   line-height: 150%;
   padding: 10px 10px;
@@ -462,17 +462,148 @@ footer p {
 
 /* responsiveness */
 
-@media only screen and (max-width: 580px) {
-  .container {
-    width: 90%;
+@media only screen and (max-width: 600px) {
+
+
+  * {
+    box-sizing: border-box;
   }
+
+  /* typography */
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h1{
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+  }
+
+  h3 {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: 167%;
+    margin: 20px;
+  }
+
+  .main p {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 18px;
+   margin: 30px 5px;
+   line-height: 150%;
+  }
+
+  /*hero */
 
   .hero {
      background-color: #FFFAF6;
-     height: 400px;
+     height: 450px;
      text-align: center;
    }
 
+   .hero a:link, a:visited {
+    background-color: #F3DDCC;
+    color: black;
+    display: inline-block;
+    font-size: 18px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px;
+   }
+
+   .hero a:hover,  a:active {
+    background-color:  #FFDFE3;
+   }
+
+   .trovepic {
+     height: auto;
+     width: 90%;
+   }
+
+   .cappic {
+     height: auto;
+     width: 90%;
+   }
+
+   .blocpic {
+     height: auto;
+     width: 90%;
+   }
+
+   .busypic {
+     height: auto;
+     width: 90%;
+   }
+
+
+   .capstone_project {
+     display: block;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   .cap {
+     display: block;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   .trove_project {
+     display: block;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+
+   }
+
+   .trove {
+     display: block;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   .blocjams_project {
+     display: block;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+
+   }
+
+   .bloc {
+     display: block;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   .busybus_project {
+     display: block;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   .busy {
+     display: block;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   /* navigation bar */
    .navbar {
      background-color: #FFFAF6;
      list-style-type: none;
@@ -481,7 +612,6 @@ footer p {
      position:fixed;
      padding: 0;
      width: 100%;
-     z-index: 1;
    }
 
 
@@ -517,235 +647,102 @@ footer p {
 
    }
 
-  #logo  {
-    float: left;
-    object-fit: contain;
-    margin: 5px 0px 5px 30px;
+   #contact_nav:hover {
+     background-color: #FFDFE3;
+   }
+
+   #logo  {
+     float: left;
+     margin: 5px 0px 5px 20px;
+     object-fit: contain;
+     width: 6%;
+   }
+
+
+   nav a:hover {
+     background-color: #FFDFE3;
+     color: black;
+   }
+
+   /* design section */
+
+   .design_process {
+     background-color: #FCFCFC;
+     text-align: center;
+     margin-top: 30px;
+   }
+
+   .design {
+     width: 70%;
+   }
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  /* navigation bar */
+  .navbar {
+    background-color: #FFFAF6;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    position:fixed;
+    padding: 0;
+    width: 100%;
+  }
+
+
+  #work {
+    color: black;
+    display: inline-block;
+    float: right;
+    margin: 5px 5px;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+   #about_me {
+    color: black;
+    display: inline-block;
+    float: right;
+    margin: 5px 5px;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #contact_nav {
+    background-color: #F3DDCC;
+    display: inline-block;
+    float: right;
+    color: black;
+    padding: 10px 5px;
+    margin: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+
   }
 
   #contact_nav:hover {
-    background-color: #FFDFE3
+    background-color: #FFDFE3;
   }
+
+  #logo  {
+    float: left;
+    margin: 5px 0px 5px 20px;
+    object-fit: contain;
+    width: 7%;
+  }
+
 
   nav a:hover {
     background-color: #FFDFE3;
     color: black;
   }
 
-  /* typography */
-
-  body {
-    font-family: montserrat;
-  }
-
-  h1{
-    font-family: Karla;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 167%;
-  }
-
-  h3 {
-    font-family: Karla;
-    font-size: 24px;
-    line-height: 150%;
-  }
-
-  h4 {
-    font-size: 18px;
-    line-height: 150%;
-    margin: 4px;
-  }
-
-   p {
-    font-family: montserrat;
-    font-size: 18px;
-    margin: 3px 5px;
-  }
-
-  .fas {
-    height: 50%;
-    width: 50%;
-  }
-  /* buttons */
-
-  .capstone_project a:link, a:visited {
-    background-color: #F3DDCC;
-    color: black;
-    display: inline-block;
-    font-size: 18px;
-    padding: 14px 20px;
-    text-align: center;
-    text-decoration: none;
-  }
-
-   .capstone_project a:hover, a:active {
-    background-color: #F3DDCC;
-  }
-
-  .trove_project a:link, a:visited {
-    background-color: #F3DDCC;
-    color: black;
-    display: inline-block;
-    font-size: 18px;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-  }
-
-  .trove_project a:hover, a:active {
-    background-color: #F3DDCC;
-  }
-
-  .blocjams_project a:link, a:visited {
-    background-color: #F3DDCC;
-    color: black;
-    display: inline-block;
-    font-size: 18px;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-  }
-
-   .blocjams_project a:hover, a:active {
-    background-color: #F3DDCC;
-  }
-
-  .busybus_project a:link, a:visited {
-    background-color: #F3DDCC;
-    color: black;
-    display: inline-block;
-    font-size: 18px;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-  }
-
-  .busybus_project a:hover, a:active {
-    background-color: #F3DDCC;
-  }
-
-   .hero a:link, a:visited {
-    background-color: #F3DDCC;
-    color: black;
-    display: inline-block;
-    font-size: 18px;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    margin: 10px 5px;
-  }
-
-   .hero a:hover,  a:active {
-    background-color: #F3DDCC;
-  }
-/*design pic*/
-
-.design {
-  width: 80%;
-}
-
-/*projects*/
-
-.capstone_project {
-  display: block;
-  text-align: center;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.cappic {
-  height: 90%;
-  width: 90%;
-  display: block;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.trove_project {
-  display: block;
-  text-align: center;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.trovepic {
-  height: 90%;
-  width: 90%;
-  display: block;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.blocjams_project {
-  display: block;
-  text-align: center;
-  vertical-align: top;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.blocpic {
-  height: 90%;
-  width: 90%;
-  display: block;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.busybus_project {
-  text-align: center;
-  display: block;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.busypic {
-  height: 90%;
-  width: 90%;
-  margin-left: 170px;
-  display: block;
-  margin-top: 10px;
-  margin-right: auto;
-}
-
-.trove {
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.bloc {
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-fa-envelope:hover {
- color: #ffb1c3;
-}
-
-.fa-envelope {
-  color: black;
-}
-
-.fa-github-square:hover{
-   color: #ffb1c3;
-}
-
-.fa-linkedin:hover{
-   color: #ffb1c3;
-}
-
-.fa-dribbble-square:hover{
-   color: #ffb1c3;
-}
 
 
-}
+ }

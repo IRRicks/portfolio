@@ -7,22 +7,24 @@
 /* typography */
 
  body {
-   font-family: montserrat;
+   font-family: 'Montserrat', sans-serif;
  }
 
  h1{
-   font-family: Karla;
+   font-family: 'Karla', sans-serif;
+   font-weight: bold;
    font-size: 50px;
+   line-height: 167%;
  }
 
  h3 {
-   font-family: Karla;
+   font-family: 'Karla', sans-serif;
    font-size: 36px;
    line-height: 167%;
  }
 
 h2 {
-   font-family: Karla;
+   font-family: 'Karla', sans-serif;
    font-size: 24px;
    margin-left: 20px;
    margin-top: 10px;
@@ -82,7 +84,7 @@ h2 {
   float: left;
   margin: 5px 0px 5px 100px;
   object-fit: contain;
-
+  width: 3%;
 }
 
 
@@ -108,7 +110,7 @@ nav a:hover {
  }
 
  .main p {
-   font-family: montserrat;
+   font-family: 'Montserrat', sans-serif;
    font-size: 20px;
    line-height: 167%;
    padding: 20px;
@@ -133,34 +135,35 @@ nav a:hover {
   padding: 5px;
 }
 
- /* connect */
- .connect {
-   background-color: #FFFAF6;
-   text-align: center;
-   margin-top: 20px;
- }
+/* connect */
+.connect p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  padding: 10px 10px;
+}
 
- .connect p {
-   font-family: montserrat;
-   font-size: 20px;
-   line-height: 150%;
-   padding: 10px 10px;
- }
+.connect {
+  background-color: #FFFAF6;
+  text-align: center;
+  margin-top: 20px;
+}
 
- .connect a:link, a:visited {
-   background-color: #F3DDCC;
-   color: black;
-   display: inline-block;
-   font-size: 18px;
-   padding: 14px 25px;
-   text-align: center;
-   text-decoration: none;
-   margin: 10px;
- }
+.connect a:link, a:visited {
+  background-color: #F3DDCC;
+  color: black;
+  display: inline-block;
+  font-size: 18px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+}
 
-  .connect a:hover, a:active {
-   background-color: #FFDFE3;
- }
+ .connect a:hover, a:active {
+  background-color:  #FFDFE3;
+}
+
 
 
 
@@ -207,245 +210,331 @@ nav a:hover {
 
  /* responsiveness */
 
+ @media only screen and (max-width: 600px) {
 
 
- @media only screen and (max-width: 580px) {
-   .navbar {
-     background-color: #FFFAF6;
-     list-style-type: none;
-     margin: 0;
-     overflow: hidden;
-     position:fixed;
-     padding: 0;
-     width: 100%;
-     z-index: 1;
+   * {
+     box-sizing: border-box;
    }
 
 
-   #work {
-     color: black;
-     display: inline-block;
-     float: right;
-     margin: 5px 5px;
-     padding: 14px 20px;
-     text-align: center;
-     text-decoration: none;
+   /* typography */
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    h1{
+      font-family: 'Karla', sans-serif;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-family: 'Karla', sans-serif;
+      font-size: 24px;
+      line-height: 167%;
+    }
+
+   h2 {
+      font-family: 'Karla', sans-serif;
+      font-size: 18px;
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
    }
 
-    #about_me {
-     color: black;
-     display: inline-block;
-     float: right;
-     margin: 5px 5px;
-     padding: 14px 20px;
-     text-align: center;
-     text-decoration: none;
-   }
+   /*hero */
 
-   #contact_nav {
-     background-color: #F3DDCC;
-     display: inline-block;
-     float: right;
-     color: black;
-     padding: 14px 25px;
-     margin: 5px 5px;
-     text-align: center;
-     text-decoration: none;
-
-   }
-
-
-   #logo  {
-     float: left;
-     object-fit: contain;
-     margin: 5px 0px 5px 30px;
-   }
-
-
-   nav a:hover {
-     background-color: white;
-     color: black;
-   }
-
-   .me {
-     width: 80%;
-     height: 70%;
-   }
-
-   .main {
-     width: 80%;
-   }
-
-   blockquote {
-     font-size: 14px;
-     height: auto;
-     width: 80%;
-     margin-left: auto;
-     margin-right: auto;
-   }
-
-   .main {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 700px;
-   }
-
-   .main p {
-     font-size: 16px;
-   }
    .hero {
-      height: 500px;
+      background-color: #FFFAF6;
+      height: 400px;
       text-align: center;
     }
 
-    h1 {
-      font-family: Karla;
-      font-size: 30px;
-    }
-    fa-envelope:hover {
-     color: #ffb1c3;
-    }
-
-    .fa-envelope {
-      color: black;
-    }
-
-    .fa-github-square:hover{
-       color: #ffb1c3;
-    }
-
-    .fa-linkedin:hover{
-       color: #ffb1c3;
-    }
-
-    .fa-dribbble-square:hover{
-       color: #ffb1c3;
-    }
-
-
-
-}
-
- @media only screen and (max-width: 780px) {
-
-   .containter {
-     width: 90%;
-   }
-
-   .navbar {
-     background-color: #FFFAF6;
-     list-style-type: none;
-     margin: 0;
-     overflow: hidden;
-     position:fixed;
-     padding: 0;
-     width: 100%;
-     z-index: 1;
-   }
-
-
-   #work {
-     color: black;
-     display: inline-block;
-     float: right;
-     margin: 5px 5px;
-     padding: 14px 20px;
-     text-align: center;
-     text-decoration: none;
-   }
-
-    #about_me {
-     color: black;
-     display: inline-block;
-     float: right;
-     margin: 5px 5px;
-     padding: 14px 20px;
-     text-align: center;
-     text-decoration: none;
-   }
-
-   #contact_nav {
+    .hero a:link, a:visited {
      background-color: #F3DDCC;
-     display: inline-block;
-     float: right;
      color: black;
+     display: inline-block;
+     font-size: 18px;
      padding: 14px 25px;
-     margin: 5px 5px;
      text-align: center;
      text-decoration: none;
+     margin: 10px 10px;
+    }
 
-   }
+    .hero a:hover,  a:active {
+     background-color:  #FFDFE3;
+    }
 
-   #logo  {
-     float: left;
-     object-fit: contain;
-     margin: 5px 0px 5px 30px;
-   }
+    /* navigation bar */
+    .navbar {
+      background-color: #FFFAF6;
+      list-style-type: none;
+      margin: 0;
+      overflow: hidden;
+      position:fixed;
+      padding: 0;
+      width: 100%;
+    }
 
-   #contact_nav:hover {
-     background-color: #FFDFE3
-   }
 
-   nav a:hover {
-     background-color: #FFDFE3;
-     color: black;
-   }
-
-   .me {
-     width: 80%;
-     height: 70%;
-   }
-
-   .main {
-     width: 80%;
-   }
-
-   blockquote {
-     font-size: 14px;
-     height: auto;
-     width: 80%;
-     margin-left: auto;
-     margin-right: auto;
-   }
-
-   .main {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 700px;
-   }
-
-   .main p {
-     font-size: 16px;
-   }
-   .hero {
-      height: 500px;
+    #work {
+      color: black;
+      display: inline-block;
+      float: right;
+      margin: 5px 5px;
+      padding: 10px 5px;
       text-align: center;
+      text-decoration: none;
     }
 
-    h1 {
-      font-family: Karla;
-      font-size: 30px;
+     #about_me {
+      color: black;
+      display: inline-block;
+      float: right;
+      margin: 5px 5px;
+      padding: 10px 5px;
+      text-align: center;
+      text-decoration: none;
     }
 
-    fa-envelope:hover {
-     color: #ffb1c3;
+    #contact_nav {
+      background-color: #F3DDCC;
+      display: inline-block;
+      float: right;
+      color: black;
+      padding: 10px 5px;
+      margin: 5px 5px;
+      text-align: center;
+      text-decoration: none;
+
     }
 
-    .fa-envelope {
+    #contact_nav:hover {
+      background-color: #FFDFE3;
+    }
+
+    #logo  {
+      float: left;
+      margin: 5px 0px 5px 20px;
+      object-fit: contain;
+      width: 5%;
+    }
+
+
+    nav a:hover {
+      background-color: #FFDFE3;
       color: black;
     }
 
-    .fa-github-square:hover{
-       color: #ffb1c3;
+
+    /*hero */
+
+    .hero {
+       height: 600px;
+       text-align: center;
+     }
+
+
+    /* main text */
+     .main {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 700px;
+     }
+
+     .main p {
+       font-family: 'Montserrat', sans-serif;
+       font-size: 18px;
+       line-height: 167%;
+       padding: 20px;
+     }
+
+     blockquote {
+       height: 70%;
+       width: 70%;
+       margin-left: auto;
+       margin-right: auto;
+       line-height: 167%;
+       padding: 20px;
+       background-color: #fff1f1;
+     }
+
+    .skills li {
+      margin-left: 20px;
+      padding: 5px;
     }
 
-    .fa-linkedin:hover{
-       color: #ffb1c3;
+    .tools li {
+      margin-left: 20px;
+      padding: 5px;
     }
 
-    .fa-dribbble-square:hover{
-       color: #ffb1c3;
+    .me {
+      width: 80%;
+      height: auto;
     }
 
+ }
 
-}
+ @media only screen and (max-width: 768px) {
+
+
+      * {
+        box-sizing: border-box;
+      }
+
+
+      /* typography */
+
+       body {
+         font-family: 'Montserrat', sans-serif;
+       }
+
+       h1{
+         font-family: 'Karla', sans-serif;
+         font-size: 30px;
+       }
+
+       h3 {
+         font-family: 'Karla', sans-serif;
+         font-size: 24px;
+         line-height: 167%;
+       }
+
+      h2 {
+         font-family: 'Karla', sans-serif;
+         font-size: 18px;
+         margin-left: 10px;
+         margin-top: 10px;
+         margin-bottom: 10px;
+      }
+
+      /*hero */
+
+      .hero {
+         background-color: #FFFAF6;
+         height: 450px;
+         text-align: center;
+       }
+
+       .hero a:link, a:visited {
+        background-color: #F3DDCC;
+        color: black;
+        display: inline-block;
+        font-size: 18px;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        margin: 10px 10px;
+       }
+
+       .hero a:hover,  a:active {
+        background-color:  #FFDFE3;
+       }
+
+       /* navigation bar */
+       .navbar {
+         background-color: #FFFAF6;
+         list-style-type: none;
+         margin: 0;
+         overflow: hidden;
+         position:fixed;
+         padding: 0;
+         width: 100%;
+       }
+
+
+       #work {
+         color: black;
+         display: inline-block;
+         float: right;
+         margin: 5px 5px;
+         padding: 10px 5px;
+         text-align: center;
+         text-decoration: none;
+       }
+
+        #about_me {
+         color: black;
+         display: inline-block;
+         float: right;
+         margin: 5px 5px;
+         padding: 10px 5px;
+         text-align: center;
+         text-decoration: none;
+       }
+
+       #contact_nav {
+         background-color: #F3DDCC;
+         display: inline-block;
+         float: right;
+         color: black;
+         padding: 10px 5px;
+         margin: 5px 5px;
+         text-align: center;
+         text-decoration: none;
+
+       }
+
+       #contact_nav:hover {
+         background-color: #FFDFE3;
+       }
+
+       #logo  {
+         float: left;
+         margin: 5px 0px 5px 20px;
+         object-fit: contain;
+         width: 7%;
+       }
+
+
+       nav a:hover {
+         background-color: #FFDFE3;
+         color: black;
+       }
+
+
+
+       /* main text */
+        .main {
+         margin-right: auto;
+         margin-left: auto;
+         max-width: 700px;
+        }
+
+        .main p {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 18px;
+          line-height: 167%;
+          padding: 20px;
+        }
+
+        blockquote {
+          height: 50%;
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+          line-height: 167%;
+          padding: 20px;
+          background-color: #fff1f1;
+        }
+
+       .skills li {
+         margin-left: 20px;
+         padding: 5px;
+       }
+
+       .tools li {
+         margin-left: 20px;
+         padding: 5px;
+       }
+
+       .me {
+         width: 60%;
+         height: auto;
+       }
+
+
+ }
