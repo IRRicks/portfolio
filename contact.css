@@ -242,20 +242,46 @@ input:focus, textarea:focus {
 		padding-right: 3%;
 	}
   .navbar {
-    position: fixed;
     background-color: #FFFAF6;
-    overflow: hidden;
     list-style-type: none;
     margin: 0;
+    overflow: hidden;
+    position:fixed;
     padding: 0;
     width: 100%;
     z-index: 1;
   }
+
+
+  #work {
+    color: black;
+    display: inline-block;
+    float: right;
+    margin: 5px 5px;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+   #about_me {
+    color: black;
+    display: inline-block;
+    float: right;
+    margin: 5px 5px;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
   #contact_nav {
     background-color: #F3DDCC;
+    display: inline-block;
+    float: right;
     color: black;
     padding: 14px 25px;
     margin: 5px 5px;
+    text-align: center;
+    text-decoration: none;
 
   }
 
@@ -265,9 +291,12 @@ input:focus, textarea:focus {
     margin: 5px 0px 5px 30px;
   }
 
-
+  #contact_nav:hover {
+    background-color: #FFDFE3
+  }
+  
   nav a:hover {
-    background-color: white;
+    background-color: #FFDFE3;
     color: black;
   }
 }

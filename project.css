@@ -276,25 +276,212 @@ footer p {
 
 @media only screen and (max-width: 580px) {
  .container {
-   width: 90%;
+   width: 80%;
  }
-  .navbar {
-    position: fixed;
-    background-color: #FFFAF6;
-    overflow: hidden;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    z-index: 1;
+ .navbar {
+   background-color: #FFFAF6;
+   list-style-type: none;
+   margin: 0;
+   overflow: hidden;
+   position:fixed;
+   padding: 0;
+   width: 100%;
+   z-index: 1;
+ }
+
+
+ #work {
+   color: black;
+   display: inline-block;
+   float: right;
+   margin: 5px 5px;
+   padding: 14px 20px;
+   text-align: center;
+   text-decoration: none;
+ }
+
+  #about_me {
+   color: black;
+   display: inline-block;
+   float: right;
+   margin: 5px 5px;
+   padding: 14px 20px;
+   text-align: center;
+   text-decoration: none;
+ }
+
+ #contact_nav {
+   background-color: #F3DDCC;
+   display: inline-block;
+   float: right;
+   color: black;
+   padding: 14px 25px;
+   margin: 5px 5px;
+   text-align: center;
+   text-decoration: none;
+
+ }
+
+  #logo  {
+    float: left;
+    object-fit: contain;
+    margin: 5px 0px 5px 30px;
   }
-  #contact_nav {
-    background-color: #F3DDCC;
+
+  #contact_nav:hover {
+    background-color: #FFDFE3
+  }
+
+  nav a:hover {
+    background-color: white;
     color: black;
-    padding: 14px 25px;
-    margin: 5px 5px;
+  }
+
+  /* typography */
+  body {
+    font-family: montserrat;
+  }
+
+  h1{
+    font-family: Karla;
+    font-size: 40px;
+    line-height: 167%;
+  }
+
+  h3 {
+    font-family: Karla;
+    font-size: 30px;
+    line-height: 167%;
+    margin: 40px;
+  }
+
+  h2 {
+    font-family: Karla;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 20px;
 
   }
+
+  .hero p {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 150%;
+  }
+
+  .main p {
+    font-family: montserrat;
+    font-size: 18px;
+    margin: 20px;
+    line-height: 150%;
+  }
+
+  .connect p {
+    font-family: montserrat;
+    font-size: 24px;
+    line-height: 167%;
+    padding: 10px 10px;
+  }
+
+
+  /*images*/
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 70%;
+  }
+
+  .side {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 70%;
+  }
+
+  .user {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 50%;
+  }
+
+  .mood {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 70%;
+    padding: 10px;
+  }
+
+
+.mockupimage {
+  width: 80%;
+  height:70%;
+}
+
+.wireframeimage {
+  width: 80%;
+  height:70%;
+}
+
+
+}
+
+/* responsiveness */
+
+@media only screen and (max-width: 780px) {
+ .container {
+   width: 90%;
+ }
+ .navbar {
+   background-color: #FFFAF6;
+   list-style-type: none;
+   margin: 0;
+   overflow: hidden;
+   position:fixed;
+   padding: 0;
+   width: 100%;
+   z-index: 1;
+ }
+
+
+ #work {
+   color: black;
+   display: inline-block;
+   float: right;
+   margin: 5px 5px;
+   padding: 14px 20px;
+   text-align: center;
+   text-decoration: none;
+ }
+
+  #about_me {
+   color: black;
+   display: inline-block;
+   float: right;
+   margin: 5px 5px;
+   padding: 14px 20px;
+   text-align: center;
+   text-decoration: none;
+ }
+
+ #contact_nav {
+   background-color: #F3DDCC;
+   display: inline-block;
+   float: right;
+   color: black;
+   padding: 14px 25px;
+   margin: 5px 5px;
+   text-align: center;
+   text-decoration: none;
+
+ }
 
   #logo  {
     float: left;
@@ -304,7 +491,7 @@ footer p {
 
 
   nav a:hover {
-    background-color: white;
+    background-color: #FFDFE3;
     color: black;
   }
 
