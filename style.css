@@ -41,7 +41,18 @@ h4 {
   width: 100%;
 }
 
- nav a {
+
+#work {
+  color: black;
+  display: inline-block;
+  float: right;
+  margin: 5px 5px;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+ #about_me {
   color: black;
   display: inline-block;
   float: right;
@@ -53,9 +64,13 @@ h4 {
 
 #contact_nav {
   background-color: #F3DDCC;
+  display: inline-block;
+  float: right;
   color: black;
   padding: 14px 25px;
   margin: 5px 5px;
+  text-align: center;
+  text-decoration: none;
 
 }
 
@@ -226,7 +241,6 @@ nav a:hover {
 
 /* design section */
 
-
 .design_process {
   background-color: #FCFCFC;
   text-align: center;
@@ -238,8 +252,7 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
-/* slider */
-
+/*slider*/
 .testimonials {
   text-align: center;
   margin-top: 30px;
