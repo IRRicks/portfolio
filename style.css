@@ -252,6 +252,11 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
+.design {
+  width: 60%;
+  height: auto;
+}
+
 /*slider*/
 .testimonials {
   text-align: center;
@@ -689,13 +694,25 @@ footer p {
       color: #ffb1c3;
    }
 
+   .fa-github-square {
+     color: black;
+   }
+
    .fa-linkedin:hover{
       color: #ffb1c3;
+   }
+   .fa-linkedin {
+     color: black;
    }
 
    .fa-dribbble-square:hover{
       color: #ffb1c3;
    }
+
+   .fa-dribbble-square {
+     color: black;
+   }
+
 
 
 }
@@ -777,12 +794,23 @@ footer p {
      color: #ffb1c3;
   }
 
+  .fa-github-square {
+    color: black;
+  }
+
   .fa-linkedin:hover{
      color: #ffb1c3;
+  }
+  .fa-linkedin {
+    color: black;
   }
 
   .fa-dribbble-square:hover{
      color: #ffb1c3;
+  }
+
+  .fa-dribbble-square {
+    color: black;
   }
 
 
