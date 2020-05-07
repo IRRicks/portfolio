@@ -247,12 +247,64 @@ nav a:hover {
    /*hero */
 
    .hero {
-      background-color: #FFFAF6;
-      height: 400px;
+      height: 800px;
       text-align: center;
     }
 
-    .hero a:link, a:visited {
+   /* main text */
+    .main {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 700px;
+    }
+
+    .main p {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      line-height: 167%;
+      padding: 20px;
+    }
+
+    blockquote {
+      height: 70%;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 167%;
+      padding: 20px;
+      background-color: #fff1f1;
+    }
+
+    .skills li {
+       margin-left: 20px;
+       padding: 5px;
+      }
+
+    .tools li {
+      margin-left: 20px;
+      padding: 5px;
+    }
+
+    .me {
+      width: 80%;
+      height: auto;
+    }
+
+   /* connect */
+   .connect p {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 20px;
+     line-height: 150%;
+     padding: 10px 10px;
+   }
+
+   .connect {
+     background-color: #FFFAF6;
+     text-align: center;
+     margin-top: 20px;
+   }
+
+   .connect a:link, a:visited {
      background-color: #F3DDCC;
      color: black;
      display: inline-block;
@@ -260,12 +312,14 @@ nav a:hover {
      padding: 14px 25px;
      text-align: center;
      text-decoration: none;
-     margin: 10px 10px;
-    }
+     margin: 10px;
+   }
 
-    .hero a:hover,  a:active {
+    .connect a:hover, a:active {
      background-color:  #FFDFE3;
-    }
+   }
+
+
 
     /* navigation bar */
     .navbar {
@@ -319,7 +373,7 @@ nav a:hover {
       float: left;
       margin: 5px 0px 5px 20px;
       object-fit: contain;
-      width: 5%;
+      width: 6%;
     }
 
 
@@ -328,53 +382,26 @@ nav a:hover {
       color: black;
     }
 
-
-    /*hero */
-
-    .hero {
-       height: 600px;
-       text-align: center;
-     }
-
-
-    /* main text */
-     .main {
-      margin-right: auto;
-      margin-left: auto;
-      max-width: 700px;
-     }
-
-     .main p {
-       font-family: 'Montserrat', sans-serif;
-       font-size: 18px;
-       line-height: 167%;
-       padding: 20px;
-     }
-
-     blockquote {
-       height: 70%;
-       width: 70%;
-       margin-left: auto;
-       margin-right: auto;
-       line-height: 167%;
-       padding: 20px;
-       background-color: #fff1f1;
-     }
-
-    .skills li {
-      margin-left: 20px;
-      padding: 5px;
+    .fa-envelope:hover {
+     color: #ffb1c3;
     }
 
-    .tools li {
-      margin-left: 20px;
-      padding: 5px;
+    .fa-envelope {
+      color: black;
     }
 
-    .me {
-      width: 80%;
-      height: auto;
+    .fa-github-square:hover{
+       color: #ffb1c3;
     }
+
+    .fa-linkedin:hover{
+       color: #ffb1c3;
+    }
+
+    .fa-dribbble-square:hover{
+       color: #ffb1c3;
+    }
+
 
  }
 
@@ -415,7 +442,7 @@ nav a:hover {
 
       .hero {
          background-color: #FFFAF6;
-         height: 450px;
+         height: 550px;
          text-align: center;
        }
 
@@ -534,6 +561,26 @@ nav a:hover {
        .me {
          width: 60%;
          height: auto;
+       }
+
+       .fa-envelope:hover {
+        color: #ffb1c3;
+       }
+
+       .fa-envelope {
+         color: black;
+       }
+
+       .fa-github-square:hover{
+          color: #ffb1c3;
+       }
+
+       .fa-linkedin:hover{
+          color: #ffb1c3;
+       }
+
+       .fa-dribbble-square:hover{
+          color: #ffb1c3;
        }
 
 

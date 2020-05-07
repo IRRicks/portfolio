@@ -167,10 +167,18 @@ nav a:hover {
     margin-right: auto;
   }
 
-  .side, .user {
+  .side  {
     width: 30%;
     height: 300px;
     padding: 10px;
+  }
+
+
+  .user {
+    width: 30%;
+    height: 400px;
+    padding: 20px 25px;
+    margin-left: 10px;
   }
 
 
@@ -406,7 +414,8 @@ footer p {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    width: 40%;
+    width: 50%;
+    height: 90%;
   }
 
   .mood {
@@ -468,6 +477,26 @@ footer p {
      margin-top: 10px;
      font-size: 20px;
      line-height: 150%;
+   }
+
+   .fa-envelope:hover {
+    color: #ffb1c3;
+   }
+
+   .fa-envelope {
+     color: black;
+   }
+
+   .fa-github-square:hover{
+      color: #ffb1c3;
+   }
+
+   .fa-linkedin:hover{
+      color: #ffb1c3;
+   }
+
+   .fa-dribbble-square:hover{
+      color: #ffb1c3;
    }
 
 
@@ -600,6 +629,26 @@ footer p {
 
        .hero p {
          font-size: 20px;
+       }
+
+       .fa-envelope:hover {
+        color: #ffb1c3;
+       }
+
+       .fa-envelope {
+         color: black;
+       }
+
+       .fa-github-square:hover{
+          color: #ffb1c3;
+       }
+
+       .fa-linkedin:hover{
+          color: #ffb1c3;
+       }
+
+       .fa-dribbble-square:hover{
+          color: #ffb1c3;
        }
 
 }
