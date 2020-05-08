@@ -1,0 +1,602 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/* typography */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Karla', sans-serif;
+  font-size: 36px;
+  line-height: 150%;
+}
+
+h3 {
+  font-family: 'Karla', sans-serif;
+  font-size: 30px;
+  line-height: 150%;
+}
+
+h2 {
+  font-family: 'Karla', sans-serif;
+  font-size: 30px;
+  line-height: 150%;
+  margin: auto 40px;
+
+}
+
+/* navigation bar */
+.navbar {
+  background-color: #FFFAF6;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  position:fixed;
+  padding: 0;
+  width: 100%;
+}
+
+
+#work {
+  color: black;
+  display: inline-block;
+  float: right;
+  margin: 5px 5px;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+ #about_me {
+  color: black;
+  display: inline-block;
+  float: right;
+  margin: 5px 5px;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#contact_nav {
+  background-color: #F3DDCC;
+  display: inline-block;
+  float: right;
+  color: black;
+  padding: 14px 25px;
+  margin: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+#contact_nav:hover {
+  background-color: #FFDFE3
+}
+
+#logo  {
+  float: left;
+  margin: 5px 0px 5px 100px;
+  object-fit: contain;
+  width: 3%;
+}
+
+
+nav a:hover {
+  background-color: #FFDFE3;
+  color: black;
+}
+
+
+  /* hero */
+
+
+  .hero {
+     background-color: white;
+     text-align: center;
+   }
+
+   .hero p {
+     font-size: 30px;
+   }
+
+   .hero a:link, a:visited {
+    background-color: #F3DDCC;
+    color: black;
+    display: inline-block;
+    font-size: 18px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 60px;
+   }
+
+   .hero a:hover,  a:active {
+    background-color: #FFDFE3;
+   }
+
+   .hero p {
+     margin-top: 30px;
+     font-size: 24px;
+     line-height: 150%;
+   }
+
+/* main content */
+
+.main {
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 700px;
+  }
+  .main a:link, a:visited {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   width: 200px;
+   background-color: #F3DDCC;
+   color: black;
+   font-size: 18px;
+   padding: 14px 25px;
+   text-align: center;
+   text-decoration: none;
+  }
+
+  .main a:hover,  a:active {
+   background-color: #FFDFE3;
+  }
+
+  .main p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 15px 40px;
+    line-height: 150%;
+  }
+
+  /*images*/
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user {
+  width: 90%;
+}
+
+.prototype {
+  width: 90%;
+}
+
+.prototype2 {
+  width: 100%;
+}
+
+.mockupimage {
+  width: 50%;
+}
+
+.final {
+  width: 50%;
+}
+  /* connect */
+  .connect p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    padding: 10px 10px;
+  }
+
+  .connect {
+    background-color: #FFFAF6;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .connect a:link, a:visited {
+    background-color: #F3DDCC;
+    color: black;
+    display: inline-block;
+    font-size: 18px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+   .connect a:hover, a:active {
+    background-color:  #FFDFE3;
+  }
+
+/* footer */
+footer ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+footer li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+  margin: 10px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.fa-envelope:hover {
+ color: #ffb1c3;
+}
+
+.fa-envelope {
+  color: black;
+}
+
+.fa-github-square:hover{
+   color: #ffb1c3;
+}
+
+.fa-linkedin:hover{
+   color: #ffb1c3;
+}
+
+.fa-dribbble-square:hover{
+   color: #ffb1c3;
+}
+
+
+/* responsiveness */
+
+@media only screen and (max-width: 600px) {
+  * {
+    box-sizing: border-box;
+  }
+  /* typography */
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h1{
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    line-height: 167%;
+  }
+
+  h3 {
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+    margin: auto 20px;
+  }
+
+  h2 {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 20px;
+
+  }
+
+  .hero p {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .main p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin:  auto 20px;
+    line-height: 150%;
+  }
+
+  .connect p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 167%;
+    padding: 10px 10px;
+  }
+
+  /* navigation bar */
+  .navbar {
+    background-color: #FFFAF6;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    position:fixed;
+    padding: 0;
+    width: 100%;
+  }
+
+
+  #work {
+    color: black;
+    display: inline-block;
+    float: right;
+    margin: 5px 5px;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+   #about_me {
+    color: black;
+    display: inline-block;
+    float: right;
+    margin: 5px 5px;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #contact_nav {
+    background-color: #F3DDCC;
+    display: inline-block;
+    float: right;
+    color: black;
+    padding: 10px 5px;
+    margin: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+  #contact_nav:hover {
+    background-color: #FFDFE3;
+  }
+
+  #logo  {
+    float: left;
+    margin: 5px 0px 5px 20px;
+    object-fit: contain;
+    width: 6%;
+  }
+
+
+  nav a:hover {
+    background-color: #FFDFE3;
+    color: black;
+  }
+  /*images*/
+
+
+
+  /* hero */
+
+
+  .hero {
+     background-color: white;
+     text-align: center;
+   }
+
+   .hero p {
+     font-size: 20px;
+   }
+
+   .hero a:link, a:visited {
+    background-color: #F3DDCC;
+    color: black;
+    display: inline-block;
+    font-size: 18px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px;
+   }
+
+   .hero a:hover,  a:active {
+    background-color: #FFDFE3;
+   }
+
+   .hero p {
+     margin-top: 10px;
+     font-size: 20px;
+     line-height: 150%;
+   }
+
+   .fa-envelope:hover {
+    color: #ffb1c3;
+   }
+
+   .fa-envelope {
+     color: black;
+   }
+
+   .fa-github-square:hover{
+      color: #ffb1c3;
+   }
+
+   .fa-github-square {
+     color: black;
+   }
+
+   .fa-linkedin:hover{
+      color: #ffb1c3;
+   }
+   .fa-linkedin {
+     color: black;
+   }
+
+   .fa-dribbble-square:hover{
+      color: #ffb1c3;
+   }
+
+   .fa-dribbble-square {
+     color: black;
+   }
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+     * {
+       box-sizing: border-box;
+     }
+
+
+     /* typography */
+
+      body {
+        font-family: 'Montserrat', sans-serif;
+      }
+
+      h1{
+        font-family: 'Karla', sans-serif;
+        font-size: 30px;
+      }
+
+      h3 {
+        font-family: 'Karla', sans-serif;
+        font-size: 24px;
+        line-height: 167%;
+      }
+
+     h2 {
+        font-family: 'Karla', sans-serif;
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+     }
+
+     /*hero */
+
+     .hero {
+        background-color: #FFFAF6;
+        height: 450px;
+        text-align: center;
+      }
+
+      .hero a:link, a:visited {
+       background-color: #F3DDCC;
+       color: black;
+       display: inline-block;
+       font-size: 18px;
+       padding: 14px 25px;
+       text-align: center;
+       text-decoration: none;
+       margin: 10px 10px;
+      }
+
+      .hero a:hover,  a:active {
+       background-color:  #FFDFE3;
+      }
+
+      /* navigation bar */
+      .navbar {
+        background-color: #FFFAF6;
+        list-style-type: none;
+        margin: 0;
+        overflow: hidden;
+        position:fixed;
+        padding: 0;
+        width: 100%;
+      }
+
+
+      #work {
+        color: black;
+        display: inline-block;
+        float: right;
+        margin: 5px 5px;
+        padding: 10px 5px;
+        text-align: center;
+        text-decoration: none;
+      }
+
+       #about_me {
+        color: black;
+        display: inline-block;
+        float: right;
+        margin: 5px 5px;
+        padding: 10px 5px;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      #contact_nav {
+        background-color: #F3DDCC;
+        display: inline-block;
+        float: right;
+        color: black;
+        padding: 10px 5px;
+        margin: 5px 5px;
+        text-align: center;
+        text-decoration: none;
+
+      }
+
+      #contact_nav:hover {
+        background-color: #FFDFE3;
+      }
+
+      #logo  {
+        float: left;
+        margin: 5px 0px 5px 20px;
+        object-fit: contain;
+        width: 7%;
+      }
+
+
+      .hero {
+        width: 90%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .hero {
+         background-color: white;
+         text-align: center;
+       }
+
+       .hero p {
+         font-size: 20px;
+       }
+
+       .fa-envelope:hover {
+        color: #ffb1c3;
+       }
+
+       .fa-envelope {
+         color: black;
+       }
+
+       .fa-github-square:hover{
+          color: #ffb1c3;
+       }
+
+       .fa-github-square {
+         color: black;
+       }
+
+       .fa-linkedin:hover{
+          color: #ffb1c3;
+       }
+       .fa-linkedin {
+         color: black;
+       }
+
+       .fa-dribbble-square:hover{
+          color: #ffb1c3;
+       }
+
+       .fa-dribbble-square {
+         color: black;
+       }
+
+
+}
