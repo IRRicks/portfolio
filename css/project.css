@@ -24,7 +24,7 @@ h2 {
   font-family: 'Karla', sans-serif;
   font-size: 30px;
   line-height: 150%;
-  margin: auto 40px;
+  margin: 20px;
 
 }
 
@@ -98,10 +98,6 @@ nav a:hover {
      text-align: center;
    }
 
-   .hero p {
-     font-size: 30px;
-   }
-
    .hero a:link, a:visited {
     background-color: #F3DDCC;
     color: black;
@@ -118,9 +114,9 @@ nav a:hover {
    }
 
    .hero p {
-     margin-top: 30px;
-     font-size: 24px;
-     line-height: 150%;
+     padding: 5px;
+     font-size: 22px;
+     line-height: 130%;
    }
 
 /* main content */
@@ -153,9 +149,9 @@ nav a:hover {
 
   .main p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     margin: 15px 40px;
-    line-height: 150%;
+    line-height: 130%;
   }
 
   /*images*/
