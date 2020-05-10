@@ -13,8 +13,8 @@ body {
 h1{
   font-family: 'Karla', sans-serif;
   font-weight: bold;
-  font-size: 50px;
-  line-height: 167%;
+  font-size: 70px;
+  margin-top: 40px;
 }
 
 h3 {
@@ -24,9 +24,8 @@ h3 {
 }
 
 h4 {
+  font-family: 'Karla', sans-serif;
   font-size: 24px;
-  line-height: 167%;
-  margin: 40px;
 }
 
 
@@ -98,6 +97,7 @@ nav a:hover {
    background-color: #FFFAF6;
    height: 500px;
    text-align: center;
+   width: 100%;
  }
 
  .hero a:link, a:visited {
@@ -108,20 +108,33 @@ nav a:hover {
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
-  margin: 20px 80px;
+  margin: 40px 80px;
  }
 
  .hero a:hover,  a:active {
   background-color:  #FFDFE3;
  }
 
-/* main */
+ .hero p {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 24px;
+   line-height: 150%;
+   margin: 15px;
+ }
 
-.main p {
+/* main */
+ .main h3 {
+   text-align: center;
+   margin-top: 30px;
+   text-decoration: underline;
+   width: 100%;
+ }
+
+ .main p {
  font-family: 'Montserrat', sans-serif;
  font-size: 20px;
- margin: 30px 5px;
  line-height: 150%;
+ padding: 5px;
 }
 
 .capstone_project a:link, a:visited {
@@ -246,6 +259,7 @@ nav a:hover {
 .design_process {
   background-color: #FCFCFC;
   text-align: center;
+  text-decoration: underline;
   margin-top: 30px;
 }
 
@@ -262,6 +276,7 @@ nav a:hover {
 /*slider*/
 .testimonials {
   text-align: center;
+  text-decoration: underline;
   margin-top: 30px;
 }
 
@@ -438,13 +453,13 @@ footer ul{
 footer li{
   display: inline-block;
   list-style-type: none;
-  margin: 10px;
-  padding: 15px;
+  margin: 5px;
+  padding: 5px;
 }
 
 footer p {
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .fa-envelope:hover {
@@ -518,6 +533,7 @@ footer p {
 
    .hero a:link, a:visited {
     background-color: #F3DDCC;
+    border-radius: 12px;
     color: black;
     display: inline-block;
     font-size: 18px;
