@@ -242,62 +242,64 @@ nav a:hover {
 
 
     /* navigation bar */
-    .navbar {
-      background-color: #FFF2ED;
-      list-style-type: none;
-      margin: 0;
-      overflow: hidden;
-      position:fixed;
-      padding: 0;
-      width: 100%;
-    }
+
+       /* navigation bar */
+       .navbar {
+         background-color: #FFF2ED;
+         list-style-type: none;
+         margin: 0;
+         overflow: hidden;
+         position:fixed;
+         padding: 0;
+         width: 100%;
+         z-index: 1;
+       }
 
 
-    #work {
-      color: black;
-      display: inline-block;
-      float: right;
-      margin: 5px 5px;
-      padding: 14px 20px;
-      text-align: center;
-      text-decoration: none;
-    }
+       #work {
+         color: black;
+         display: inline-block;
+         float: right;
+         margin: 5px 5px;
+         padding: 10px 5px;
+         text-align: center;
+         text-decoration: none;
+       }
 
-     #about_me {
-      color: black;
-      display: inline-block;
-      float: right;
-      margin: 5px 5px;
-      padding: 14px 20px;
-      text-align: center;
-      text-decoration: none;
-    }
+        #about_me {
+         color: black;
+         display: inline-block;
+         float: right;
+         margin: 5px 5px;
+         padding: 10px 5px;
+         text-align: center;
+         text-decoration: none;
+       }
 
-    #contact_nav {
+       #contact_nav {
+         display: inline-block;
+         float: right;
+         color: black;
+         padding: 10px 5px;
+         margin: 5px 5px;
+         text-align: center;
+         text-decoration: none;
 
-      display: inline-block;
-      border: 2px solid;
-      float: right;
-      color: black;
-      padding: 14px 25px;
-      margin: 5px 5px;
-      text-align: center;
-      text-decoration: none;
-
-    }
-
-    #logo  {
-      float: left;
-      margin: 5px 0px 5px 100px;
-      object-fit: contain;
-      width: 3%;
-    }
+       }
 
 
-    nav a:hover {
-      background-color: #FFF2ED;
-      color: black;
-    }
+       #logo  {
+         float: left;
+         margin: 5px 0px 5px 20px;
+         object-fit: contain;
+         width: 6%;
+       }
+
+
+       nav a:hover {
+         background-color: #FFDFE3;
+         color: black;
+       }
 
     .fa-envelope:hover {
      color: #ffb1c3;
@@ -343,63 +345,65 @@ nav a:hover {
 
 
 
-      /* navigation bar */
-      .navbar {
-        background-color: #FFF2ED;
-        list-style-type: none;
-        margin: 0;
-        overflow: hidden;
-        position:fixed;
-        padding: 0;
-        width: 100%;
-      }
+         /* navigation bar */
+         .navbar {
+           background-color: #FFF2ED;
+           list-style-type: none;
+           margin: 0;
+           overflow: hidden;
+           position:fixed;
+           padding: 0;
+           width: 100%;
+           z-index: 1;
+         }
 
 
-      #work {
-        color: black;
-        display: inline-block;
-        float: right;
-        margin: 5px 5px;
-        padding: 14px 20px;
-        text-align: center;
-        text-decoration: none;
-      }
+         #work {
+           color: black;
+           display: inline-block;
+           float: right;
+           margin: 5px 5px;
+           padding: 10px 5px;
+           text-align: center;
+           text-decoration: none;
+         }
 
-       #about_me {
-        color: black;
-        display: inline-block;
-        float: right;
-        margin: 5px 5px;
-        padding: 14px 20px;
-        text-align: center;
-        text-decoration: none;
-      }
+          #about_me {
+           color: black;
+           display: inline-block;
+           float: right;
+           margin: 5px 5px;
+           padding: 10px 5px;
+           text-align: center;
+           text-decoration: none;
+         }
 
-      #contact_nav {
+         #contact_nav {
+           display: inline-block;
+           float: right;
+           color: black;
+           padding: 10px 5px;
+           margin: 5px 5px;
+           text-align: center;
+           text-decoration: none;
 
-        display: inline-block;
-        border: 2px solid;
-        float: right;
-        color: black;
-        padding: 14px 25px;
-        margin: 5px 5px;
-        text-align: center;
-        text-decoration: none;
-
-      }
-
-      #logo  {
-        float: left;
-        margin: 5px 0px 5px 100px;
-        object-fit: contain;
-        width: 3%;
-      }
+         }
 
 
-      nav a:hover {
-        background-color: #FFF2ED;
-        color: black;
-      }
+         #logo  {
+           float: left;
+           margin: 5px 0px 5px 20px;
+           object-fit: contain;
+           width: 6%;
+         }
+
+
+         nav a:hover {
+           background-color: #FFDFE3;
+           color: black;
+         }
+
+
 
 
 
