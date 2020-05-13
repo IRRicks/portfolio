@@ -8,9 +8,13 @@ html{
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
 /* navigation bar */
 .navbar {
-  background-color: #FFFAF6;
+  background-color: #FFF2ED;
   list-style-type: none;
   margin: 0;
   overflow: hidden;
@@ -41,8 +45,9 @@ html{
 }
 
 #contact_nav {
-  background-color: #F3DDCC;
+
   display: inline-block;
+  border: 2px solid;
   float: right;
   color: black;
   padding: 14px 25px;
@@ -52,27 +57,18 @@ html{
 
 }
 
-#contact_nav:hover {
-  background-color: #FFDFE3
-}
-
 #logo  {
   float: left;
   margin: 5px 0px 5px 100px;
   object-fit: contain;
-
+  width: 3%;
 }
 
 
 nav a:hover {
-  background-color: #FFDFE3;
+  background-color: #FFF2ED;
   color: black;
 }
-
-body {
-  font-family: montserrat;
-}
-
 
 /* input box */
 
@@ -241,15 +237,16 @@ input:focus, textarea:focus {
 		padding-left: 3%;
 		padding-right: 3%;
 	}
+
+  /* navigation bar */
   .navbar {
-    background-color: #FFFAF6;
+    background-color: #FFF2ED;
     list-style-type: none;
     margin: 0;
     overflow: hidden;
     position:fixed;
     padding: 0;
     width: 100%;
-    z-index: 1;
   }
 
 
@@ -274,8 +271,9 @@ input:focus, textarea:focus {
   }
 
   #contact_nav {
-    background-color: #F3DDCC;
+
     display: inline-block;
+    border: 2px solid;
     float: right;
     color: black;
     padding: 14px 25px;
@@ -287,18 +285,14 @@ input:focus, textarea:focus {
 
   #logo  {
     float: left;
-    object-fit: contain;
     margin: 5px 0px 5px 30px;
+    object-fit: contain;
     width: 6%;
-
   }
 
-  #contact_nav:hover {
-    background-color: #FFDFE3
-  }
 
   nav a:hover {
-    background-color: #FFDFE3;
+    background-color: #FFF2ED;
     color: black;
   }
 }
@@ -312,15 +306,16 @@ input:focus, textarea:focus {
 		padding-left: 3%;
 		padding-right: 3%;
 	}
+
+  /* navigation bar */
   .navbar {
-    background-color: #FFFAF6;
+    background-color: #FFF2ED;
     list-style-type: none;
     margin: 0;
     overflow: hidden;
     position:fixed;
     padding: 0;
     width: 100%;
-    z-index: 1;
   }
 
 
@@ -345,8 +340,9 @@ input:focus, textarea:focus {
   }
 
   #contact_nav {
-    background-color: #F3DDCC;
+
     display: inline-block;
+    border: 2px solid;
     float: right;
     color: black;
     padding: 14px 25px;
@@ -358,18 +354,14 @@ input:focus, textarea:focus {
 
   #logo  {
     float: left;
-    object-fit: contain;
     margin: 5px 0px 5px 30px;
+    object-fit: contain;
     width: 6%;
-
   }
 
-  #contact_nav:hover {
-    background-color: #FFDFE3
-  }
 
   nav a:hover {
-    background-color: #FFDFE3;
+    background-color: #FFF2ED;
     color: black;
   }
 
