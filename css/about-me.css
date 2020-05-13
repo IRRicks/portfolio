@@ -211,6 +211,12 @@ nav a:hover {
      box-sizing: border-box;
    }
 
+   /*hero */
+
+   .hero {
+      height: 400px;
+      text-align: center;
+    }
 
 
     blockquote {
@@ -404,6 +410,12 @@ nav a:hover {
          }
 
 
+         /*hero */
+
+         .hero {
+            height: 400px;
+            text-align: center;
+          }
 
 
 
