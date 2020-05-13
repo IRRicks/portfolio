@@ -11,21 +11,21 @@
  }
 
  h1{
-   font-family: 'Karla', sans-serif;
+   font-family: 'Playfair Display', serif;
    font-weight: bold;
-   font-size: 50px;
+   font-size: 8vh;
    line-height: 167%;
  }
 
  h3 {
-   font-family: 'Karla', sans-serif;
-   font-size: 36px;
+   font-family: 'Playfair Display', serif;
+   font-size: 4vh;
    line-height: 167%;
  }
 
 h2 {
-   font-family: 'Karla', sans-serif;
-   font-size: 24px;
+   font-family: 'Playfair Display', serif;
+   font-size: 3vh;
    margin-left: 20px;
    margin-top: 10px;
    margin-bottom: 10px;
@@ -34,7 +34,7 @@ h2 {
 
 /* navigation bar */
 .navbar {
-  background-color: #FFFAF6;
+  background-color: #FFF2ED;
   list-style-type: none;
   margin: 0;
   overflow: hidden;
@@ -65,8 +65,9 @@ h2 {
 }
 
 #contact_nav {
-  background-color: #F3DDCC;
+
   display: inline-block;
+  border: 2px solid;
   float: right;
   color: black;
   padding: 14px 25px;
@@ -74,10 +75,6 @@ h2 {
   text-align: center;
   text-decoration: none;
 
-}
-
-#contact_nav:hover {
-  background-color: #FFDFE3
 }
 
 #logo  {
@@ -89,10 +86,9 @@ h2 {
 
 
 nav a:hover {
-  background-color: #FFDFE3;
+  background-color: #FFF2ED;
   color: black;
 }
-
 
 /*hero */
 
@@ -104,6 +100,7 @@ nav a:hover {
 
 /* main text */
  .main {
+   margin-top: 20px;
   margin-right: auto;
   margin-left: auto;
   max-width: 700px;
@@ -122,7 +119,7 @@ nav a:hover {
    margin-right: 150px;
    line-height: 167%;
    padding: 20px;
-   background-color: #fff1f1;
+   background-color: #FFF2ED;
  }
 
 .skills li {
@@ -138,7 +135,7 @@ nav a:hover {
 /* connect */
 .connect p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 2vh;
   line-height: 150%;
   padding: 10px 10px;
 }
@@ -150,19 +147,16 @@ nav a:hover {
 }
 
 .connect a:link, a:visited {
-  background-color: #F3DDCC;
+  border: 2px solid;
   color: black;
   display: inline-block;
-  font-size: 18px;
+  font-size: 2vh;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
   margin: 10px;
 }
 
- .connect a:hover, a:active {
-  background-color:  #FFDFE3;
-}
 
 
 
@@ -218,52 +212,6 @@ nav a:hover {
    }
 
 
-   /* typography */
-
-    body {
-      font-family: 'Montserrat', sans-serif;
-    }
-
-    h1{
-      font-family: 'Karla', sans-serif;
-      font-size: 30px;
-      margin-bottom: 20px;
-    }
-
-    h3 {
-      font-family: 'Karla', sans-serif;
-      font-size: 24px;
-      line-height: 167%;
-    }
-
-   h2 {
-      font-family: 'Karla', sans-serif;
-      font-size: 18px;
-      margin-left: 10px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-   }
-
-   /*hero */
-
-   .hero {
-      height: 800px;
-      text-align: center;
-    }
-
-   /* main text */
-    .main {
-      margin-right: auto;
-      margin-left: auto;
-      max-width: 700px;
-    }
-
-    .main p {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 18px;
-      line-height: 167%;
-      padding: 20px;
-    }
 
     blockquote {
       height: 70%;
@@ -272,7 +220,7 @@ nav a:hover {
       margin-right: auto;
       line-height: 167%;
       padding: 20px;
-      background-color: #fff1f1;
+      background-color: #FFF2ED;
     }
 
     .skills li {
@@ -290,40 +238,12 @@ nav a:hover {
       height: auto;
     }
 
-   /* connect */
-   .connect p {
-     font-family: 'Montserrat', sans-serif;
-     font-size: 20px;
-     line-height: 150%;
-     padding: 10px 10px;
-   }
-
-   .connect {
-     background-color: #FFFAF6;
-     text-align: center;
-     margin-top: 20px;
-   }
-
-   .connect a:link, a:visited {
-     background-color: #F3DDCC;
-     color: black;
-     display: inline-block;
-     font-size: 18px;
-     padding: 14px 25px;
-     text-align: center;
-     text-decoration: none;
-     margin: 10px;
-   }
-
-    .connect a:hover, a:active {
-     background-color:  #FFDFE3;
-   }
 
 
 
     /* navigation bar */
     .navbar {
-      background-color: #FFFAF6;
+      background-color: #FFF2ED;
       list-style-type: none;
       margin: 0;
       overflow: hidden;
@@ -338,7 +258,7 @@ nav a:hover {
       display: inline-block;
       float: right;
       margin: 5px 5px;
-      padding: 10px 5px;
+      padding: 14px 20px;
       text-align: center;
       text-decoration: none;
     }
@@ -348,37 +268,34 @@ nav a:hover {
       display: inline-block;
       float: right;
       margin: 5px 5px;
-      padding: 10px 5px;
+      padding: 14px 20px;
       text-align: center;
       text-decoration: none;
     }
 
     #contact_nav {
-      background-color: #F3DDCC;
+
       display: inline-block;
+      border: 2px solid;
       float: right;
       color: black;
-      padding: 10px 5px;
+      padding: 14px 25px;
       margin: 5px 5px;
       text-align: center;
       text-decoration: none;
 
     }
 
-    #contact_nav:hover {
-      background-color: #FFDFE3;
-    }
-
     #logo  {
       float: left;
-      margin: 5px 0px 5px 20px;
+      margin: 5px 0px 5px 100px;
       object-fit: contain;
-      width: 6%;
+      width: 3%;
     }
 
 
     nav a:hover {
-      background-color: #FFDFE3;
+      background-color: #FFF2ED;
       color: black;
     }
 
@@ -425,114 +342,64 @@ nav a:hover {
       }
 
 
-      /* typography */
 
-       body {
-         font-family: 'Montserrat', sans-serif;
-       }
-
-       h1{
-         font-family: 'Karla', sans-serif;
-         font-size: 30px;
-       }
-
-       h3 {
-         font-family: 'Karla', sans-serif;
-         font-size: 24px;
-         line-height: 167%;
-       }
-
-      h2 {
-         font-family: 'Karla', sans-serif;
-         font-size: 18px;
-         margin-left: 10px;
-         margin-top: 10px;
-         margin-bottom: 10px;
+      /* navigation bar */
+      .navbar {
+        background-color: #FFF2ED;
+        list-style-type: none;
+        margin: 0;
+        overflow: hidden;
+        position:fixed;
+        padding: 0;
+        width: 100%;
       }
 
-      /*hero */
 
-      .hero {
-         background-color: #FFFAF6;
-         height: 550px;
-         text-align: center;
-       }
-
-       .hero a:link, a:visited {
-        background-color: #F3DDCC;
+      #work {
         color: black;
         display: inline-block;
-        font-size: 18px;
-        padding: 14px 25px;
+        float: right;
+        margin: 5px 5px;
+        padding: 14px 20px;
         text-align: center;
         text-decoration: none;
-        margin: 10px 10px;
-       }
+      }
 
-       .hero a:hover,  a:active {
-        background-color:  #FFDFE3;
-       }
+       #about_me {
+        color: black;
+        display: inline-block;
+        float: right;
+        margin: 5px 5px;
+        padding: 14px 20px;
+        text-align: center;
+        text-decoration: none;
+      }
 
-       /* navigation bar */
-       .navbar {
-         background-color: #FFFAF6;
-         list-style-type: none;
-         margin: 0;
-         overflow: hidden;
-         position:fixed;
-         padding: 0;
-         width: 100%;
-       }
+      #contact_nav {
 
+        display: inline-block;
+        border: 2px solid;
+        float: right;
+        color: black;
+        padding: 14px 25px;
+        margin: 5px 5px;
+        text-align: center;
+        text-decoration: none;
 
-       #work {
-         color: black;
-         display: inline-block;
-         float: right;
-         margin: 5px 5px;
-         padding: 10px 5px;
-         text-align: center;
-         text-decoration: none;
-       }
+      }
 
-        #about_me {
-         color: black;
-         display: inline-block;
-         float: right;
-         margin: 5px 5px;
-         padding: 10px 5px;
-         text-align: center;
-         text-decoration: none;
-       }
-
-       #contact_nav {
-         background-color: #F3DDCC;
-         display: inline-block;
-         float: right;
-         color: black;
-         padding: 10px 5px;
-         margin: 5px 5px;
-         text-align: center;
-         text-decoration: none;
-
-       }
-
-       #contact_nav:hover {
-         background-color: #FFDFE3;
-       }
-
-       #logo  {
-         float: left;
-         margin: 5px 0px 5px 20px;
-         object-fit: contain;
-         width: 7%;
-       }
+      #logo  {
+        float: left;
+        margin: 5px 0px 5px 100px;
+        object-fit: contain;
+        width: 3%;
+      }
 
 
-       nav a:hover {
-         background-color: #FFDFE3;
-         color: black;
-       }
+      nav a:hover {
+        background-color: #FFF2ED;
+        color: black;
+      }
 
 
 
@@ -557,7 +424,7 @@ nav a:hover {
           margin-right: auto;
           line-height: 167%;
           padding: 20px;
-          background-color: #fff1f1;
+          background-color: #FFF2ED;
         }
 
        .skills li {

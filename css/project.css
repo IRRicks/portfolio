@@ -9,20 +9,21 @@ body {
 }
 
 h1{
-  font-family: 'Karla', sans-serif;
-  font-size: 36px;
-  line-height: 150%;
+  font-family: 'Playfair Display', serif;
+  font-size: 4vh;
+  line-height: 167%;
 }
 
+
 h3 {
-  font-family: 'Karla', sans-serif;
-  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  font-size: 3vh;
   line-height: 150%;
 }
 
 h2 {
-  font-family: 'Karla', sans-serif;
-  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  font-size: 3vh;
   line-height: 150%;
   margin: 20px;
 
@@ -30,7 +31,7 @@ h2 {
 
 /* navigation bar */
 .navbar {
-  background-color: #FFFAF6;
+  background-color: #FFF2ED;
   list-style-type: none;
   margin: 0;
   overflow: hidden;
@@ -61,8 +62,9 @@ h2 {
 }
 
 #contact_nav {
-  background-color: #F3DDCC;
+
   display: inline-block;
+  border: 2px solid;
   float: right;
   color: black;
   padding: 14px 25px;
@@ -70,10 +72,6 @@ h2 {
   text-align: center;
   text-decoration: none;
 
-}
-
-#contact_nav:hover {
-  background-color: #FFDFE3
 }
 
 #logo  {
@@ -85,11 +83,9 @@ h2 {
 
 
 nav a:hover {
-  background-color: #FFDFE3;
+  background-color: #FFF2ED;
   color: black;
 }
-
-
   /* hero */
 
 
@@ -99,7 +95,7 @@ nav a:hover {
    }
 
    .hero a:link, a:visited {
-    background-color: #F3DDCC;
+    border: 2px solid;
     color: black;
     display: inline-block;
     font-size: 18px;
@@ -109,15 +105,13 @@ nav a:hover {
     margin: 10px 60px;
    }
 
-   .hero a:hover,  a:active {
-    background-color: #FFDFE3;
-   }
 
    .hero p {
      padding: 5px;
-     font-size: 22px;
+     font-size: 2.5vh;
      line-height: 130%;
    }
+
 
 /* main content */
 
@@ -135,7 +129,7 @@ nav a:hover {
    margin-top: 30px;
    margin-bottom: 30px;
    width: 200px;
-   background-color: #F3DDCC;
+   border: 2px solid;
    color: black;
    font-size: 18px;
    padding: 14px 25px;
@@ -143,13 +137,10 @@ nav a:hover {
    text-decoration: none;
   }
 
-  .main a:hover,  a:active {
-   background-color: #FFDFE3;
-  }
 
   .main p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 2.5vh;
     margin: 15px 40px;
     line-height: 130%;
   }
@@ -219,7 +210,7 @@ nav a:hover {
   /* connect */
   .connect p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 2vh;
     line-height: 150%;
     padding: 10px 10px;
   }
@@ -231,19 +222,16 @@ nav a:hover {
   }
 
   .connect a:link, a:visited {
-    background-color: #F3DDCC;
+    border: 2px solid;
     color: black;
     display: inline-block;
-    font-size: 18px;
+    font-size: 2vh;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     margin: 10px;
   }
 
-   .connect a:hover, a:active {
-    background-color:  #FFDFE3;
-  }
 
 /* footer */
 footer ul{

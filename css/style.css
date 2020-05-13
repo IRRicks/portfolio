@@ -11,27 +11,27 @@ body {
 }
 
 h1{
-  font-family: 'Karla', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: bold;
-  font-size: 70px;
-  margin-top: 40px;
+  font-size: 10vh;
+  margin-top: 200px;
 }
 
 h3 {
-  font-family: 'Karla', sans-serif;
-  font-size: 36px;
+  font-family: 'Playfair Display', serif;
+  font-size: 4vh;
   line-height: 167%;
 }
 
 h4 {
-  font-family: 'Karla', sans-serif;
-  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+  font-size: 3vh;
 }
 
 
 /* navigation bar */
 .navbar {
-  background-color: #FFFAF6;
+  background-color: #FFF2ED;
   list-style-type: none;
   margin: 0;
   overflow: hidden;
@@ -62,8 +62,9 @@ h4 {
 }
 
 #contact_nav {
-  background-color: #F3DDCC;
+
   display: inline-block;
+  border: 2px solid;
   float: right;
   color: black;
   padding: 14px 25px;
@@ -71,10 +72,6 @@ h4 {
   text-align: center;
   text-decoration: none;
 
-}
-
-#contact_nav:hover {
-  background-color: #FFDFE3;
 }
 
 #logo  {
@@ -86,7 +83,7 @@ h4 {
 
 
 nav a:hover {
-  background-color: #FFDFE3;
+  background-color: #FFF2ED;
   color: black;
 }
 
@@ -94,118 +91,58 @@ nav a:hover {
 /*hero */
 
 .hero {
-   background-color: #FFFAF6;
-   height: 500px;
+   background-color: #FFF2ED;
+   height: 800px;
    text-align: center;
    width: 100%;
  }
 
- .hero a:link, a:visited {
-  background-color: #F3DDCC;
-  color: black;
-  display: inline-block;
-  font-size: 18px;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  margin: 40px 80px;
- }
-
- .hero a:hover,  a:active {
-  background-color:  #FFDFE3;
- }
-
  .hero p {
    font-family: 'Montserrat', sans-serif;
-   font-size: 24px;
+   font-size: 3vh;
    line-height: 150%;
    margin: 15px;
+   letter-spacing: 5px;
+ }
+
+ .fa-angle-double-down {
+   margin-top: 250px;
  }
 
 /* main */
  .main h3 {
    text-align: center;
    margin-top: 30px;
-   text-decoration: underline;
    width: 100%;
  }
 
  .main p {
  font-family: 'Montserrat', sans-serif;
- font-size: 20px;
+ font-size: 2vh;
  line-height: 150%;
- padding: 5px;
+ padding-top: 5px;
+ padding-bottom: 5px;
 }
 
-.capstone_project a:link, a:visited {
-  background-color: #F3DDCC;
-  color: black;
-  display: inline-block;
-  font-size: 18px;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-}
-
- .capstone_project a:hover, a:active {
-  background-color:  #FFDFE3;
-}
 
 .trove_project a:link, a:visited {
-  background-color: #F3DDCC;
   color: black;
+  border: 2px solid;
   display: inline-block;
-  font-size: 18px;
+  font-size: 2vh;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
-}
-
-.trove_project a:hover, a:active {
-  background-color:  #FFDFE3;
-}
-
-.blocjams_project a:link, a:visited {
-  background-color: #F3DDCC;
-  color: black;
-  display: inline-block;
-  font-size: 18px;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-}
-
- .blocjams_project a:hover, a:active {
-  background-color:  #FFDFE3;
 }
 
 .busybus_project a:link, a:visited {
-  background-color: #F3DDCC;
   color: black;
+  border: 2px solid;
   display: inline-block;
-  font-size: 18px;
+  font-size: 2vh;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
-}
-
-.busybus_project a:hover, a:active {
-  background-color:  #FFDFE3;
-}
-
-.capstone_project {
-  width: 50%;
-  display: inline-block;
-  text-align: right;
-  vertical-align: top;
-  margin-top: 40px;
-}
-
-.cap {
-  width: 30%;
-  display: inline-block;
-  margin-left: 150px;
-  margin-top: 40px;
 }
 
 .trove_project {
@@ -223,21 +160,6 @@ nav a:hover {
   margin-top: 40px;
 }
 
-.blocjams_project {
-  width: 50%;
-  display: inline-block;
-  text-align: right;
-  vertical-align: top;
-  margin-top: 40px;
-
-}
-
-.bloc {
-  width: 30%;
-  display: inline-block;
-  margin-left: 150px;
-  margin-top: 40px;
-}
 
 .busybus_project {
   width: 50%;
@@ -259,7 +181,6 @@ nav a:hover {
 .design_process {
   background-color: #FCFCFC;
   text-align: center;
-  text-decoration: underline;
   margin-top: 30px;
 }
 
@@ -276,7 +197,6 @@ nav a:hover {
 /*slider*/
 .testimonials {
   text-align: center;
-  text-decoration: underline;
   margin-top: 30px;
 }
 
@@ -306,7 +226,7 @@ nav a:hover {
   margin: 2rem 12px;
   border-radius: 50%;
   z-index: 10;
-  outline: 6px solid #ffb1c3;
+  outline: 6px solid gray;
   outline-offset: -6px;
   box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
   cursor: pointer;
@@ -414,7 +334,7 @@ nav a:hover {
 /* connect */
 .connect p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 2vh;
   line-height: 150%;
   padding: 10px 10px;
 }
@@ -426,19 +346,16 @@ nav a:hover {
 }
 
 .connect a:link, a:visited {
-  background-color: #F3DDCC;
+  border: 2px solid;
   color: black;
   display: inline-block;
-  font-size: 18px;
+  font-size: 2vh;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
   margin: 10px;
 }
 
- .connect a:hover, a:active {
-  background-color:  #FFDFE3;
-}
 
 
 /* footer */
@@ -491,96 +408,26 @@ footer p {
     box-sizing: border-box;
   }
 
-  /* typography */
-
-  body {
-    font-family: 'Montserrat', sans-serif;
-  }
-
-  h1{
-    font-family: 'Karla', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 150%;
-  }
-
-  h3 {
-    font-family: 'Karla', sans-serif;
-    font-size: 20px;
-    line-height: 150%;
-  }
-
-  h4 {
-    font-size: 20px;
-    line-height: 167%;
-    margin: 20px;
-  }
-
-  .main p {
-   font-family: 'Montserrat', sans-serif;
-   font-size: 18px;
-   margin: 30px 5px;
-   line-height: 150%;
-  }
-
-  /*hero */
 
   .hero {
-     background-color: #FFFAF6;
+     background-color: #FFF2ED;
      height: 450px;
      text-align: center;
    }
 
-   .hero a:link, a:visited {
-    background-color: #F3DDCC;
-    border-radius: 12px;
-    color: black;
-    display: inline-block;
-    font-size: 18px;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    margin: 10px 10px;
-   }
 
-   .hero a:hover,  a:active {
-    background-color:  #FFDFE3;
-   }
 
    .trovepic {
      height: auto;
      width: 90%;
    }
 
-   .cappic {
-     height: auto;
-     width: 90%;
-   }
-
-   .blocpic {
-     height: auto;
-     width: 90%;
-   }
 
    .busypic {
      height: auto;
      width: 90%;
    }
 
-
-   .capstone_project {
-     display: block;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-   }
-
-   .cap {
-     display: block;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-   }
 
    .trove_project {
      display: block;
@@ -597,20 +444,6 @@ footer p {
      margin-right: auto;
    }
 
-   .blocjams_project {
-     display: block;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-
-   }
-
-   .bloc {
-     display: block;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-   }
 
    .busybus_project {
      display: block;
@@ -628,7 +461,7 @@ footer p {
 
    /* navigation bar */
    .navbar {
-     background-color: #FFFAF6;
+     background-color: #FFF2ED;
      list-style-type: none;
      margin: 0;
      overflow: hidden;
@@ -660,7 +493,6 @@ footer p {
    }
 
    #contact_nav {
-     background-color: #F3DDCC;
      display: inline-block;
      float: right;
      color: black;
@@ -671,9 +503,6 @@ footer p {
 
    }
 
-   #contact_nav:hover {
-     background-color: #FFDFE3;
-   }
 
    #logo  {
      float: left;
@@ -686,6 +515,10 @@ footer p {
    nav a:hover {
      background-color: #FFDFE3;
      color: black;
+   }
+
+   h1 {
+     margin-top: 50px;
    }
 
    /* design section */
@@ -738,98 +571,170 @@ footer p {
 
 @media only screen and (max-width: 768px) {
 
-  /* navigation bar */
-  .navbar {
-    background-color: #FFFAF6;
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    position:fixed;
-    padding: 0;
-    width: 100%;
+  * {
+    box-sizing: border-box;
   }
 
 
-  #work {
-    color: black;
-    display: inline-block;
-    float: right;
-    margin: 5px 5px;
-    padding: 10px 5px;
-    text-align: center;
-    text-decoration: none;
-  }
-
-   #about_me {
-    color: black;
-    display: inline-block;
-    float: right;
-    margin: 5px 5px;
-    padding: 10px 5px;
-    text-align: center;
-    text-decoration: none;
-  }
-
-  #contact_nav {
-    background-color: #F3DDCC;
-    display: inline-block;
-    float: right;
-    color: black;
-    padding: 10px 5px;
-    margin: 5px 5px;
-    text-align: center;
-    text-decoration: none;
-
-  }
-
-  #contact_nav:hover {
-    background-color: #FFDFE3;
-  }
-
-  #logo  {
-    float: left;
-    margin: 5px 0px 5px 20px;
-    object-fit: contain;
-    width: 7%;
-  }
+  .hero {
+     background-color: #FFF2ED;
+     height: 450px;
+     text-align: center;
+   }
 
 
-  nav a:hover {
-    background-color: #FFDFE3;
-    color: black;
-  }
+
+   .trovepic {
+     height: auto;
+     width: 90%;
+   }
 
 
-  .fa-envelope:hover {
-   color: #ffb1c3;
-  }
-
-  .fa-envelope {
-    color: black;
-  }
-
-  .fa-github-square:hover{
-     color: #ffb1c3;
-  }
-
-  .fa-github-square {
-    color: black;
-  }
-
-  .fa-linkedin:hover{
-     color: #ffb1c3;
-  }
-  .fa-linkedin {
-    color: black;
-  }
-
-  .fa-dribbble-square:hover{
-     color: #ffb1c3;
-  }
-
-  .fa-dribbble-square {
-    color: black;
-  }
+   .busypic {
+     height: auto;
+     width: 90%;
+   }
 
 
- }
+   .trove_project {
+     display: block;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+
+   }
+
+   .trove {
+     display: block;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+
+   .busybus_project {
+     display: block;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   .busy {
+     display: block;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   h1 {
+     margin-top: 100px;
+   }
+
+   /* navigation bar */
+   .navbar {
+     background-color: #FFF2ED;
+     list-style-type: none;
+     margin: 0;
+     overflow: hidden;
+     position:fixed;
+     padding: 0;
+     width: 100%;
+     z-index: 1;
+   }
+
+
+   #work {
+     color: black;
+     display: inline-block;
+     float: right;
+     margin: 5px 5px;
+     padding: 10px 5px;
+     text-align: center;
+     text-decoration: none;
+   }
+
+    #about_me {
+     color: black;
+     display: inline-block;
+     float: right;
+     margin: 5px 5px;
+     padding: 10px 5px;
+     text-align: center;
+     text-decoration: none;
+   }
+
+   #contact_nav {
+     display: inline-block;
+     float: right;
+     color: black;
+     padding: 10px 5px;
+     margin: 5px 5px;
+     text-align: center;
+     text-decoration: none;
+
+   }
+
+
+   #logo  {
+     float: left;
+     margin: 5px 0px 5px 20px;
+     object-fit: contain;
+     width: 6%;
+   }
+
+
+   nav a:hover {
+     background-color: #FFDFE3;
+     color: black;
+   }
+
+
+
+   /* design section */
+
+
+
+   .design_process {
+     background-color: #FCFCFC;
+     text-align: center;
+     margin-top: 30px;
+   }
+
+   .design {
+     width: 70%;
+   }
+
+   .fa-envelope:hover {
+    color: #ffb1c3;
+   }
+
+   .fa-envelope {
+     color: black;
+   }
+
+   .fa-github-square:hover{
+      color: #ffb1c3;
+   }
+
+   .fa-github-square {
+     color: black;
+   }
+
+   .fa-linkedin:hover{
+      color: #ffb1c3;
+   }
+   .fa-linkedin {
+     color: black;
+   }
+
+   .fa-dribbble-square:hover{
+      color: #ffb1c3;
+   }
+
+   .fa-dribbble-square {
+     color: black;
+   }
+
+
+
+}
