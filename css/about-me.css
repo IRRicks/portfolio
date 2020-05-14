@@ -93,14 +93,14 @@ nav a:hover {
 /*hero */
 
 .hero {
-   height: 800px;
+   height: 700px;
    text-align: center;
  }
 
 
 /* main text */
  .main {
-   margin-top: 20px;
+  margin-top: 20px;
   margin-right: auto;
   margin-left: auto;
   max-width: 700px;
