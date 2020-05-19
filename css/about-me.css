@@ -90,30 +90,30 @@ nav a:hover {
   color: black;
 }
 
-/*hero */
+/* aboutmehero */
 
-.hero {
+.aboutmehero {
    height: 700px;
    text-align: center;
  }
 
 
 /* main text */
- .main {
+ .aboutmemain {
   margin-top: 20px;
   margin-right: auto;
   margin-left: auto;
   max-width: 700px;
  }
 
- .main p {
+ .aboutmemain p {
    font-family: 'Montserrat', sans-serif;
    font-size: 20px;
    line-height: 167%;
    padding: 20px;
  }
 
- blockquote {
+ aboutmemain blockquote {
    height: 300px;
    margin-left: 150px;
    margin-right: 150px;

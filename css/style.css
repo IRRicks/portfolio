@@ -1,5 +1,4 @@
 
-
 * {
   box-sizing: border-box;
 }
@@ -28,6 +27,13 @@ h4 {
   font-size: 3vh;
 }
 
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3vh;
+  line-height: 150%;
+  margin: 20px;
+
+}
 
 /* navigation bar */
 .navbar {
@@ -331,6 +337,204 @@ nav a:hover {
   }
 }
 
+
+  /* projecthero */
+
+
+  .projecthero {
+     background-color: white;
+     text-align: center;
+   }
+
+   .projecthero a:link, a:visited {
+    border: 2px solid;
+    color: black;
+    display: inline-block;
+    font-size: 18px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 60px;
+   }
+
+
+   .projecthero p {
+     padding: 5px;
+     font-size: 2.5vh;
+     line-height: 130%;
+   }
+
+/* main content */
+
+.projectmain {
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 700px;
+  }
+
+  .projectmain a:link, a:visited {
+   display: block;
+   border: 2px solid;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   width: 200px;
+   color: black;
+   font-size: 18px;
+   padding: 14px 25px;
+   text-align: center;
+   text-decoration: none;
+  }
+
+
+  .projectmain p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vh;
+    margin: 40px;
+    line-height: 150%;
+  }
+
+  /*images*/
+
+.projectmain img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bususer {
+  width: 90%;
+}
+
+.busprototype {
+  width: 90%;
+}
+
+.busprototype2 {
+  width: 100%;
+}
+
+.busmockupimage {
+  width: 50%;
+}
+
+.busfinal {
+  width: 50%;
+}
+
+
+  /*troveimages*/
+
+  .center {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .side  {
+    width: 30%;
+    height: 300px;
+    padding: 10px;
+  }
+
+
+  .user {
+    width: 30%;
+    height: 400px;
+    padding: 20px 25px;
+    margin-left: 10px;
+  }
+
+
+  .mood, .troveblue, .mockupimage {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+
+  .wireframeimage {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .graph {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sketch {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .trove_landing {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+/* aboutmehero */
+
+.aboutmehero {
+   background-color: white;
+   height: 700px;
+   text-align: center;
+ }
+
+
+/* main text */
+ .aboutmemain {
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 700px;
+ }
+
+ .aboutmemain p {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   line-height: 167%;
+   padding: 20px;
+ }
+
+ .aboutmemain blockquote {
+   height: 300px;
+   margin-left: 150px;
+   margin-right: 150px;
+   line-height: 167%;
+   padding: 20px;
+   background-color: #FFF2ED;
+ }
+
+.skills li {
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.tools li {
+  margin-left: 20px;
+  padding: 5px;
+}
+
+
+
+
+
 /* connect */
 .connect p {
   font-family: 'Montserrat', sans-serif;
@@ -356,6 +560,66 @@ nav a:hover {
   margin: 10px;
 }
 
+/* contact form */
+
+#contact-area {
+	width: 600px;
+	margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
+}
+
+/* work */
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
 
 
 /* footer */
@@ -370,7 +634,8 @@ footer ul{
 footer li{
   display: inline-block;
   list-style-type: none;
-  margin: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 5px;
 }
 
@@ -399,180 +664,6 @@ footer p {
    color: #ffb1c3;
 }
 
-/* responsiveness */
-
-@media only screen and (max-width: 600px) {
-
-
-  * {
-    box-sizing: border-box;
-  }
-
-
-  .hero {
-     background-color: #FFF2ED;
-     height: 450px;
-     text-align: center;
-   }
-
-   .fa-angle-double-down {
-     margin-top: 100px;
-   }
-
-   .trovepic {
-     height: auto;
-     width: 90%;
-   }
-
-
-   .busypic {
-     height: auto;
-     width: 90%;
-   }
-
-
-   .trove_project {
-     display: block;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-
-   }
-
-   .trove {
-     display: block;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-   }
-
-
-   .busybus_project {
-     display: block;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-   }
-
-   .busy {
-     display: block;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-   }
-
-   /* navigation bar */
-   .navbar {
-     background-color: #FFF2ED;
-     list-style-type: none;
-     margin: 0;
-     overflow: hidden;
-     position:fixed;
-     padding: 0;
-     width: 100%;
-     z-index: 1;
-   }
-
-
-   #work {
-     color: black;
-     display: inline-block;
-     float: right;
-     margin: 5px 5px;
-     padding: 10px 5px;
-     text-align: center;
-     text-decoration: none;
-   }
-
-    #about_me {
-     color: black;
-     display: inline-block;
-     float: right;
-     margin: 5px 5px;
-     padding: 10px 5px;
-     text-align: center;
-     text-decoration: none;
-   }
-
-   #contact_nav {
-     display: inline-block;
-     float: right;
-     color: black;
-     padding: 10px 5px;
-     margin: 5px 5px;
-     text-align: center;
-     text-decoration: none;
-
-   }
-
-
-   #logo  {
-     float: left;
-     margin: 5px 0px 5px 20px;
-     object-fit: contain;
-     width: 6%;
-   }
-
-
-   nav a:hover {
-     background-color: #FFDFE3;
-     color: black;
-   }
-
-   h1 {
-     margin-top: 50px;
-     font-size: 5vh;
-   }
-
-   .hero p {
-     font-size: 2vh;
-   }
-   /* design section */
-
-   .design_process {
-     background-color: #FCFCFC;
-     text-align: center;
-     margin-top: 30px;
-   }
-
-   .design {
-     width: 70%;
-   }
-
-   .fa-envelope:hover {
-    color: #ffb1c3;
-   }
-
-   .fa-envelope {
-     color: black;
-   }
-
-   .fa-github-square:hover{
-      color: #ffb1c3;
-   }
-
-   .fa-github-square {
-     color: black;
-   }
-
-   .fa-linkedin:hover{
-      color: #ffb1c3;
-   }
-   .fa-linkedin {
-     color: black;
-   }
-
-   .fa-dribbble-square:hover{
-      color: #ffb1c3;
-   }
-
-   .fa-dribbble-square {
-     color: black;
-   }
-
-
-
-}
 
 
 @media only screen and (max-width: 768px) {

@@ -93,12 +93,12 @@ nav a:hover {
   /* hero */
 
 
-  .hero {
+  .projecthero {
      background-color: white;
      text-align: center;
    }
 
-   .hero a:link, a:visited {
+   .projecthero a:link, a:visited {
     border: 2px solid;
     color: black;
     display: inline-block;
@@ -110,7 +110,7 @@ nav a:hover {
    }
 
 
-   .hero p {
+   .projecthero p {
      padding: 5px;
      font-size: 2.5vh;
      line-height: 130%;
@@ -118,7 +118,7 @@ nav a:hover {
 
 /* main content */
 
-.main {
+.projectmain {
    margin-top: 50px;
    margin-bottom: 50px;
    margin-right: auto;
@@ -126,7 +126,7 @@ nav a:hover {
    max-width: 700px;
   }
 
-  .main a:link, a:visited {
+  .projectmain a:link, a:visited {
    display: block;
    border: 2px solid;
    margin-left: auto;
@@ -142,7 +142,7 @@ nav a:hover {
   }
 
 
-  .main p {
+  .projectmain p {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5vh;
     margin: 40px;
@@ -151,7 +151,7 @@ nav a:hover {
 
   /*images*/
 
-img {
+projectmain img {
   display: block;
   margin-left: auto;
   margin-right: auto;
