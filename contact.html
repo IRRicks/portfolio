@@ -20,7 +20,6 @@
 </head>
 
 <body>
- <div class="container">
    <!-- nav bar -->
   <nav class="navbar">
       <a href="/index.html"><img id="logo" src="images/dotlogo2.svg" alt="imani ricks logo" width="50" height="50"></a>
@@ -34,29 +33,26 @@
    <br>
    <br>
    <br>
-     <div id="contact-area">
-
-       <form method="post" action="contactengine.php">
-         <label for="Name">Name:</label>
-         <input type="text" name="Name" id="Name" />
-
-         <label for="City">City:</label>
-         <input type="text" name="City" id="City" />
-
-         <label for="Email">Email:</label>
-         <input type="text" name="Email" id="Email" />
-
-         <label for="Message">Message:</label><br />
-         <textarea name="Message" rows="20" cols="20" id="Message"></textarea>
-
-         <input type="submit" name="submit" value="Submit" class="submit-button" />
-       </form>
-
-       <div style="clear: both;"></div>
-
-
-
-     </div>
-</div>
+   <form id="contact" action="https://formspree.io/mwkrvnge" method="post">
+    <h3>Let's Chat!</h3>
+    <fieldset>
+      <input placeholder="Your name" type="text" name="name" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" name="_replyto" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number (optional)" name="phone" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your message here...." name="message" tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+    <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
+  </form>
+    <p>Designed and Developed by Imani Ricks 2020</p>
+  </footer>
   </body>
   </html>
