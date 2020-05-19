@@ -822,6 +822,12 @@ footer p {
 
 
  /* about me */
+ .aboutmehero {
+       background-color: white;
+       height: 500px;
+       text-align: center;
+     }
+
    .aboutmemain blockquote {
      height: 70%;
      margin-left: auto;
@@ -1080,6 +1086,12 @@ footer p {
 
 
  /* about me */
+ .aboutmehero {
+       background-color: white;
+       height: 550px;
+       text-align: center;
+     }
+
    .aboutmemain blockquote {
      height: 70%;
      margin-left: auto;
