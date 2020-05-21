@@ -815,10 +815,6 @@ footer p {
    }
 
 
-   nav a:hover {
-     background-color: #FFDFE3;
-     color: black;
-   }
 
 
  /* about me */
@@ -973,7 +969,7 @@ footer p {
    }
 
    .fa-angle-double-down {
-     margin-top: 150px;
+     margin-top: 180px;
    }
 
    .trovepic {
@@ -1019,12 +1015,12 @@ footer p {
    }
 
    h1 {
-     font-size: 5vh;
+     font-size: 7vh;
      margin-top: 50px;
    }
 
    .hero p {
-     font-size: 2vh;
+     font-size: 3vh;
    }
 
    /* navigation bar */
@@ -1073,19 +1069,23 @@ footer p {
 
    #logo  {
      float: left;
-     margin: 5px 0px 5px 20px;
+     margin: 5px 0px 5px 30px;
      object-fit: contain;
-     width: 5%;
+     width: 6%;
    }
 
 
-   nav a:hover {
-     background-color: #FFDFE3;
-     color: black;
-   }
 
 
  /* about me */
+ h2 {
+   font-family: 'Playfair Display', serif;
+   font-size: 4vh;
+   line-height: 150%;
+   margin: 20px;
+
+ }
+
  .aboutmehero {
        background-color: white;
        height: 550px;
