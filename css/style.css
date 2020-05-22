@@ -1069,9 +1069,9 @@ footer p {
 
    #logo  {
      float: left;
-     margin: 5px 0px 5px 30px;
+     margin: 10px 0px 5px 30px;
      object-fit: contain;
-     width: 6%;
+     width: 7%;
    }
 
 
@@ -1199,7 +1199,7 @@ footer p {
       box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
       margin-left: auto;
       margin-right: auto;
-      width: 500px;
+      width: 300px;
     }
 
    /* footer section */
