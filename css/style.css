@@ -82,7 +82,7 @@ h2 {
 
 #logo  {
   float: left;
-  margin: 5px 0px 5px 100px;
+  margin: 5px 0px 5px 5px;
   object-fit: contain;
   width: 3%;
 }
@@ -388,7 +388,7 @@ nav a:hover {
 
 .projectmain p {
       font-family: 'Montserrat', sans-serif;
-      font-size: 2.5vh;
+      font-size: 2vh;
       margin: 40px;
       line-height: 150%;
     }
@@ -687,7 +687,7 @@ footer p {
   }
 
 
-.fa-envelope {
+.fa-envelope-square {
     color: black;
     }
 
@@ -809,7 +809,7 @@ footer p {
 
    #logo  {
      float: left;
-     margin: 5px 0px 5px 20px;
+     margin: 5px 0px 5px 5px;
      object-fit: contain;
      width: 6%;
    }
@@ -931,9 +931,10 @@ footer p {
    /* footer section */
 
 
-   .fa-envelope {
-     color: black;
-   }
+   .fa-envelope-square {
+       color: black;
+       }
+
 
    .fa-github-square {
      color: black;
@@ -1069,7 +1070,7 @@ footer p {
 
    #logo  {
      float: left;
-     margin: 10px 0px 5px 30px;
+     margin: 10px 0px 5px 5px;
      object-fit: contain;
      width: 7%;
    }
@@ -1205,9 +1206,10 @@ footer p {
    /* footer section */
 
 
-   .fa-envelope {
-     color: black;
-   }
+   .fa-envelope-square {
+       color: black;
+       }
+
 
    .fa-github-square {
      color: black;
