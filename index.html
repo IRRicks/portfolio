@@ -9,17 +9,18 @@
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
-<!-- Wowjs -->
-<script src="js/wow.min.js"></script>
-             <script>
-             new WOW().init();
-             </script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Karla">
+<!-- scroll animation -->
+<script src="ScrollTrigger.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  var trigger = new ScrollTrigger();
+});
+</script>
 <!--- favicon ---->
-<link rel="icon" href="images/favicon.gif" type="image/gif" sizes="16x16">
+<link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
 <!-- font awesome -->
 <script src="https://kit.fontawesome.com/84aa5f5e2b.js" crossorigin="anonymous"></script>
-<!-- googlefonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Karla">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75461753-2"></script>
 <script>
@@ -56,9 +57,9 @@
          <i class="fas fa-angle-double-down fa-2x"></i>
        </section>
    <!-- main content -->
-    <div class="main" "wow slideInUp">
-      <div class="projects">
+    <div class="main">
       <h3>My Work</h3>
+      <div class="animate__animated animate__slideInRight animate__delay-1s" data-scroll="toggle(.animate__slideInRight, .animate__slideInRight)">
       <aside class="trove">
         <img src="images/iphone2.png" class="trovepic" alt="trove mockup photo">
       </aside>
@@ -67,6 +68,8 @@
           <p>"Trove" is my design for a new cloud storage application<br> that incorporates both storage and user collaboration.</p>
           <a href="/project.html" target="_blank" class="button">Case study</a>
             </section>
+        </div>
+      <div class="animate__animated animate__slideInLeft animate__delay-1s">
       <section class="busybus_project">
           <h4>Busy Bus Project</h4>
           <p>"Busy Bus" is my design for a new mobile transportation<br> application that helps users find bus route information.</p>
@@ -75,7 +78,7 @@
       <aside class="busy">
         <img src="images/iphone4.png" class="busypic" alt="busybus mockup photo">
         </aside>
-       </div>
+      </div>
       </div>
 
      <!-- designprocess -->

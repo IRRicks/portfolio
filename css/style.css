@@ -44,6 +44,7 @@ h2 {
   position:fixed;
   padding: 0;
   width: 100%;
+  z-index: 1;
 }
 
 
@@ -426,59 +427,64 @@ nav a:hover {
     /*trove project*/
 
 .center {
-      width: 80%;
       display: block;
       margin-left: auto;
       margin-right: auto;
+      width: 80%;
     }
 
 .side  {
-      width: 30%;
       height: 300px;
       padding: 10px;
+      width: 30%;
     }
 
 .user {
-      width: 30%;
-      height: 400px;
-      padding: 20px 25px;
-      margin-left: 10px;
+      float: left;
+      padding: 10px 15px;
+      width: 33%;
     }
 
+.userflow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 .mood, .troveblue, .mockupimage {
-      width: 80%;
       display: block;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 10px;
+      width: 80%;
     }
 
 .wireframeimage {
-      width: 60%;
       display: block;
       margin-left: auto;
       margin-right: auto;
+      width: 70%;
+      padding-bottom: 10px;
     }
 
 .graph {
-      width: 40%;
       display: block;
       margin-left: auto;
       margin-right: auto;
+      width: 40%;
     }
 
 .sketch {
-      width: 40%;
       display: block;
       margin-left: auto;
       margin-right: auto;
+      width: 40%;
     }
 
 .trove_landing {
-      width: 70%;
       display: block;
       margin-left: auto;
       margin-right: auto;
+      width: 70%;
   }
 
 
@@ -738,6 +744,7 @@ footer p {
      text-align: center;
      margin-left: auto;
      margin-right: auto;
+     width: 60%;
    }
 
 
@@ -753,6 +760,7 @@ footer p {
      text-align: center;
      margin-left: auto;
      margin-right: auto;
+     width: 60%;
    }
 
    h1 {
@@ -878,6 +886,7 @@ footer p {
 
   .user {
     display: block;
+    float: none;
     height: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -912,7 +921,7 @@ footer p {
    }
 
    .design {
-     width: 70%;
+     width: 80%;
    }
 
 
@@ -999,6 +1008,7 @@ footer p {
      text-align: center;
      margin-left: auto;
      margin-right: auto;
+     width: 60%;
    }
 
 
@@ -1014,6 +1024,7 @@ footer p {
      text-align: center;
      margin-left: auto;
      margin-right: auto;
+     width: 60%;
    }
 
    h1 {
@@ -1147,6 +1158,7 @@ footer p {
 
   .user {
     display: block;
+    float: none;
     height: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -1190,7 +1202,7 @@ footer p {
    }
 
    .design {
-     width: 70%;
+     width: 90%;
    }
 /*contact me */
 
