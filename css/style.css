@@ -107,7 +107,7 @@ nav a:hover {
    font-family: 'Montserrat', sans-serif;
    font-size: 3vh;
    line-height: 150%;
-   letter-spacing: 5px;
+   letter-spacing: 3px;
    margin: 15px;
 
  }
@@ -181,6 +181,8 @@ nav a:hover {
       width: 30%;
     }
 
+
+
 /* design section */
 
 .design_process {
@@ -190,8 +192,8 @@ nav a:hover {
     }
 
 .designpic {
-      margin-top: 10px;
-      margin-bottom: 10px;
+      padding-top: 20px;
+      padding-bottom: 60px;
     }
 
 .design {
@@ -532,7 +534,6 @@ nav a:hover {
 .connect {
       background-color: #FFFAF6;
       text-align: center;
-      margin-top: 20px;
     }
 
 .connect a:link, a:visited {
