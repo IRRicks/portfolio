@@ -8,10 +8,11 @@
 <!-- stylesheet -->
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Karla">
+<!--- favicon ---->
+<link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
 <!-- font awesome -->
 <script src="https://kit.fontawesome.com/84aa5f5e2b.js" crossorigin="anonymous"></script>
-<!-- googlefonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Karla">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75461753-2"></script>
 <script>
@@ -21,6 +22,29 @@
 
   gtag('config', 'UA-75461753-2');
 </script>
+<!-- jQuery scroll -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+     <script type="text/javascript">
+
+         $(function() {
+
+             var documentEl = $(document),
+                 fadeElem = $('.fade-scroll');
+
+
+             documentEl.on('scroll', function() {
+                 var currScrollPos = documentEl.scrollTop()+150;
+
+                 fadeElem.each(function() {
+                     var $this = $(this),
+                         elemOffsetTop = $this.offset().top;
+                     if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos-elemOffsetTop)/400);
+                 });
+             });
+
+         });
+
+     </script>
 </head>
 
 <body>
@@ -49,7 +73,7 @@
 
     <!-- summary and solution-->
   <div class="projectmain">
-    <section class="summary">
+    <section class="summary fade-scroll">
       <h2>Summary:</h2>
       <p>In the ever-expanding cloud storage marketplace, something was missing.
         Users wanted the ability to collaborate with each other in real-time on projects.
@@ -78,7 +102,7 @@
      </section>
     <section>
       <h2>Competitive Analysis:</h2>
-        <p>Google has many products to offer its users through its Drive platform.
+        <p >Google has many products to offer its users through its Drive platform.
           They have built-in templates for surveys, documents, spreadsheets,
            and presentations. They also provide several tools for users to edit content with.</p>
            <img src="images/trove/googledrivre.png"  alt="google drive image" class="center"><br>
@@ -90,7 +114,7 @@
          images or ideas they find on websites to their boards. They also provide users with similar ideas to pins they have already chosen. Pinterest’s platform allows for endless
           scrolling. </p>
           <img src="images/trove/pinterest.png"  alt="pinterest image" class="center"><br>
-          <a href="https://docs.google.com/document/d/1xJg4TUPONXPYxAXBafxe4DKsNYSO1RyiBYnhi0jO21c/edit?usp=sharing" target="_blank" class="button">View more</a>
+          <a href="https://docs.google.com/document/d/1xJg4TUPONXPYxAXBafxe4DKsNYSO1RyiBYnhi0jO21c/edit?usp=sharing" target="_blank" class="button fade-scroll">View more</a>
      </section>
     <section>
       <h2>User Personas:</h2>

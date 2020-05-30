@@ -8,15 +8,7 @@
 <!-- stylesheet -->
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Karla">
-<!-- scroll animation -->
-<script src="ScrollTrigger.min.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', function(){
-  var trigger = new ScrollTrigger();
-});
-</script>
 <!--- favicon ---->
 <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
 <!-- font awesome -->
@@ -30,6 +22,29 @@ document.addEventListener('DOMContentLoaded', function(){
 
   gtag('config', 'UA-75461753-2');
 </script>
+<!-- jQuery scroll -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+     <script type="text/javascript">
+
+         $(function() {
+
+             var documentEl = $(document),
+                 fadeElem = $('.fade-scroll');
+
+
+             documentEl.on('scroll', function() {
+                 var currScrollPos = documentEl.scrollTop()+150;
+
+                 fadeElem.each(function() {
+                     var $this = $(this),
+                         elemOffsetTop = $this.offset().top;
+                     if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos-elemOffsetTop)/400);
+                 });
+             });
+
+         });
+
+     </script>
 </head>
 
 <body>
@@ -59,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function(){
    <!-- main content -->
     <div class="main">
       <h3>My Work</h3>
-      <div class="animate__animated animate__slideInRight animate__delay-1s" data-scroll="toggle(.animate__slideInRight, .animate__slideInRight)">
+      <div class="fade-scroll">
       <aside class="trove">
         <img src="images/iphone2.png" class="trovepic" alt="trove mockup photo">
       </aside>
@@ -69,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function(){
           <a href="/project.html" target="_blank" class="button">Case study</a>
             </section>
         </div>
-      <div class="animate__animated animate__slideInLeft animate__delay-1s">
+      <div class="fade-scroll">
       <section class="busybus_project">
           <h4>Busy Bus Project</h4>
           <p>"Busy Bus" is my design for a new mobile transportation<br> application that helps users find bus route information.</p>
@@ -86,10 +101,12 @@ document.addEventListener('DOMContentLoaded', function(){
       <section class="design_process">
           <br>
           <br>
+          <div class="fade-scroll">
           <h3>My Design Process</h3>
           <aside class="designpic">
           <img class="design" src="images/designprocess.svg" alt="design process image">
            </aside>
+         </div>
         </section>
 
  <!-- connect with me -->

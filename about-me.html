@@ -8,10 +8,11 @@
 <!-- stylesheet -->
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Karla">
+<!--- favicon ---->
+<link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
 <!-- font awesome -->
 <script src="https://kit.fontawesome.com/84aa5f5e2b.js" crossorigin="anonymous"></script>
-<!-- googlefonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Karla">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75461753-2"></script>
 <script>
@@ -21,6 +22,29 @@
 
   gtag('config', 'UA-75461753-2');
 </script>
+<!-- jQuery scroll -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+     <script type="text/javascript">
+
+         $(function() {
+
+             var documentEl = $(document),
+                 fadeElem = $('.fade-scroll');
+
+
+             documentEl.on('scroll', function() {
+                 var currScrollPos = documentEl.scrollTop()+150;
+
+                 fadeElem.each(function() {
+                     var $this = $(this),
+                         elemOffsetTop = $this.offset().top;
+                     if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos-elemOffsetTop)/400);
+                 });
+             });
+
+         });
+
+     </script>
 </head>
 
 <body>
