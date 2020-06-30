@@ -33,7 +33,7 @@
 
 
              documentEl.on('scroll', function() {
-                 var currScrollPos = documentEl.scrollTop()+150;
+                 var currScrollPos = documentEl.scrollTop()+50;
 
                  fadeElem.each(function() {
                      var $this = $(this),
@@ -73,34 +73,55 @@
        </section>
    <!-- main content -->
     <div class="main">
-      <div class="project1 fade-scroll">
-      <aside class="trove">
-        <img src="images/iphone2.png" class="trovepic" alt="trove mockup photo">
-      </aside>
-      <section class="trove_project">
+      <!-- Capstone Project -->
+      <section class="medchatproject">
+       <div class="project">
+         <div class="project_content">
+           <img src="images/Work/smartmockups_medchat1.png" class="" alt="">
+           <div class="project_info">
+           <h4>MedChat</h4>
+           <p>"MedChat" is my idea for a a patient-portal application.</p>
+           <a href="/project.html" target="_blank" class="button">Case study</a>
+         </div>
+        </div>
+      </div>
+     </section>
+     <!-- Trove project -->
+     <section class="troveproject">
+      <div class="project">
+        <div class="project_section">
+        <div class="project_content">
+          <img src="images/Work/smartmockups_trove1.png" class="" alt="">
+          <div class="project_info2">
           <h4>Trove Project</h4>
           <p>"Trove" is my design for a new cloud storage application<br> that incorporates both storage and user collaboration.</p>
           <a href="/project.html" target="_blank" class="button">Case study</a>
-            </section>
+           </div>
+          </div>
+         </div>
         </div>
-      <div class="project2 fade-scroll">
-      <section class="busybus_project">
-          <h4>Busy Bus Project</h4>
-          <p>"Busy Bus" is my design for a new mobile transportation<br> application that helps users find bus route information.</p>
-          <a href="/busybus.html" target="_blank" class="button">Case study</a>
       </section>
-      <aside class="busy">
-        <img src="images/iphone4.png" class="busypic" alt="busybus mockup photo">
-        </aside>
-      </div>
-      </div>
-
+     <!-- BusyBusy Project -->
+     <section class="busproject">
+      <div class="project">
+        <div class="project_section">
+        <div class="project_content">
+          <img src="images/Work/smartmockups_busybus1.png" class="" alt="">
+          <div class="project_info">
+          <h4>BusyBus</h4>
+          <p>"BusyBus" is my design for a transportation application that provides clearer information for users.</p>
+          <a href="/project.html" target="_blank" class="button">Case study</a>
+          </div>
+          </div>
+         </div>
+        </div>
+      </section>
      <!-- designprocess -->
 
       <section class="design_process">
           <br>
           <br>
-          <div class="fade-scroll">
+          <div>
           <aside class="designpic">
           <img class="design" src="images/designprocess.svg" alt="design process image">
            </aside>
@@ -119,7 +140,7 @@
     </section>
 
     <!-- footer -->
-      <footer>
+      <footer class="footer">
         <ul class="socialmedia">
          <li><a href="/contact.html" target="_blank"><i class="fas fa-envelope-square fa-2x"></i></a></li>
          <li><a href="https://github.com/IRRicks" target="_blank"><i class="fab fa-github-square fa-2x"></i></a></li>
@@ -129,6 +150,7 @@
         <p>Designed and Developed by Imani Ricks 2020</p>
       </footer>
     </div>
+
     </body>
 
     </html>
