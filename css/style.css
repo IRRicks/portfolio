@@ -177,7 +177,7 @@ nav a:hover {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-content: center
+    align-content: center;
   }
 
 .project img {
@@ -213,19 +213,17 @@ nav a:hover {
 
 .design_process {
       background-color: #FCFCFC;
-      margin-top: 30px;
+      height: 100vh;
       text-align: center;
     }
 
-.designpic {
-      padding-top: 20px;
-      padding-bottom: 60px;
-    }
-
 .design {
-      height: 700px;
-      width: 80%;
-    }
+    margin-top: 150px;
+    height:auto;
+    width: 50%;
+}
+
+
 
 /*slider*/
 .testimonials {
