@@ -36,6 +36,13 @@ h2 {
   margin: 20px;
 }
 
+h5 {
+  font-family: 'Montserrat', serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 150%;
+  padding: 15px 0px;
+}
 /* navigation bar */
 .navbar {
   background-color: #FFF2ED;
@@ -185,7 +192,7 @@ nav a:hover {
 }
 
 .project_info {
-  width: 40%;
+  width: 50%;
   float: right;
 }
 
@@ -206,23 +213,67 @@ nav a:hover {
     background-color: rgb(255, 166, 128);
   }
 
+/* work section */
+.row {
+  margin: 10px -16px;
+}
 
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
 
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 30px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+/*end*/
 
 /* design section */
 
-.design_process {
-      background-color: #FCFCFC;
-      height: 100vh;
-      text-align: center;
-    }
 
-.design {
-    margin-top: 150px;
-    height:auto;
-    width: 50%;
+.design img {
+  width: 800px;
 }
-
 
 
 /*slider*/
@@ -537,7 +588,7 @@ nav a:hover {
     }
 
 .aboutmemain blockquote {
-      background-color: #FFF2ED;
+      background-color: rgba(255, 188, 104, 0.43);
       height: 300px;
       margin-left: 150px;
       margin-right: 150px;
@@ -550,11 +601,33 @@ nav a:hover {
       padding: 5px;
     }
 
+.tools {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.things {
+  display: flex;
+}
 .tools li {
       margin-left: 20px;
       padding: 5px;
     }
 
+  .aboutmemain  a:link, a:visited {
+          display: block;
+          border: 2px solid;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 100px;
+          margin-bottom: 100px;
+          width: 250px;
+          color: black;
+          font-size: 18px;
+          padding: 14px 25px;
+          text-align: center;
+          text-decoration: none;
+        }
 /* connect */
 .connect p {
       font-family: 'Montserrat', sans-serif;
@@ -591,95 +664,6 @@ nav a:hover {
   margin-top: 500px;
 }
 
-.gallery{
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
-[class*='thumbnail-']{
-  background: #000;
-  width: 33.33%;
-  height: auto;
-  float: left;
-  padding: 5px 5px 3px 5px;
-}
-
-[class*='thumbnail-'] img{
-  max-width: 100%;
-}
-
-[class*='large-']{
-  background: #000;
-  width: 90%;
-  margin: 0 auto;
-  padding: 30px;
-  display: none;
-}
-
-[class*='large-'] img{
-  width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.prev{
-  color: #fff;
-  font-size: 60px;
-  position: absolute;
-  top: 45%;
-  left: 10px;
-  float: left;
-}
-
-.next{
-  color: #fff;
-  font-size: 60px;
-  position: absolute;
-  top: 45%;
-  right: 10px;
-  float: right;
-}
-
-.close{
-  color: #fff;
-  font-size: 30px;
-  position: absolute;
-  top: 5px;
-  right: 10px;
-  float: right;
-}
-
-[class*='thumbnail-']{
-  overflow: hidden;
-  padding: 0;
-  position: relative;
-}
-
-[class*='thumbnail-']:hover img{
-  transition: .3s linear;
-  transition-delay: 300ms;
-  transform: /* rotate(5deg) */ scale(1.4);
-}
-
-[class*='thumbnail-'] > .caption{
-  display: none;
-  position: absolute;
-  bottom: 0;
-  padding: 15px;
-  width: 100%;
-  background-color: black;
-  color: white;
-  opacity: 0.8;
-}
-
-[class*='thumbnail-']:hover > .caption{
-  display: block;
-
-}
-
-
-
 
 /* contact forms */
 
@@ -697,6 +681,7 @@ nav a:hover {
       padding: 25px;
       box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
       margin-left: auto;
+      margin-top: 100px;
       margin-right: auto;
       width: 700px;
     }
@@ -847,49 +832,7 @@ footer p {
      margin-top: 110px;
    }
 
-   .trovepic {
-     height: auto;
-     width: 90%;
-   }
 
-
-   .busypic {
-     height: auto;
-     width: 90%;
-   }
-
-
-   .trove_project {
-     display: block;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-
-   }
-
-   .trove {
-     display: block;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-     width: 60%;
-   }
-
-
-   .busybus_project {
-     display: block;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-   }
-
-   .busy {
-     display: block;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-     width: 60%;
-   }
 
    h1 {
      font-size: 5vh;
@@ -1111,49 +1054,6 @@ footer p {
      margin-top: 110px;
    }
 
-   .trovepic {
-     height: auto;
-     width: 90%;
-   }
-
-
-   .busypic {
-     height: auto;
-     width: 90%;
-   }
-
-
-   .trove_project {
-     display: block;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-
-   }
-
-   .trove {
-     display: block;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-     width: 60%;
-   }
-
-
-   .busybus_project {
-     display: block;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-   }
-
-   .busy {
-     display: block;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-     width: 60%;
-   }
 
    h1 {
      font-size: 7vh;
