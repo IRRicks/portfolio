@@ -158,123 +158,30 @@ nav a:hover {
  margin: 10px auto;
 }
 
-
-.project a:link, a:visited {
-  border: 2px solid;
-  color: black;
-  display: inline-block;
-  font-size: 2vh;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
+.main {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.project a:link, a:visited {
-  border: 2px solid;
-  color: black;
-  display: inline-block;
-  font-size: 2vh;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
+.projects {
+  display: flex;
+  flex-direction: row;
+}
+.design_process {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.project {
-    min-height: 100vh;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: center;
-  }
-
-.project img {
-  width: 50%;
-}
-
-.project_info {
-  width: 50%;
-  float: right;
-}
-
-.project_info2 {
-  width: 50%;
-  float: left;
-}
-
-.medchatproject {
-    background-color: rgb(180, 233, 253);
-  }
-
-.troveproject {
-    background-color:	rgb(255, 233, 179);
-  }
-
-.busproject {
-    background-color: rgb(255, 166, 128);
-  }
-
-/* work section */
-.row {
-  margin: 10px -16px;
-}
-
-/* Add padding BETWEEN each column */
-.row,
-.row > .column {
-  padding: 8px;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  display: none; /* Hide all elements by default */
-}
-
-/* Clear floats after rows */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content {
-  background-color: white;
-  padding: 30px;
-}
-
-/* The "show" class is added to the filtered elements */
-.show {
+.designpic img {
   display: block;
+ margin-top: 20px;
+ margin-left: auto;
+ margin-right: auto;
+ width: 80%;
 }
 
-/* Style the buttons */
-.btn {
-  border: none;
-  outline: none;
-  padding: 12px 16px;
-  background-color: white;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: #ddd;
-}
-
-.btn.active {
-  background-color: #666;
-  color: white;
-}
-/*end*/
-
-/* design section */
-
-
-.design img {
-  width: 800px;
-}
-
+/* end */
 
 /*slider*/
 .testimonials {
@@ -588,7 +495,7 @@ nav a:hover {
     }
 
 .aboutmemain blockquote {
-      background-color: rgba(255, 188, 104, 0.43);
+      background-color: #fff2ed;
       height: 300px;
       margin-left: 150px;
       margin-right: 150px;
@@ -659,10 +566,6 @@ nav a:hover {
       margin: 10px;
     }
 
-/* work slider */
-.workconnect {
-  margin-top: 500px;
-}
 
 
 /* contact forms */
@@ -843,6 +746,13 @@ footer p {
      font-size: 2vh;
    }
 
+   .projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
    /* navigation bar */
    .navbar {
      background-color: #FFF2ED;
@@ -1063,6 +973,14 @@ footer p {
    .hero p {
      font-size: 3vh;
    }
+
+   .projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 
    /* navigation bar */
    .navbar {
