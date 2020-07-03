@@ -93,7 +93,7 @@ h5 {
   float: left;
   margin: 10px 0px 10px 10px;
   object-fit: contain;
-  width: 3%;
+  width: 4%;
 }
 
 
@@ -580,7 +580,7 @@ nav a:hover {
     }
 
     #contact {
-      background: #F9F9F9;
+      background: #fff2ed;
       padding: 25px;
       box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
       margin-left: auto;
@@ -911,7 +911,7 @@ footer p {
 
 
     #contact {
-      background: #F9F9F9;
+      background: #fff2ed;
       padding: 25px;
       box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
       margin-left: auto;
@@ -1154,7 +1154,7 @@ footer p {
 
 
     #contact {
-      background: #F9F9F9;
+      background: #fff2ed;
       padding: 25px;
       box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
       margin-left: auto;
