@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<!--  Meta  -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Imani Ricks | Portfolio</title>
+<!-- stylesheet -->
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Karla">
+<!--- favicon --->
+<link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/84aa5f5e2b.js" crossorigin="anonymous"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-75461753-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-75461753-2');
+</script>
+<!-- jQuery scroll -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+     <script type="text/javascript">
+
+         $(function() {
+
+             var documentEl = $(document),
+                 fadeElem = $('.fade-scroll');
+
+
+             documentEl.on('scroll', function() {
+                 var currScrollPos = documentEl.scrollTop()+150;
+
+                 fadeElem.each(function() {
+                     var $this = $(this),
+                         elemOffsetTop = $this.offset().top;
+                     if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos-elemOffsetTop)/400);
+                 });
+             });
+
+         });
+
+     </script>
+</head>
+
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up fa-2x"></i></button>
+ <div class="container">
+   <!-- nav bar -->
+  <nav class="navbar">
+      <a href="/index.html"><img id="logo" src="images/dotlogo2.svg" alt="imani ricks logo"></a>
+    <ul>
+        <li><a id="contact_nav" href="/contact.html">Contact</a></li>
+        <li><a id="about_me" href="/about-me.html">About</a></li>
+        <li><a id="work" href="/index.html">Work</a></li>
+      </ul>
+   </nav>
+
+  <section class="projecthero">
+    <!-- start case study -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <img src="images/busybus/yellowbus.png" alt="mockup image" class="projecthero" >
+    <h3>MedChat summary</h3>
+    <p>Patient portal applications are the next step in providing wraparound services for those in the medical and mental health fields.
+      They allow users to access information in a secure format from their personal devices. My goal was to take the current applications on the market,
+      and redesign them to create a more user friendly experience. .<p>
+    <a href="https://irricks.github.io/Frontend-challenge/" target="_blank" class="button">View finished prototype</a>
+  </section>
+    <!-- problem and solution-->
+  <div class="projectmain">
+    <section class="problem">
+      <h2>Presenting Problem:</h2>
+      <p>Current patient portal applications feature homepages that are cluttered, confusing and fail to prioritize user flows.</p>
+     </section>
+    <section class="solution">
+      <h2>The Solution:</h2>
+      <br>
+      <img src="images/busybus/busybusmockup.png" alt="product mockup" class="busmockup">
+      <br>
+    </section>
+    <!-- discovery -->
+    <section class="discovery">
+      <h2>Discovery Phase:</h2>
+      <p> Before beginning the design process, I needed to gather information about
+         how users felt about their current patient portal applications, the way they use them,
+         and the features they would most like to see in future applications.</p>
+        <aside>
+        <img src="images/busybus/survey.png" alt="user survey image" class="buscenter">
+        <a href="https://docs.google.com/spreadsheets/d/1AuDIjE_LeFvHWjQdIg0y05SwsT7R_9zStSk2qE3CP9o/edit?usp=sharing" target="_blank" class="button">View more</a>
+        </aside>
+     </section>
+      <!-- competitive analysis -->
+      <section>
+        <h2>Competitive Analysis:</h2>
+          <p >Google has many products to offer its users through its Drive platform.
+            They have built-in templates for surveys, documents, spreadsheets,
+             and presentations. They also provide several tools for users to edit content with.</p>
+             <img src="images/trove/googledrivre.png"  alt="google drive image" class="center"><br>
+          <br><p> Dropbox is available on multiple platforms, iOS, Android, and Office 365 applications.
+            The application also has the option of administration control for
+           business users.</p>
+           <img src="images/trove/dropbox.png"  alt="dropbox image" class="center"><br>
+           <br><p> Pinterest allows users to “Pin”
+           images or ideas they find on websites to their boards. They also provide
+           users with similar ideas to pins they have already chosen. Pinterest’s platform allows for endless
+            scrolling. </p>
+            <img src="images/trove/pinterest.png"  alt="pinterest image" class="center"><br>
+            <a href="https://docs.google.com/document/d/1xJg4TUPONXPYxAXBafxe4DKsNYSO1RyiBYnhi0jO21c/edit?usp=sharing" target="_blank" class="button fade-scroll">View more</a>
+       </section>
+      <!-- user personas -->
+      <section>
+        <h2>User Personas:</h2>
+          <p>I was able to craft user personas based on the information gathered in the survey. Demographically,
+            the respondents were majority female (80%), and aged between 25-54 (80%).
+            Respondents reported living in smaller cities and towns, mostly in the southeastern
+            United States. Most respondents reported their
+             professions as being teachers, professors, students or therapists. </p>
+          <p>The first user persona is health-conscious and likes to make sure she’s on top of tests.
+             She wants to be able to check her app for upcoming appointments and test results.
+            She’s a bit frustrated that she can’t download or print her test results.</p>
+          <img src="images/trove/user2.png" alt="user persona image" class="center">
+          <p>The second user persona represents a busy mom, who has several schedules that she needs to coordinate. This user also wants to be able to change
+            profiles within any app to make appointments and check on messages for her children. </p>
+          <img src="images/trove/user1.png" alt="user persona image" class="center">
+          <p>The third user persona is an older male. This user would like to be able to integrate
+             the information from his weekly exercises into his medical app.</p>
+          <img src="images/trove/user1.png" alt="user persona image" class="center">
+         </section>
+    <!-- user stories -->
+    <section>
+      <h2>Information Architecture:</h2>
+      <p>The user stories were created by gathering data from the user survey responses, the competitive analysis and the user personas.
+        I compiled a list of tasks that MedChat users would want to complete and rated them from high to low priority.
+        I used the high and medium priority level user
+        stories as guides to create the user flows and the wireframes of the application. </p>
+      <img src="images/trove/userstories.png" alt="user stories image" class="center">
+      <a href="https://drive.google.com/open?id=1S1gUj6Uu6P7MTHY5k8NGzSel-ztqAYu9XA4h4HjIeaM" target="_blank" class="button">View more</a>
+     </section>
+    <div class="userflow">
+  <!-- user flows-->
+      <h2>User Flows:</h2>
+      <p>I created three user flows for the application:</p>
+        <ol>
+        <li>Process for logging in</li>
+        <li>Process for signing up</li>
+        <li>rocess for sending messages</li>
+        <li>Process for making an appointments</li>
+        <li>Process for checking test results</li>
+        </ol>
+        <br>
+        <img src="images/trove/userflow1.png" alt="user flows image" class="user">
+        <img src="images/trove/userflow2.png" alt="user flows image" class="user">
+        <img src="images/trove/userflow3.png" alt="user flows image" class="user">
+          </div>
+    <div>
+  <!-- wireframe -->
+  <section class="wireframes">
+    <h2>Sketches and Wireframes:</h2>
+    <p>Combining information from my competitive analysis and my user surveys, I was able to outline what I would like my application to look like. </p>
+    <img src="images/trove/trove_sketch1.jpg" alt="wireframe image" class="wireframeimage">
+    <img src="images/trove/trove_sketch2.jpg" alt="wireframe image" class="wireframeimage">
+    <img src="images/trove/wireframe2.png" alt="wireframe image" class="wireframeimage">
+    <a href="https://invis.io/4UWRY15XM9Q" target="_blank" class="button">View more</a>
+     </section>
+  <!-- preference testing -->
+     <section>
+       <h2>Preference Tests:</h2>
+       <p>I conducted a preference test for three different elements in my design.
+         The first element was the background color for the log-in screen.The feedback that I recieved was that users preferred
+         a neutral background to a white background.
+         Users also preferred a Cinzel Decorative/Muli font pairing.
+         Finally, users preferred wider width CTA buttons on the login and sign up pages.</p>
+
+       <img src="images/trove/surveygraph.png" alt="preference graph" class="graph">
+         <p>83% of user preferred a the log-in screen with a neutral background compared to a log-in screen with a colored background.</p>
+       </section>
+   <!-- branding-->
+  <section>
+    <h2>Branding and Identity:</h2>
+    <p>The overall style of MedChat is one that projects reliability, trustworthiness, and friendliness. As a patient-facing application,
+      we want consumers to feel comfortable while using our product. The first logo that I designed was an attempt to use the “M”
+      initial as the focal point of the logo. The second one I wanted to play off the fact that this was going to be primarily a messaging application,
+      and I wanted that reflected in the branding.
+      The third logo was a more abstract take on the messenger concept.  </p>
+    <img src="images/trove/trovesketch.png" alt="trove sketches" class="sketch">
+    <p>After receiving feedback, I decided to go with my second sketch.The base color used in most of MedChat’s products
+      is Sacred Blue (#049DD9). This blue can be used in various shades. This color is accented by a strong royal blue, called Patient Purple (#0D2EDF).
+       These colors convey a sense of calm and trustworthiness throughout the product.</p>
+    <img src="images/trove/moodboard1.png" alt="trove moodboard" class="mood">
+    <img src="images/trove/moodboard2.png" alt="trove moodboard" class="mood">
+     </section>
+  <!-- usability tests-->
+  <section>
+    <h2>Usability Tests:</h2>
+    <p>The first round of usability tests I ran provided valuable feedback about the overall functionality of the website. I conducted this test with three users.
+       Users said they would like to see where/how to add new templates, and if there are any more ways to move files aside from deleting them.
+       Also, a reviewer suggested combining the landing page, pricing into a single page. </p>
+    </section>
+ <!-- high-fidelity mockups-->
+  <section class="mockups">
+    <h2>Mockups:</h2>
+    <p>After the feedback from the usability tests, I was able to create high fidelity mockups of my final application.</p>
+    <img src="images/trove/mockup1.png" alt="mockup image" class="mockupimage">
+    <a href="https://invis.io/NCW1U5L2J8B" target="_blank" class="button">View more</a>
+     </section>
+
+  <!-- final project -->
+  <section>
+    <h2>Final Design:</h2>
+    <br>
+    <img src="images/trove/landingpage.png" alt="trove landing page" class="trove_landing">
+    <a href="https://invis.io/WDW7L578ZBC" target="_blank" class="button">View prototype</a>
+  </section>
+  <!-- conclusion -->
+  <section>
+    <h2>Conclusion:</h2>
+    <p>Medchat offers users an intuitive application experience and provides an alternative to overcrowded and confusing homepages.
+      Medchat presents an opportunity for providers and patients to benefit from easier communication. </p>
+    </section>
+  </div>
+    <!-- connect with me -->
+      <section class="connect">
+        <br>
+        <br>
+        <br>
+        <br>
+         <h3>Let's Connect</h3>
+         <p>Please reach out if you want to chat or have any questions!</p>
+         <a href="/contact.html" class="button">Message me</a>
+       </section>
+       <!-- footer -->
+         <footer class="footer">
+           <ul class="socialmedia">
+            <li><a href="/contact.html" target="_blank"><i class="fas fa-envelope-square fa-2x"></i></a></li>
+            <li><a href="https://github.com/IRRicks" target="_blank"><i class="fab fa-github-square fa-2x"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/imani-ricks/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
+            <li><a href="https://dribbble.com/RRicks" target="_blank"><i class="fab fa-dribbble-square fa-2x"></i></a></li>
+           </ul>
+           <p>Designed and Developed by Imani Ricks 2020</p>
+         </footer>
+       </div>
+       <!-- button on scroll -->
+           <script>
+           //Get the button
+           var mybutton = document.getElementById("myBtn");
+
+           // When the user scrolls down 20px from the top of the document, show the button
+           window.onscroll = function() {scrollFunction()};
+
+           function scrollFunction() {
+             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+               mybutton.style.display = "block";
+             } else {
+               mybutton.style.display = "none";
+             }
+           }
+
+           // When the user clicks on the button, scroll to the top of the document
+           function topFunction() {
+             document.body.scrollTop = 0;
+             document.documentElement.scrollTop = 0;
+           }
+           </script>
+
+ </body>
+
+</html>

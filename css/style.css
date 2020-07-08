@@ -799,6 +799,25 @@ footer p {
     justify-content: center;
     align-items: center;
   }
+
+
+  .myinfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .info_content p {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   line-height: 150%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin: 10px 10px;
+ }
+
    /* navigation bar */
    .navbar {
      background-color: #FFF2ED;
@@ -1027,6 +1046,23 @@ footer p {
     justify-content: center;
     align-items: center;
   }
+
+ .myinfo {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+ }
+
+.info_content p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px 10px;
+}
 
    /* navigation bar */
    .navbar {
