@@ -132,11 +132,11 @@ nav a:hover {
    z-index: 99;
    border: none;
    outline: none;
-   background-color: black;
+   background-color: #999;
    color: white;
    cursor: pointer;
-   padding: 15px;
-   border-radius: 10px;
+   padding: 10px;
+   border-radius: 5px;
  }
 
  #myBtn:hover {
@@ -209,7 +209,7 @@ nav a:hover {
       padding: 14px 25px;
       text-align: center;
       text-decoration: none;
-    }  
+    }
 
 
 
