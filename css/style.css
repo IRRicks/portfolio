@@ -567,6 +567,12 @@ nav a:hover {
       padding: 5px;
     }
 
+    .tools {
+      display: flex;
+      margin-bottom: 50px;
+      flex-wrap: wrap;
+  }
+
 .aboutmemain  a:link, a:visited {
       display: block;
       border: 2px solid;
@@ -898,6 +904,12 @@ footer p {
      margin-left: 20px;
      padding: 5px;
    }
+
+  .tools {
+    display: flex;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
 
    .me {
      height: auto;
