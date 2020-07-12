@@ -438,13 +438,13 @@ nav a:hover {
     }
 
 .busmockupimage {
-      width: 50%;
+      width: 40%;
     }
 
-.busfinal {
-      width: 50%;
-    }
 
+.busystyle img{
+    width: 100%;
+}
 
     /*trove project*/
 
