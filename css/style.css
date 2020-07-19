@@ -55,8 +55,15 @@ h5 {
   z-index: 1;
 }
 
+#logo  {
+  float: left;
+  margin: 10px 0px 10px 10px;
+  object-fit: contain;
+  width: 4%;
+}
 
-#work {
+
+.navbarlinks a:link, a:visited {
   color: black;
   display: inline-block;
   float: right;
@@ -66,14 +73,8 @@ h5 {
   text-decoration: none;
 }
 
- #about_me {
-  color: black;
-  display: inline-block;
-  float: right;
-  margin: 10px 10px;
-  padding: 14px 20px;
-  text-align: center;
-  text-decoration: none;
+.navbarlinks :hover, a:active {
+  background-color: #ffd3c2;
 }
 
 #contact_nav {
@@ -87,19 +88,6 @@ h5 {
   text-align: center;
   text-decoration: none;
 
-}
-
-#logo  {
-  float: left;
-  margin: 10px 0px 10px 10px;
-  object-fit: contain;
-  width: 4%;
-}
-
-
-nav a:hover {
-  background-color: #FFF2ED;
-  color: black;
 }
 
 /*hero */
@@ -142,6 +130,9 @@ nav a:hover {
  #myBtn:hover {
    background-color: #555;
  }
+
+
+
 /* main */
 .main h3 {
    text-align: center;
@@ -152,10 +143,11 @@ nav a:hover {
 .main p {
  font-family: 'Montserrat', sans-serif;
  font-size: 20px;
- line-height: 150%;
+ line-height: 180%;
  padding-top: 10px;
  padding-bottom: 10px;
  margin: 10px auto;
+ width: 600px;
 }
 
 .main {
@@ -181,6 +173,10 @@ nav a:hover {
  width: 80%;
 }
 
+.designpic a:hover, a:active  {
+  opacity: 0.5;
+}
+
 .myinfo {
   display: flex;
   flex-direction: row;
@@ -190,8 +186,7 @@ nav a:hover {
 }
 
 .myinfo img {
-  width: 90%;
-  opacity: 90%;
+  width: 80%;
   border-radius: 10px;
 
 }
@@ -211,7 +206,9 @@ nav a:hover {
       text-decoration: none;
     }
 
-
+  .info_content  a:hover, a:active {
+     background-color: #ffd3c2;
+   }
 
 
 /* end */
@@ -587,6 +584,10 @@ nav a:hover {
       text-align: center;
       text-decoration: none;
         }
+
+.aboutmemain  a:hover, a:active {
+  background-color: #ffd3c2;
+}
 /* connect */
 .connect p {
       font-family: 'Montserrat', sans-serif;
@@ -618,6 +619,9 @@ nav a:hover {
       margin: 10px;
     }
 
+.connect  a:hover, a:active {
+  background-color: #ffd3c2;
+}
 
 
 /* contact forms */
@@ -748,25 +752,23 @@ footer ul{
     justify-content: center;
 }
 
-footer li{
-    display: inline-block;
-    list-style-type: none;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 5px;
-  }
-
 footer p {
     font-size: 10px;
     text-align: center;
   }
 
-
-.fa-envelope-square {
-    color: black;
+.footer a:link, a:visited {
+      color: black;
+      display: inline-block;
+      list-style-type: none;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 25px;
     }
 
-
+.footer a:hover, a:active {
+      color: #ffd3c2;
+    }
 
 @media only screen and (max-width: 600px) {
 
@@ -798,6 +800,13 @@ footer p {
      font-size: 2vh;
    }
 
+
+
+   .navbarlinks :hover, a:active {
+     background-color: #ffd3c2;
+   }
+
+
    .projects {
     display: flex;
     flex-direction: row;
@@ -822,6 +831,7 @@ footer p {
    padding-top: 10px;
    padding-bottom: 10px;
    margin: 10px 10px;
+   width: 300px;
  }
 
    /* navigation bar */
@@ -996,28 +1006,20 @@ footer p {
       width: 500px;
     }
 
-   /* footer section */
-
-
-   .fa-envelope-square {
-       color: black;
-       }
-
-
-   .fa-github-square {
-     color: black;
-   }
-
-   .fa-linkedin {
-     color: black;
-   }
-
-   .fa-dribbble-square {
-     color: black;
-   }
-
-
-
+    .connect p {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 16px;
+          line-height: 150%;
+          padding: 10px 10px;
+          width: 200px;
+        }
+.footer p {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 12px;
+          line-height: 150%;
+          padding: 10px 10px;
+          width: 200px;
+          }
 }
 
 
@@ -1051,6 +1053,14 @@ footer p {
      font-size: 3vh;
    }
 
+
+
+   .navbarlinks :hover, a:active {
+     background-color: #ffd3c2;
+   }
+
+
+
    .projects {
     display: flex;
     flex-direction: row;
@@ -1074,6 +1084,7 @@ footer p {
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 10px 10px;
+  width: 300px;
 }
 
    /* navigation bar */
@@ -1256,26 +1267,20 @@ footer p {
       width: 300px;
     }
 
-   /* footer section */
+.connect p {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 16px;
+          line-height: 150%;
+          padding: 10px 10px;
+          width: 200px;
+        }
 
-
-   .fa-envelope-square {
-       color: black;
-       }
-
-
-   .fa-github-square {
-     color: black;
-   }
-
-   .fa-linkedin {
-     color: black;
-   }
-
-   .fa-dribbble-square {
-     color: black;
-   }
-
-
+.footer p {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 12px;
+          line-height: 150%;
+          padding: 10px 10px;
+          width: 200px;
+        }
 
 }
