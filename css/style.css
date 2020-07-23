@@ -159,6 +159,7 @@ h5 {
 .projects {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .design_process {
   margin-left: auto;
@@ -357,6 +358,9 @@ h5 {
 .projecthero {
       background-color: white;
       text-align: center;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
 .projecthero a:link, a:visited {
@@ -504,7 +508,7 @@ h5 {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 40%;
+      width: 50%;
     }
 
 .trove_landing {
@@ -513,7 +517,11 @@ h5 {
       margin-right: auto;
       width: 70%;
   }
+/* medchat */
 
+.medchatmockup {
+  width: 100%;
+}
 
 /* about me */
 
@@ -1011,14 +1019,14 @@ footer p {
           font-size: 16px;
           line-height: 150%;
           padding: 10px 10px;
-          width: 200px;
+        
         }
 .footer p {
           font-family: 'Montserrat', sans-serif;
           font-size: 12px;
           line-height: 150%;
           padding: 10px 10px;
-          width: 200px;
+
           }
 }
 
@@ -1272,7 +1280,7 @@ footer p {
           font-size: 16px;
           line-height: 150%;
           padding: 10px 10px;
-          width: 200px;
+
         }
 
 .footer p {
@@ -1280,7 +1288,7 @@ footer p {
           font-size: 12px;
           line-height: 150%;
           padding: 10px 10px;
-          width: 200px;
+
         }
 
 }
