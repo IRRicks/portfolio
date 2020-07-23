@@ -147,7 +147,7 @@ h5 {
  padding-top: 10px;
  padding-bottom: 10px;
  margin: 10px auto;
- width: 600px;
+
 }
 
 .main {
@@ -521,6 +521,10 @@ h5 {
 
 .medchatmockup {
   width: 100%;
+}
+
+.medchatsketch {
+  width: 70%;
 }
 
 /* about me */
@@ -1019,7 +1023,7 @@ footer p {
           font-size: 16px;
           line-height: 150%;
           padding: 10px 10px;
-        
+
         }
 .footer p {
           font-family: 'Montserrat', sans-serif;
