@@ -57,17 +57,16 @@ h5 {
 
 #logo  {
   float: left;
-  margin: 10px 0px 10px 10px;
+  margin: 40px 0px 10px 50px;
   object-fit: contain;
-  width: 4%;
+  width: 3%;
 }
-
 
 .navbarlinks a:link, a:visited {
   color: black;
   display: inline-block;
   float: right;
-  margin: 10px 10px;
+  margin: 40px 10px 10px 10px;
   padding: 14px 20px;
   text-align: center;
   text-decoration: none;
@@ -78,16 +77,14 @@ h5 {
 }
 
 #contact_nav {
-
   display: inline-block;
   border: 2px solid;
   color: black;
   float: right;
   padding: 14px 25px;
-  margin: 10px 10px;
+  margin: 40px 50px 0px 10px;
   text-align: center;
   text-decoration: none;
-
 }
 
 /*hero */
@@ -98,6 +95,8 @@ h5 {
    text-align: center;
    width: 100%;
  }
+
+
 
 .hero p {
    font-family: 'Montserrat', sans-serif;
@@ -188,7 +187,7 @@ h5 {
 
 .myinfo img {
   width: 80%;
-  border-radius: 10px;
+
 
 }
 
@@ -211,6 +210,9 @@ h5 {
      background-color: #ffd3c2;
    }
 
+   .highlight {
+     background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFD0AE 50%);
+   }
 
 /* end */
 
@@ -425,6 +427,8 @@ h5 {
 .project_content {
     margin: 60px;
 }
+
+
     /* busy bus project */
 .bususer {
       width: 90%;
@@ -813,11 +817,19 @@ footer p {
    }
 
 
+   .navbarlinks a:link, a:visited {
+     color: black;
+     display: inline-block;
+     float: right;
+     margin: 40px 10px 10px 10px;
+     padding: 14px 20px;
+     text-align: center;
+     text-decoration: none;
+   }
 
    .navbarlinks :hover, a:active {
      background-color: #ffd3c2;
    }
-
 
    .projects {
     display: flex;
@@ -863,7 +875,7 @@ footer p {
      color: black;
      display: inline-block;
      float: right;
-     margin: 5px 5px;
+     margin: 20px 20px 5px 5px;
      padding: 10px 5px;
      text-align: center;
      text-decoration: none;
@@ -873,7 +885,7 @@ footer p {
      color: black;
      display: inline-block;
      float: right;
-     margin: 5px 5px;
+     margin: 20px 20px 5px 5px;
      padding: 10px 5px;
      text-align: center;
      text-decoration: none;
@@ -884,7 +896,7 @@ footer p {
      display: inline-block;
      float: right;
      padding: 10px 5px;
-     margin: 5px 5px;
+     margin: 20px 20px 5px 5px;
      text-align: center;
      text-decoration: none;
    }
@@ -892,7 +904,7 @@ footer p {
 
    #logo  {
      float: left;
-     margin: 5px 0px 5px 5px;
+     margin:  20px 0px 5px 20px;
      object-fit: contain;
      width: 6%;
    }
@@ -1065,14 +1077,6 @@ footer p {
      font-size: 3vh;
    }
 
-
-
-   .navbarlinks :hover, a:active {
-     background-color: #ffd3c2;
-   }
-
-
-
    .projects {
     display: flex;
     flex-direction: row;
@@ -1099,6 +1103,14 @@ footer p {
   width: 300px;
 }
 
+.design_process p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px 10px;
+}
    /* navigation bar */
    .navbar {
      background-color: #FFF2ED;
@@ -1116,7 +1128,7 @@ footer p {
      color: black;
      display: inline-block;
      float: right;
-     margin: 5px 5px;
+     margin: 20px 20px 5px 5px;
      padding: 10px 5px;
      text-align: center;
      text-decoration: none;
@@ -1126,7 +1138,7 @@ footer p {
      color: black;
      display: inline-block;
      float: right;
-     margin: 5px 5px;
+     margin: 20px 20px 5px 5px;
      padding: 10px 5px;
      text-align: center;
      text-decoration: none;
@@ -1137,7 +1149,7 @@ footer p {
      display: inline-block;
      float: right;
      padding: 10px 5px;
-     margin: 5px 5px;
+     margin: 20px 20px 5px 5px;
      text-align: center;
      text-decoration: none;
    }
@@ -1145,13 +1157,13 @@ footer p {
 
    #logo  {
      float: left;
-     margin: 10px 0px 5px 5px;
+     margin: 20px 0px 5px 20px;
      object-fit: contain;
      width: 7%;
    }
 
 
-
+.
 
  /* about me */
  h2 {
