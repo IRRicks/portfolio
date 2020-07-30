@@ -420,7 +420,7 @@ h5 {
 
 .projectmain p {
       font-family: 'Montserrat', sans-serif;
-      font-size: 2vh;
+      font-size: 20px;
       margin: 40px;
       line-height: 150%;
     }
@@ -446,7 +446,7 @@ h5 {
     }
 
 .busprototype2 {
-      width: 100%;
+      width: 90%;
     }
 
 .busmockupimage {
@@ -809,7 +809,7 @@ footer p {
    }
 
    .fa-angle-double-down {
-     margin-top: 110px;
+     margin-top: 50px;
    }
 
 
@@ -1079,7 +1079,7 @@ footer p {
    }
 
    .fa-angle-double-down {
-     margin-top: 110px;
+     margin-top: 50px;
    }
 
 
