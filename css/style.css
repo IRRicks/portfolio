@@ -10,7 +10,7 @@ body {
 }
 
 h1{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', serif;
   font-weight: bold;
   font-size: 12vh;
   margin-top: 200px;
@@ -53,6 +53,7 @@ h5 {
   padding: 0;
   width: 100%;
   z-index: 1;
+  opacity: 0.7;
 }
 
 #logo  {
@@ -66,14 +67,14 @@ h5 {
   color: black;
   display: inline-block;
   float: right;
-  margin: 40px 10px 10px 10px;
+  margin: 30px 10px 20px 10px;
   padding: 14px 20px;
   text-align: center;
   text-decoration: none;
 }
 
 .navbarlinks :hover, a:active {
-  background-color: #ffd3c2;
+  background-color: #f9b0c7;
 }
 
 #contact_nav {
@@ -82,7 +83,7 @@ h5 {
   color: black;
   float: right;
   padding: 14px 25px;
-  margin: 40px 50px 0px 10px;
+  margin: 30px 50px 20px 10px;
   text-align: center;
   text-decoration: none;
 }
@@ -102,10 +103,10 @@ h5 {
    font-family: 'Montserrat', sans-serif;
    font-size: 3vh;
    line-height: 150%;
-   letter-spacing: 3px;
    margin-left: auto;
    margin-right: auto;
-   width: 800px;
+   margin-top: 20px;
+   max-width: 700px;
 
  }
 
@@ -155,6 +156,10 @@ h5 {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.main img:hover {
+  opacity: 0.5;
 }
 
 .projects {
@@ -213,7 +218,7 @@ h5 {
    }
 
    .highlight {
-     background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFD0AE 50%);
+     background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #f9b0c7 50%);
    }
 
 /* end */
@@ -638,7 +643,7 @@ h5 {
     }
 
 .connect  a:hover, a:active {
-  background-color: #ffd3c2;
+  background-color: #f9b0c7;
 }
 
 
@@ -785,7 +790,7 @@ footer p {
     }
 
 .footer a:hover, a:active {
-      color: #ffd3c2;
+      color: #f9b0c7;
     }
 
 @media only screen and (max-width: 600px) {
