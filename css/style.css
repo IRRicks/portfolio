@@ -59,7 +59,7 @@ h5 {
 
 #logo  {
   float: left;
-  margin: 40px 0px 10px 50px;
+  margin: 40px 0px 10px 230px;
   object-fit: contain;
   width: 3%;
 }
@@ -84,7 +84,7 @@ h5 {
   color: black;
   float: right;
   padding: 10px 20px;
-  margin: 30px 50px 20px 10px;
+  margin: 30px 270px 20px 10px;
   text-align: center;
 }
 
@@ -92,7 +92,8 @@ h5 {
 .welcome {
   max-width: 800px;
   text-align: left;
-  margin: 50px;
+  margin-left:230px;
+  margin-right: 150px;
 }
 
 
@@ -724,15 +725,16 @@ footer p {
 
   /* index page */
   .hero {
-     background-color: #FFF2ED;
-     height: 450px;
-     text-align: center;
-
+     height: 400px;
    }
 
-   .fa-angle-double-down {
-     margin-top: 10px;
+   .welcome {
+     margin-left: auto;
+     margin-right: auto;
+    float: left;
    }
+
+
 
 
 
@@ -996,11 +998,17 @@ footer p {
 
   /* index page */
   .hero {
-     background-color: white;
-     height: 450px;
-     text-align: center;
-
+     height: 400px;
    }
+
+   .welcome {
+     max-width: 700px;
+     margin-left: auto;
+     margin-right: auto;
+    float: left;
+   }
+
+
 
    .fa-angle-double-down {
      margin-top: 10px;
