@@ -169,55 +169,6 @@ h5 {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.design_process {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.designpic img {
-  display: block;
- margin-top: 20px;
- margin-left: auto;
- margin-right: auto;
- width: 80%;
-}
-
-.designpic a:hover, a:active  {
-  opacity: 0.5;
-}
-
-.myinfo {
-  display: flex;
-  flex-direction: row;
-  margin-top: 40px;
-  margin-bottom: 40px;
-
-}
-
-.myinfo img {
-  width: 80%;
-
-
-}
-
-.info_content a:link, a:visited {
-      display: block;
-      border: 2px solid;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 30px;
-      margin-bottom: 30px;
-      width: 200px;
-      color: black;
-      font-size: 18px;
-      padding: 14px 25px;
-      text-align: center;
-      text-decoration: none;
-    }
-
-  .info_content  a:hover, a:active {
-     background-color: #ffd3c2;
-   }
 
    .highlight {
      background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFB2E0 50%);
@@ -472,25 +423,13 @@ h5 {
       padding: 20px;
     }
 
-.skills li {
-      margin-left: 20px;
-      padding: 5px;
-    }
 
-.tools {
-      display: flex;
-      margin-bottom: 50px;
-}
-
-.things {
-      display: flex;
-}
 .tools li {
       margin-left: 20px;
       padding: 5px;
     }
 
-    .tools {
+.tools {
       display: flex;
       margin-bottom: 50px;
       flex-wrap: wrap;
@@ -526,6 +465,8 @@ h5 {
   text-align: center;
   text-decoration: none;
 }
+
+
 /* connect */
 .connect p {
       font-family: 'Nunito', Arial, Helvetica, sans-serif;
@@ -541,7 +482,6 @@ h5 {
      padding: 10px 10px;
 }
 .connect {
-      background-color: white;
       text-align: center;
       height: 300px;
     }
@@ -771,23 +711,6 @@ footer p {
   }
 
 
-  .myinfo {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-
- .info_content p {
-   font-family: 'Nunito', Arial, Helvetica, sans-serif;
-   font-size: 16px;
-   line-height: 150%;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   margin: 10px 10px;
-   width: 300px;
- }
 
    /* navigation bar */
    .navbar {
@@ -936,28 +859,6 @@ footer p {
     height:70%;
   }
 
-   /* design section */
-   .design_process {
-     background-color: #FCFCFC;
-     text-align: center;
-     margin-top: 30px;
-   }
-
-   .design {
-     width: 80%;
-   }
-
-
-   .design_process p {
-     font-family: 'Nunito', Arial, Helvetica, sans-serif;
-   font-size: 16px;
-   line-height: 150%;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   width: 300px;
-   text-align: left;
-   }
-
 
    /*contact me */
 
@@ -1032,33 +933,7 @@ footer p {
     align-items: center;
   }
 
- .myinfo {
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
- }
 
-.info_content p {
-  font-family: 'Nunito', Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 150%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 10px 10px;
-  width: 300px;
-}
-
-.design_process p {
-  font-family: 'Nunito', Arial, Helvetica, sans-serif;
-font-size: 16px;
-line-height: 150%;
-padding-top: 10px;
-padding-bottom: 10px;
-width: 300px;
-text-align: left;
-}
    /* navigation bar */
    .navbar {
      background-color: white;
@@ -1135,10 +1010,7 @@ text-align: left;
      width: 70%;
    }
 
-   .skills li {
-      margin-left: 20px;
-      padding: 5px;
-     }
+
 
    .tools li {
      margin-left: 20px;
@@ -1214,16 +1086,7 @@ text-align: left;
     width: 80%;
   }
 
-   /* design section */
-   .design_process {
-     background-color: #FCFCFC;
-     text-align: center;
-     margin-top: 30px;
-   }
 
-   .design {
-     width: 90%;
-   }
 /*contact me */
 
 
