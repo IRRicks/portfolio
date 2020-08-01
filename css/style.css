@@ -66,7 +66,7 @@ h5 {
 
 .navbarlinks a:link, a:visited {
   color: black;
-  display: inline-block;
+  display: block;
   float: right;
   margin: 30px 10px 20px 10px;
   padding: 10px 20px;
@@ -77,6 +77,15 @@ h5 {
 
 .navbarlinks a:hover, a:active {
   border-bottom: 3px solid #FFB2E0;
+  color: black;
+  background-color: white;
+  display: block;
+  float: right;
+  margin: 30px 10px 20px 10px;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 #contact_nav {
@@ -700,6 +709,13 @@ footer p {
 
    .navbarlinks a:hover, a:active {
      border-bottom: 3px solid #FFB2E0;
+     color: black;
+     display: inline-block;
+     float: right;
+     margin: 40px 10px 10px 10px;
+     padding: 14px 20px;
+     text-align: center;
+     text-decoration: none;
    }
 
    .projects {
@@ -779,7 +795,6 @@ footer p {
      margin-right: auto;
      line-height: 167%;
      padding: 20px;
-     background-color: #FFF2ED;
      width: 70%;
    }
 
@@ -816,10 +831,9 @@ footer p {
 
   .center {
     display: block;
-    height: 70%;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 100%;
   }
 
   .side {
