@@ -59,7 +59,7 @@ h5 {
   text-decoration: none;
 }
 
-.navbarlinks a:link, a:visited {
+.navbarlinks a:link {
   color: black;
   display: inline-block;
   float: right;
@@ -70,7 +70,23 @@ h5 {
   text-decoration: none;
 }
 
-.navbarlinks a:hover, a:active {
+.navbar a:visited {
+ color: black;
+ display: inline-block;
+ float: right;
+ margin: 40px 10px 20px 10px;
+ padding: 10px 20px;
+ text-align: center;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+.navbarlinks a:hover {
+  border-bottom: 3px solid #FFB2E0;
+
+}
+
+.navbarlinks a:active {
   border-bottom: 3px solid #FFB2E0;
 
 }
@@ -83,15 +99,6 @@ h5 {
   object-fit: contain;
 }
 
-#work {
-  display: inline-block;
-  padding: 10px 20px;
-}
-
- #about_me {
-  display: inline-block;
-  padding: 10px 20px;
-}
 
 #contact_nav {
   display: inline-block;
@@ -196,7 +203,7 @@ h5 {
 .projecthero {
       background-color: white;
       text-align: center;
-      max-width: 700px;
+      max-width: 1000px;
       margin-left: auto;
       margin-right: auto;
     }
@@ -243,7 +250,7 @@ h5 {
 
       margin-right: auto;
       margin-left: auto;
-      max-width: 700px;
+      max-width: 1000px;
     }
 
 .projectmain a:link, a:visited {
@@ -295,6 +302,12 @@ h5 {
       margin-bottom: 100px;
     }
 
+.projectmain iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
 .project_content {
     margin: 60px;
 }
@@ -339,6 +352,12 @@ h5 {
       padding: 10px;
       width: 30%;
     }
+
+.troveuser {
+  float: left;
+  padding: 10px 35px;
+  width: 40%;
+}
 
 .user {
       float: left;
@@ -687,10 +706,6 @@ footer p {
     float: left;
    }
 
-
-
-
-
    h1 {
      font-size: 5vh;
      margin-top: 50px;
@@ -698,28 +713,6 @@ footer p {
 
    .hero p {
      font-size: 2vh;
-   }
-
-
-   .navbarlinks a:link, a:visited {
-     color: black;
-     display: inline-block;
-     float: right;
-     margin: 40px 10px 10px 10px;
-     padding: 14px 20px;
-     text-align: center;
-     text-decoration: none;
-   }
-
-   .navbarlinks a:hover, a:active {
-     border-bottom: 3px solid #FFB2E0;
-     color: black;
-     display: inline-block;
-     float: right;
-     margin: 40px 10px 10px 10px;
-     padding: 14px 20px;
-     text-align: center;
-     text-decoration: none;
    }
 
    .projects {
@@ -730,62 +723,63 @@ footer p {
     align-items: center;
   }
 
+  /* navigation bar */
+  .navbar {
+    list-style-type: none;
+    overflow: hidden;
+    position:fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+    text-decoration: none;
+  }
+
+  .navbarlinks a:link, a:visited {
+    color: black;
+    display: inline-block;
+    float: right;
+    margin: 40px 10px 10px 10px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .navbarlinks a:hover, a:active {
+    border-bottom: 3px solid #FFB2E0;
+
+  }
+
+  #logo  {
+    display: inline-block;
+    float: left;
+    margin: 20px 0px 5px 20px;
+    width: 6%;
+    object-fit: contain;
+  }
+
+  #work {
+    display: inline-block;
+    padding: 10px 5px;
+  }
+
+   #about_me {
+    display: inline-block;
+    padding: 10px 5px;
+  }
+
+  #contact_nav {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 20px 5px 5px;
+  }
 
 
-   /* navigation bar */
-   .navbar {
-     background-color: #FFF2ED;
-     list-style-type: none;
-     margin: 0;
-     overflow: hidden;
-     position:fixed;
-     padding: 0;
-     width: 100%;
-     z-index: 1;
-   }
-
-
-   #work {
-     color: black;
-     display: inline-block;
-     float: right;
-     margin: 20px 20px 5px 5px;
-     padding: 10px 5px;
-     text-align: center;
-     text-decoration: none;
-   }
-
-    #about_me {
-     color: black;
-     display: inline-block;
-     float: right;
-     margin: 20px 20px 5px 5px;
-     padding: 10px 5px;
-     text-align: center;
-     text-decoration: none;
-   }
-
-   #contact_nav {
-     color: black;
-     display: inline-block;
-     float: right;
-     padding: 10px 5px;
-     margin: 20px 20px 5px 5px;
-     text-align: center;
-     text-decoration: none;
-   }
-
-
-   #logo  {
-     float: left;
-     margin:  20px 0px 5px 20px;
-     object-fit: contain;
-     width: 6%;
-   }
-
-
-
-
+  .fa-angle-down  {
+    margin-top: 10px;
+  }
  /* about me */
  .aboutmehero {
        background-color: white;
@@ -929,7 +923,7 @@ footer p {
 
 
 
-   .fa-angle-double-down {
+   .fa-angle-down  {
      margin-top: 10px;
    }
 
@@ -952,56 +946,60 @@ footer p {
   }
 
 
-   /* navigation bar */
-   .navbar {
-     background-color: white;
-     list-style-type: none;
-     margin: 0;
-     overflow: hidden;
-     position:fixed;
-     padding: 0;
-     width: 100%;
-     z-index: 1;
-   }
+  /* navigation bar */
+  .navbar {
+    list-style-type: none;
+    overflow: hidden;
+    position:fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+    text-decoration: none;
+  }
 
+  .navbarlinks a:link, a:visited {
+    color: black;
+    display: inline-block;
+    float: right;
+    margin: 40px 10px 10px 10px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+  }
 
-   #work {
-     color: black;
-     display: inline-block;
-     float: right;
-     margin: 20px 20px 5px 5px;
-     padding: 10px 5px;
-     text-align: center;
-     text-decoration: none;
-   }
+  .navbarlinks a:hover, a:active {
+    border-bottom: 3px solid #FFB2E0;
 
-    #about_me {
-     color: black;
-     display: inline-block;
-     float: right;
-     margin: 20px 20px 5px 5px;
-     padding: 10px 5px;
-     text-align: center;
-     text-decoration: none;
-   }
+  }
 
-   #contact_nav {
-     color: black;
-     display: inline-block;
-     float: right;
-     padding: 10px 5px;
-     margin: 20px 20px 5px 5px;
-     text-align: center;
-     text-decoration: none;
-   }
+  #logo  {
+    display: inline-block;
+    float: left;
+    margin: 40px 0px 5px 20px;
+    width: 6%;
+    object-fit: contain;
+  }
 
+  #work {
+    display: inline-block;
+    padding: 10px 5px;
+  }
 
-   #logo  {
-     float: left;
-     margin: 20px 0px 5px 20px;
-     object-fit: contain;
-     width: 7%;
-   }
+   #about_me {
+    display: inline-block;
+    padding: 10px 5px;
+
+  }
+
+  #contact_nav {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 40px 20px 5px 5px;
+  }
+
 
  /* about me */
  h2 {
