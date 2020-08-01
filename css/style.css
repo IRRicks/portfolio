@@ -44,12 +44,14 @@ h5 {
   line-height: 150%;
   padding: 15px 0px;
 }
+
+
 /* navigation bar */
 .navbar {
   list-style-type: none;
-  margin: 0;
   overflow: hidden;
   position:fixed;
+  margin: 0;
   padding: 0;
   width: 100%;
   z-index: 2;
@@ -57,18 +59,11 @@ h5 {
   text-decoration: none;
 }
 
-#logo  {
-  float: left;
-  margin: 40px 0px 10px 230px;
-  object-fit: contain;
-  width: 3%;
-}
-
 .navbarlinks a:link, a:visited {
   color: black;
-  display: block;
+  display: inline-block;
   float: right;
-  margin: 30px 10px 20px 10px;
+  margin: 40px 10px 20px 10px;
   padding: 10px 20px;
   text-align: center;
   font-weight: bold;
@@ -77,25 +72,34 @@ h5 {
 
 .navbarlinks a:hover, a:active {
   border-bottom: 3px solid #FFB2E0;
-  color: black;
-  background-color: white;
-  display: block;
-  float: right;
-  margin: 30px 10px 20px 10px;
+
+}
+
+#logo  {
+  display: inline-block;
+  float: left;
+  margin: 40px 0px 10px 50px;
+  width: 3%;
+  object-fit: contain;
+}
+
+#work {
+  display: inline-block;
   padding: 10px 20px;
-  text-align: center;
-  font-weight: bold;
-  text-decoration: none;
+}
+
+ #about_me {
+  display: inline-block;
+  padding: 10px 20px;
 }
 
 #contact_nav {
   display: inline-block;
-  color: black;
-  float: right;
   padding: 10px 20px;
-  margin: 30px 270px 20px 10px;
-  text-align: center;
+  margin: 40px 50px 20px 10px;
 }
+
+
 
 /*hero */
 .welcome {
