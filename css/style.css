@@ -70,7 +70,7 @@ h5 {
   text-decoration: none;
 }
 
-.navbar a:visited {
+.navbarlinks a:visited {
  color: black;
  display: inline-block;
  float: right;
@@ -82,11 +82,27 @@ h5 {
 }
 
 .navbarlinks a:hover {
+  color: black;
+  display: inline-block;
+  float: right;
+  margin: 40px 10px 20px 10px;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
   border-bottom: 3px solid #FFB2E0;
 
 }
 
 .navbarlinks a:active {
+  color: black;
+  display: inline-block;
+  float: right;
+  margin: 40px 10px 20px 10px;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
   border-bottom: 3px solid #FFB2E0;
 
 }
@@ -208,7 +224,18 @@ h5 {
       margin-right: auto;
     }
 
-.projecthero a:link, a:visited {
+.projecthero a:link {
+        border: 2px solid;
+        color: black;
+        display: inline-block;
+        font-size: 18px;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        margin: 10px 60px;
+      }
+
+.projecthero a:visited {
       border: 2px solid;
       color: black;
       display: inline-block;
@@ -219,9 +246,7 @@ h5 {
       margin: 10px 60px;
     }
 
-
-
-.projecthero a:hover, a:active{
+.projecthero a:hover {
    border: 2px solid white;
    color: white;
    background-color: black;
@@ -234,6 +259,17 @@ h5 {
      }
 
 
+.projecthero a:active {
+   border: 2px solid white;
+   color: white;
+   background-color: black;
+   display: inline-block;
+   font-size: 18px;
+   padding: 14px 25px;
+   text-align: center;
+   text-decoration: none;
+   margin: 10px 60px;
+     }
 
 .projecthero p {
       padding: 5px;
@@ -247,13 +283,12 @@ h5 {
 }
 
 .projectmain {
-
       margin-right: auto;
       margin-left: auto;
       max-width: 1000px;
     }
 
-.projectmain a:link, a:visited {
+.projectmain a:link {
       display: block;
       border: 2px solid;
       margin-left: auto;
@@ -268,9 +303,38 @@ h5 {
       text-decoration: none;
     }
 
+.projectmain a:visited {
+      display: block;
+      border: 2px solid;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30px;
+      margin-bottom: 100px;
+      width: 200px;
+      color: black;
+      font-size: 18px;
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: none;
+    }
 
+.projectmain a:hover {
+  display: block;
+  border: 2px solid white;
+  color: white;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  width: 200px;
+  font-size: 18px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  }
 
-.projectmain a:hover, a:active{
+.projectmain a:active {
   display: block;
   border: 2px solid white;
   color: white;
@@ -308,6 +372,7 @@ h5 {
   margin-right: auto;
   margin-bottom: 100px;
 }
+
 .project_content {
     margin: 60px;
 }
@@ -317,6 +382,7 @@ h5 {
 }
 
     /* busy bus project */
+
 .bususer {
       width: 90%;
     }
@@ -332,7 +398,6 @@ h5 {
 .busmockupimage {
       width: 40%;
     }
-
 
 .busystyle img{
     width: 100%;
@@ -354,9 +419,9 @@ h5 {
     }
 
 .troveuser {
-  float: left;
-  padding: 10px 35px;
-  width: 40%;
+      float: left;
+      padding: 10px 35px;
+      width: 40%;
 }
 
 .user {
@@ -467,7 +532,7 @@ h5 {
       flex-wrap: wrap;
   }
 
-.aboutmemain  a:link, a:visited {
+.aboutmemain  a:link {
       display: block;
       border: 2px solid;
       margin-left: auto;
@@ -482,7 +547,38 @@ h5 {
       text-decoration: none;
         }
 
-.aboutmemain  a:hover, a:active {
+.aboutmemain a:visited {
+      display: block;
+      border: 2px solid;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      width: 250px;
+      color: black;
+      font-size: 18px;
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: none;
+        }
+
+.aboutmemain  a:hover {
+  display: block;
+  border: 2px solid white;
+  color: white;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 250px;
+  font-size: 18px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.aboutmemain a:active {
   display: block;
   border: 2px solid white;
   color: white;
@@ -518,7 +614,7 @@ h5 {
       height: 300px;
     }
 
-.connect a:link, a:visited {
+.connect a:link {
       border: 2px solid;
       color: black;
       display: inline-block;
@@ -529,7 +625,30 @@ h5 {
       margin: 10px;
     }
 
-.connect  a:hover, a:active {
+.connect a:visited {
+      border: 2px solid;
+      color: black;
+      display: inline-block;
+      font-size: 2vh;
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: none;
+      margin: 10px;
+    }
+
+.connect  a:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: black;
+  display: inline-block;
+  font-size: 2vh;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.connect a:active {
   border: 2px solid white;
   color: white;
   background-color: black;
@@ -675,7 +794,7 @@ footer p {
     text-align: center;
   }
 
-.footer a:link, a:visited {
+.footer a:link  {
       color: black;
       display: inline-block;
       list-style-type: none;
@@ -684,7 +803,20 @@ footer p {
       padding: 35px;
     }
 
-.footer a:hover, a:active {
+.footer a:visited {
+      color: black;
+      display: inline-block;
+      list-style-type: none;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 35px;
+    }
+
+.footer a:hover {
+      color: #FFB2E0;
+    } 
+
+.footer a:active {
       color: #FFB2E0;
     }
 
@@ -736,7 +868,7 @@ footer p {
     text-decoration: none;
   }
 
-  .navbarlinks a:link, a:visited {
+  .navbarlinks a:link {
     color: black;
     display: inline-block;
     float: right;
@@ -747,9 +879,23 @@ footer p {
     text-decoration: none;
   }
 
-  .navbarlinks a:hover, a:active {
-    border-bottom: 3px solid #FFB2E0;
+  .navbarlinks a:visited {
+    color: black;
+    display: inline-block;
+    float: right;
+    margin: 40px 10px 10px 10px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+  }
 
+  .navbarlinks a:hover {
+    border-bottom: 3px solid #FFB2E0;
+  }
+
+  .navbarlinks a:active {
+    border-bottom: 3px solid #FFB2E0;
   }
 
   #logo  {
@@ -776,11 +922,12 @@ footer p {
     margin: 20px 20px 5px 5px;
   }
 
-
   .fa-angle-down  {
     margin-top: 10px;
   }
+
  /* about me */
+
  .aboutmehero {
        background-color: white;
        height: 500px;
@@ -810,7 +957,7 @@ footer p {
     display: flex;
     margin-bottom: 50px;
     flex-wrap: wrap;
-}
+   }
 
    .me {
      height: auto;
@@ -891,7 +1038,7 @@ footer p {
           padding: 10px 10px;
 
         }
-.footer p {
+    .footer p {
           font-family: 'Nunito', Arial, Helvetica, sans-serif;
           font-size: 12px;
           line-height: 150%;
@@ -921,12 +1068,9 @@ footer p {
     float: left;
    }
 
-
-
    .fa-angle-down  {
      margin-top: 10px;
    }
-
 
    h1 {
      font-size: 7vh;
@@ -959,7 +1103,7 @@ footer p {
     text-decoration: none;
   }
 
-  .navbarlinks a:link, a:visited {
+  .navbarlinks a:link {
     color: black;
     display: inline-block;
     float: right;
@@ -970,9 +1114,23 @@ footer p {
     text-decoration: none;
   }
 
-  .navbarlinks a:hover, a:active {
-    border-bottom: 3px solid #FFB2E0;
+  .navbarlinks a:visited {
+    color: black;
+    display: inline-block;
+    float: right;
+    margin: 40px 10px 10px 10px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+  }
 
+  .navbarlinks a:hover {
+    border-bottom: 3px solid #FFB2E0;
+  }
+
+  .navbarlinks a:active {
+    border-bottom: 3px solid #FFB2E0;
   }
 
   #logo  {
@@ -1025,8 +1183,6 @@ footer p {
      border-left: 4px solid #FFB2E0;
      width: 70%;
    }
-
-
 
    .tools li {
      margin-left: 20px;
@@ -1115,7 +1271,7 @@ footer p {
       width: 300px;
     }
 
-.connect p {
+   .connect p {
           font-family: 'Nunito', Arial, Helvetica, sans-serif;
           font-size: 16px;
           line-height: 150%;
@@ -1123,7 +1279,7 @@ footer p {
 
         }
 
-.footer p {
+   .footer p {
           font-family: 'Nunito', Arial, Helvetica, sans-serif;
           font-size: 12px;
           line-height: 150%;
