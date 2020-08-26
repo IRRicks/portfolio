@@ -107,6 +107,10 @@ h5 {
 
 }
 
+.navbarlinks a.active {
+  border-bottom: 3px solid #FFB2E0;
+}
+
 #logo  {
   display: inline-block;
   float: left;
@@ -814,7 +818,7 @@ footer p {
 
 .footer a:hover {
       color: #FFB2E0;
-    } 
+    }
 
 .footer a:active {
       color: #FFB2E0;
@@ -841,10 +845,13 @@ footer p {
    h1 {
      font-size: 5vh;
      margin-top: 50px;
+     padding-left: 20px;
+     padding-right: 20px;
    }
 
    .hero p {
      font-size: 2vh;
+     padding: 20px;
    }
 
    .projects {
