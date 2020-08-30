@@ -13,11 +13,11 @@ h1{
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 7vh;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 h3 {
-     font-family: 'Nunito', Arial, Helvetica, sans-serif;
+     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
      font-weight: 900;
      font-size: 3vh;
      line-height: 167%;
@@ -30,7 +30,7 @@ h4 {
 }
 
 h2 {
-  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: 3vh;
   line-height: 150%;
   margin: 20px;
@@ -132,7 +132,7 @@ h5 {
 .welcome {
   max-width: 800px;
   text-align: left;
-  margin-left:230px;
+  margin-left:150px;
   margin-right: 150px;
 }
 
