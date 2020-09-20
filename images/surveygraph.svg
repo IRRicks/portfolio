@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="432px" height="186px" viewBox="0 0 432 186" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>surveygraph</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="surveygraph" transform="translate(-1.000000, 2.000000)">
+            <g id="Group" transform="translate(36.000000, 148.000000)" fill="#FFFFFF" fill-opacity="0.87" font-family="Roboto-Medium, Roboto Medium" font-size="17" font-weight="normal" letter-spacing="0.0649305556">
+                <text id="75%">
+                    <tspan x="1.99830729" y="16">75%</tspan>
+                </text>
+            </g>
+            <text id="17%" font-family="Roboto-Black, Roboto Black" font-size="25" font-weight="700" letter-spacing="0.0954861111" fill="#4C4C4C">
+                <tspan x="191" y="23">17%</tspan>
+            </text>
+            <text id="83%" font-family="Roboto-Black, Roboto Black" font-size="25" font-weight="700" letter-spacing="0.0954861111" fill="#4C4C4C">
+                <tspan x="-5.68434189e-14" y="183">83%</tspan>
+            </text>
+            <text id="Users-who-preferred" font-family="Roboto-Medium, Roboto Medium" font-size="17" font-weight="normal" letter-spacing="0.0649305556" fill="#000000" fill-opacity="0.87">
+                <tspan x="303" y="114">Users who </tspan>
+                <tspan x="303" y="134">preferred a white </tspan>
+                <tspan x="303" y="154">background</tspan>
+            </text>
+            <text id="Users-who-preferred" font-family="Roboto-Medium, Roboto Medium" font-size="17" font-weight="normal" letter-spacing="0.0649305556" fill="#000000" fill-opacity="0.87">
+                <tspan x="303" y="16">Users who </tspan>
+                <tspan x="303" y="36">preferred a </tspan>
+                <tspan x="303" y="56">neutral </tspan>
+                <tspan x="303" y="76">background</tspan>
+            </text>
+            <circle id="Oval-Copy-54" fill="#5699FF" cx="285" cy="8" r="8"></circle>
+            <circle id="Oval-Copy-55" fill="#FF8256" cx="285" cy="107" r="8"></circle>
+            <g id="Group" transform="translate(14.000000, 2.000000)" stroke="#FFFFFF" stroke-width="7">
+                <path d="M89,178 C138.153343,178 178,138.153343 178,89 C178,39.8466573 138.153343,0 89,0 C39.8466573,0 -5.68434189e-14,39.8466573 -5.68434189e-14,89 C-5.68434189e-14,138.153343 39.8466573,178 89,178 Z" id="Oval-Copy-29" fill="#FF8256"></path>
+                <path d="M89,178 C138.153343,178 178,138.153343 178,89 C164.561463,89.847619 135.106701,89.847619 89.6357143,89 C89.6357143,52.7541872 89.4238095,23.0875205 89,0 C39.8466573,0 -5.68434189e-14,39.8466573 -5.68434189e-14,89 C-5.68434189e-14,138.153343 39.8466573,178 89,178 Z" id="Oval-Copy-30" fill="#5699FF"></path>
+                <path d="M89,145 C119.375661,145 144,120.375661 144,90 C144,59.6243388 119.375661,35 89,35 C58.6243388,35 34,59.6243388 34,90 C34,120.375661 58.6243388,145 89,145 Z" id="Oval-Copy-29" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
