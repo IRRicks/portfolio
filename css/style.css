@@ -13,7 +13,7 @@ h1{
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 7vh;
-  margin-top: 150px;
+
 }
 
 h3 {
@@ -130,12 +130,13 @@ h5 {
 
 /*hero */
 .welcome {
-  max-width: 800px;
+  display: block;
+  max-width: 1500px;
   text-align: left;
   margin-left:150px;
   margin-right: 150px;
+  margin-top: 100px;
 }
-
 
 .hero {
  height: 700px;
@@ -150,11 +151,14 @@ h5 {
   line-height: 160%;
   margin-top: 20px;
   text-align:left;
+  width: 800px;
  }
 
-.fa-angle-down {
-   margin-top: 100px;
- }
+.avatar {
+  float: right;
+}
+
+
 
  #myBtn {
    display: none;
@@ -929,8 +933,9 @@ footer p {
     margin: 20px 20px 5px 5px;
   }
 
-  .fa-angle-down  {
-    margin-top: 10px;
+  .avatar {
+    visibility: hidden;
+    display: none;
   }
 
  /* about me */
@@ -1096,6 +1101,10 @@ footer p {
     align-items: center;
   }
 
+    .avatar {
+      visibility: hidden;
+      display: none;
+    }
 
   /* navigation bar */
   .navbar {
