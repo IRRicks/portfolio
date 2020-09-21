@@ -860,6 +860,9 @@ footer p {
    .hero p {
      font-size: 2vh;
      padding: 20px;
+     width: 350px;
+     margin-bottom: 20px;
+     margin-right: 50px;
    }
 
    .projects {
@@ -1095,6 +1098,9 @@ footer p {
 
    .hero p {
      font-size: 3vh;
+     width: 350px;
+     margin-bottom: 20px;
+     margin-right: 50px;
    }
 
    .projects {
