@@ -227,9 +227,9 @@ h5 {
 .projecthero {
       background-color: white;
       text-align: center;
-      max-width: 1000px;
       margin-left: auto;
       margin-right: auto;
+      width: 100%;
     }
 
 .projecthero a:link {

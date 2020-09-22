@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="579px" height="220px" viewBox="0 0 579 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>bzytext</title>
+    <desc>Created with Sketch.</desc>
+    <g id="bzytext" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="LucidaGrande, Lucida Grande" font-size="18" font-weight="normal" letter-spacing="0.06875">
+        <text id="→-I-want-to-search-f" fill="#292929">
+            <tspan x="54" y="41">→</tspan>
+            <tspan x="72.06875" y="41" font-family="OpenSans-Regular, Open Sans"> I want to search for an address or location </tspan>
+            <tspan x="54" y="77">→</tspan>
+            <tspan x="72.06875" y="77" font-family="OpenSans-Regular, Open Sans"> I want to get directions for an address or location</tspan>
+            <tspan x="54" y="113">→</tspan>
+            <tspan x="72.06875" y="113" font-family="OpenSans-Regular, Open Sans"> I want to see all transportation options at a location </tspan>
+            <tspan x="54" y="149">→</tspan>
+            <tspan x="72.06875" y="149" font-family="OpenSans-Regular, Open Sans"> I want to view time estimates for travel/route options</tspan>
+            <tspan x="54" y="185">→</tspan>
+            <tspan x="72.06875" y="185" font-family="OpenSans-Regular, Open Sans"> I want to learn about delays</tspan>
+        </text>
+    </g>
+</svg>
