@@ -6,31 +6,31 @@
 /* typography */
 
 body {
-  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 h1{
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 7vh;
-
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 5vh;
+  margin-left: 30px;
 }
 
 h3 {
-     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-     font-weight: 900;
-     font-size: 3vh;
-     line-height: 167%;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 3vh;
+  line-height: 167%;
 }
 
 h4 {
-  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 3vh;
   font-weight: bold;
 }
 
 h2 {
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 3vh;
   line-height: 150%;
   margin: 20px;
@@ -38,11 +38,21 @@ h2 {
 }
 
 h5 {
-  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: bold;
   line-height: 150%;
   padding: 15px 0px;
+}
+
+h6 {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 3vh;
+  line-height: 167%;
+  margin-top: 20px;
+  margin-left: 30px;
+  text-align:left;
+  width: 600px;
 }
 
 
@@ -107,14 +117,12 @@ h5 {
 
 }
 
-.navbarlinks a.active {
-  border-bottom: 3px solid #FFB2E0;
-}
+
 
 #logo  {
   display: inline-block;
   float: left;
-  margin: 40px 0px 10px 150px;
+  margin: 40px 0px 10px 130px;
   width: 3%;
   object-fit: contain;
 }
@@ -131,32 +139,41 @@ h5 {
 /*hero */
 .welcome {
   display: block;
-  max-width: 1500px;
+  max-width: 1000px;
   text-align: left;
   margin-left:150px;
   margin-right: 150px;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .hero {
  height: 700px;
  text-align: center;
- width: 100%;
 }
 
 
 .hero p {
-  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: 4vh;
   line-height: 160%;
   margin-top: 20px;
+  margin-left: 30px;
   text-align:left;
-  width: 800px;
+  width: 600px;
  }
 
-.avatar {
-  float: right;
-}
+
+.fa-angle-down  {
+  margin-left: 550px;
+  margin-top: 50px;
+  border: none;
+  outline: none;
+  background-color: #FF94D4;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50%;
+  }
 
 
 
@@ -189,7 +206,7 @@ h5 {
  }
 
 .main p {
- font-family: 'Nunito', Arial, Helvetica, sans-serif;
+ font-family: 'Open Sans', Arial, Helvetica, sans-serif;
  font-size: 20px;
  line-height: 180%;
  padding-top: 10px;
@@ -214,7 +231,14 @@ h5 {
   flex-wrap: wrap;
 }
 
-   .highlight {
+.project_content {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+ .highlight {
      background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFB2E0 50%);
    }
 
@@ -241,7 +265,7 @@ h5 {
         text-align: center;
         text-decoration: none;
         margin: 10px 60px;
-      }
+  }
 
 .projecthero a:visited {
       border: 2px solid;
@@ -252,7 +276,7 @@ h5 {
       text-align: center;
       text-decoration: none;
       margin: 10px 60px;
-    }
+  }
 
 .projecthero a:hover {
    border: 2px solid white;
@@ -264,7 +288,7 @@ h5 {
    text-align: center;
    text-decoration: none;
    margin: 10px 60px;
-     }
+ }
 
 
 .projecthero a:active {
@@ -277,13 +301,13 @@ h5 {
    text-align: center;
    text-decoration: none;
    margin: 10px 60px;
-     }
+}
 
 .projecthero p {
       padding: 5px;
       font-size: 2.5vh;
       line-height: 130%;
-   }
+}
 
 .projecthero img {
       margin-bottom: 20px;
@@ -294,7 +318,7 @@ h5 {
       margin-right: auto;
       margin-left: auto;
       max-width: 1000px;
-    }
+  }
 
 .projectmain a:link {
       display: block;
@@ -359,7 +383,7 @@ h5 {
   }
 
 .projectmain p {
-      font-family: 'Nunito', Arial, Helvetica, sans-serif;
+      font-family: 'Open Sans', Arial, Helvetica, sans-serif;
       font-size: 20px;
       margin: 40px;
       line-height: 150%;
@@ -381,9 +405,6 @@ h5 {
   margin-bottom: 100px;
 }
 
-.project_content {
-    margin: 60px;
-}
 
 .bold {
   font-weight: 900;
@@ -517,7 +538,7 @@ h5 {
     }
 
 .aboutmemain p {
-      font-family: 'Nunito', Arial, Helvetica, sans-serif;
+      font-family: 'Open Sans', Arial, Helvetica, sans-serif;
       font-size: 20px;
       line-height: 167%;
       padding: 20px;
@@ -609,14 +630,14 @@ h5 {
 
 /* connect */
 .connect p {
-      font-family: 'Nunito', Arial, Helvetica, sans-serif;
+      font-family: 'Open Sans', Arial, Helvetica, sans-serif;
       font-size: 16px;
       line-height: 150%;
       padding: 10px 10px;
     }
 
 .footer p {
-     font-family: 'Nunito', Arial, Helvetica, sans-serif;
+     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
      font-size: 12px;
      line-height: 150%;
      padding: 10px 10px;
@@ -940,10 +961,29 @@ footer p {
     margin: 20px 20px 5px 5px;
   }
 
-  .avatar {
-    visibility: hidden;
-    display: none;
-  }
+.main {
+    margin-top: 300px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: #FFB2E0;
+}
+
 
  /* about me */
 
@@ -1087,12 +1127,9 @@ footer p {
     float: left;
    }
 
-   .fa-angle-down  {
-     margin-top: 5px;
-   }
 
    h1 {
-     font-size: 5vh;
+     font-size: 3vh;
      margin-top: 30px;
    }
 
@@ -1111,11 +1148,26 @@ footer p {
     align-items: center;
   }
 
-    .avatar {
-      visibility: hidden;
+
+
+    #myBtn {
       display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 40px;
+      z-index: 99;
+      border: none;
+      outline: none;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      padding: 10px 15px;
+      border-radius: 50%;
     }
 
+    #myBtn:hover {
+      background-color: #FFB2E0;
+    }
   /* navigation bar */
   .navbar {
     list-style-type: none;
@@ -1184,6 +1236,9 @@ footer p {
     margin: 40px 20px 5px 5px;
   }
 
+  .main {
+      margin-top: 300px;
+  }
 
  /* about me */
  h2 {
