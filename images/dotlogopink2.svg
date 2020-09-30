@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="115px" height="110px" viewBox="0 0 115 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>dotlogopink2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-26.7%" y="-26.7%" width="153.5%" height="153.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="14" dy="9" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.948863807   0 0 0 0 0.771875   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-86.000000, -253.000000)" fill="#FC57D6" fill-rule="nonzero">
+            <g id="dotlogopink2" filter="url(#filter-1)" transform="translate(86.000000, 253.000000)">
+                <path d="M34.4134,1.48163 L58.2733,1.48163 C62.6915,1.48163 66.2733,5.06335 66.2733,9.48163 L66.2733,100.702 L42.4133,100.702 C37.9951,100.702 34.4134,97.1202 34.4134,92.702 L34.4134,1.48163 Z" id="Path"></path>
+                <path d="M72.014,39.6844 L92.3339,39.6844 C96.7522,39.6844 100.334,43.2661 100.334,47.6844 L100.334,100.497 L80.014,100.497 C75.5957,100.497 72.014,96.9151 72.014,92.4968 L72.014,39.6844 Z" id="Path"></path>
+                <path d="M0.333939,1.48163 L20.6538,1.48163 C25.0721,1.48163 28.6539,5.06335 28.6539,9.48163 L28.6539,62.2941 L8.33395,62.2941 C3.91567,62.2941 0.333939,58.7124 0.333939,54.2941 L0.333939,1.48163 Z" id="Path"></path>
+                <ellipse id="Oval" cx="80.349" cy="16.295" rx="16.6698" ry="15.5929"></ellipse>
+                <ellipse id="Oval" cx="20.3377" cy="84.1243" rx="16.6698" ry="15.5929"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
