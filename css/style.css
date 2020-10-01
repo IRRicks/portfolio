@@ -566,6 +566,13 @@ h6 {
       flex-wrap: wrap;
   }
 
+.things li {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 100%;
+  padding: 20px;
+}
+
 .aboutmemain  a:link {
       display: block;
       border: 2px solid;
@@ -1119,14 +1126,14 @@ footer p {
     }
 
     .connect p {
-          font-family: 'Nunito', Arial, Helvetica, sans-serif;
+          font-family: 'Open Sans', Arial, Helvetica, sans-serif;
           font-size: 16px;
           line-height: 150%;
           padding: 10px 10px;
 
         }
     .footer p {
-          font-family: 'Nunito', Arial, Helvetica, sans-serif;
+          font-family: 'Open Sans', Arial, Helvetica, sans-serif;
           font-size: 12px;
           line-height: 150%;
           padding: 10px 10px;
@@ -1296,7 +1303,7 @@ footer p {
   }
  /* about me */
  h2 {
-   font-family: 'Nunito', Arial, Helvetica, sans-serif;
+   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
    font-size: 4vh;
    line-height: 150%;
    margin: 20px;
@@ -1407,7 +1414,7 @@ footer p {
     }
 
    .connect p {
-          font-family: 'Nunito', Arial, Helvetica, sans-serif;
+          font-family: 'Open Sans', Arial, Helvetica, sans-serif;
           font-size: 16px;
           line-height: 150%;
           padding: 10px 10px;
@@ -1415,7 +1422,7 @@ footer p {
         }
 
    .footer p {
-          font-family: 'Nunito', Arial, Helvetica, sans-serif;
+          font-family: 'Open Sans', Arial, Helvetica, sans-serif;
           font-size: 12px;
           line-height: 150%;
           padding: 10px 10px;
