@@ -1132,7 +1132,22 @@ footer p {
     height:70%;
   }
 
+.sketch {
+  width: 90%;
+}
 
+.graph {
+  width: 80%;
+}
+/*busy bus */
+
+.buscenter {
+  display: block;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
    /*contact me */
 
 
@@ -1370,7 +1385,7 @@ footer p {
     height: 70%;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 100%;
   }
 
   .side {
@@ -1416,9 +1431,15 @@ footer p {
     height: 70%;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 90%;
+  }
+  .sketch {
+    width: 90%;
   }
 
+  .graph {
+    width: 80%;
+  }
 
 /*contact me */
 
