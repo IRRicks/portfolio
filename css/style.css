@@ -12,7 +12,7 @@ body {
 h1{
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-size: 5vh;
+  font-size: 30px;
   margin-left: 30px;
 }
 
@@ -117,8 +117,6 @@ h6 {
 
 }
 
-
-
 #logo  {
   display: inline-block;
   float: left;
@@ -139,27 +137,22 @@ h6 {
 /*hero */
 .welcome {
   display: block;
-  max-width: 1000px;
-  text-align: left;
-  margin-left:300px;
-  margin-right: 150px;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .hero {
- height: 700px;
+ height: 400px;
  text-align: center;
 }
 
 
 .hero p {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-  font-size: 4vh;
+  font-size: 20px;
   line-height: 160%;
   margin-top: 30px;
   margin-left: 30px;
-  text-align:left;
-  width: 600px;
+  text-align: center;
  }
 
 
@@ -217,7 +210,7 @@ h6 {
 }
 
 .main {
-  max-width: 1000px;
+  max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1011,9 +1004,6 @@ footer p {
     margin: 20px 20px 5px 5px;
   }
 
-.main {
-    margin-top: 400px;
-}
 
 #myBtn {
   display: none;
@@ -1077,6 +1067,9 @@ footer p {
      width: 80%;
    }
 
+.trovepic {
+      width: 90%;
+}
    /* trove project */
 
    .projecthero {
@@ -1227,6 +1220,10 @@ footer p {
     align-items: center;
   }
 
+  .trovepic {
+        width: 90%;
+  }
+
   .fa-angle-down  {
     margin-left: 180px;
     margin-right: auto;
@@ -1324,10 +1321,6 @@ footer p {
     display: inline-block;
     padding: 10px 20px;
     margin: 40px 20px 5px 5px;
-  }
-
-  .main {
-      margin-top: 400px;
   }
 
   .project_content {
