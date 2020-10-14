@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<!--  Meta  -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Imani Ricks | Portfolio</title>
+<!-- stylesheet -->
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Karla">
+<!--- favicon --->
+<link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/84aa5f5e2b.js" crossorigin="anonymous"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-75461753-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-75461753-2');
+</script>
+<!-- jQuery scroll -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+     <script type="text/javascript">
+
+         $(function() {
+
+             var documentEl = $(document),
+                 fadeElem = $('.fade-scroll');
+
+
+             documentEl.on('scroll', function() {
+                 var currScrollPos = documentEl.scrollTop()+150;
+
+                 fadeElem.each(function() {
+                     var $this = $(this),
+                         elemOffsetTop = $this.offset().top;
+                     if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos-elemOffsetTop)/400);
+                 });
+             });
+
+         });
+
+     </script>
+</head>
+
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up fa-2x"></i></button>
+ <div class="container">
+   <!-- nav bar -->
+  <nav class="navbar">
+    <div>
+      <a href="/index.html"><img id="logo" src="images/dotlogo2.svg" alt="imani ricks logo"></a>
+    </div>
+    <div class="navbarlinks">
+    <ul>
+        <li><a id="contact_nav" href="/contact.html">Contact</a></li>
+        <li><a id="about_me" href="/about-me.html">About</a></li>
+        <li><a class="active" id="work" href="/index.html#worksection">Work</a></li>
+      </ul>
+    </div>
+   </nav>
+  <section class="projecthero">
+    <!-- start case study -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <img src="images/skyprint/skyprint header.png" alt="mockup image" class="projecthero" >
+    <a href="https://invis.io/ZMYFUGREPJS" target="_blank" class="button">View finished prototype</a>
+  </section>
+  <!-- flexbox -->
+  <div class="header-box">
+  <div class="roles info-section">
+   <h4>Roles:</h4>
+    <li>UX Design</li>
+    <li>Visual design</li>
+    <li>Branding and identity</li>
+  </div>
+  <div class="delivs info-section">
+    <h4>Deliverables:</h4>
+    <li>User surveys</li>
+    <li>User personas</li>
+    <li>User stories/flows</li>
+    <li>Competitive analysis</li>
+    <li>Wireframes</li>
+    <li>Branding and identity</li>
+    <li>User testing</li>
+    <li>High fidelity mockups</li>
+  </div>
+  <div class="info-section">
+    <h4>Tools:</h4>
+    <li>Figma</li>
+    <li>Usability Hub</li>
+    <li>Invision</li>
+  </div>
+</div>
+    <!-- problem and solution-->
+  <div class="projectmain">
+    <section class="problem">
+      <h2>Task:</h2>
+      <p>You are tasked with designing a signup experience, with a step to purchase one of three different plans, for a Software as a Service (SaaS) product that helps consumers do something. What exactly is that something?
+        It’s up to you! Imagine your SaaS product currently having 1 million active users. </p>
+     </section>
+
+    <!-- discovery -->
+    <section class="discovery">
+      <h2>Discovery Phase:</h2>
+      <p> Before beginning the design process, I conducted three qualitative interviews with friends to identify a pain points they’ve experienced with
+         previous sign-up experiences.The main takeaways of these interviews were that: </p>
+        <aside>
+        <img src="images/skyprint/Goals/Frustrations.png" alt="user survey image" class="buscenter">
+        </aside>
+     </section>
+      <!-- competitive analysis -->
+      <section>
+        <h2>Competitive Analysis:</h2>
+        <img src="images/skyprint/skyprint competitive.png" alt="user survey image" class="medchatmockup">
+       </section>
+      <!-- user personas -->
+      <section>
+        <h2>User Personas:</h2>
+          <p>I was able to craft a user persona based on the information gathered in my research.
+           </p>
+          <img src="images/skyprint/yellowgirl2.svg" alt="user persona image" class="sketch">
+         </section>
+    <!-- user stories -->
+    <section>
+      <h2>Information Architecture:</h2>
+      <p>I then crafted user stories and userflows were by gathering data from the user survey responses, the competitive analysis and the user personas. </p>
+      <img src="images/skyprint/usersurveyresponses2.png" alt="user stories image" class="center">
+      <img src="images/skyprint/userflow_skyprint.png" alt="user stories image" class="center">
+     </section>
+
+  <!-- wireframe -->
+  <section class="wireframes">
+    <h2>Sketches and Wireframes:</h2>
+    <p>Combining information from my competitive analysis and my user surveys, I was able to outline what I would like my application to look like. </p>
+    <img src="images/skyprint/SPsketch.png" alt="wireframe image" class="medchatmockup">
+    <img src="images/skyprint/wireframe_sp.png" alt="wireframe image" class="medchatmockup">
+     </section>
+
+  <!-- preference testing -->
+     <section class="userflow">
+       <h2>Preference Tests:</h2>
+       <p>I conducted preference tests for different aspects of my application.</p>
+         <img src="images/skyprint/test1.png" alt="screen" class="medchatmockup">
+         <img src="images/skyprint/test2.png" alt="screen" class="medchatmockup">
+         <img src="images/skyprint/test3.png" alt="screen" class="medchatmockup">
+       </section>
+   <!-- branding-->
+  <section>
+    <h2>Branding and Identity:</h2>
+    <p>Next, I gathered inspiration for the brand identity. </p>
+    <img src="images/skyprint/sp_moodboard.png" alt="sketches" class="medchatsketch">
+    <p>I then created a style guide for the project.</p>
+    <img src="images/skyprint/skypringstyle.png" alt="sketches" class="medchatmockup">
+
+  <!-- final project -->
+  <section>
+    <h2>Final Design:</h2>
+    <br>
+    <img src="images/skyprint/wireframe_sp2.png" alt="trove landing page" class="medchatmockup">
+    <a href="https://invis.io/ZMYFUGREPJS" target="_blank" class="button">View more</a>
+  </section>
+  <!-- conclusion -->
+  <section>
+    <h2>Conclusion:</h2>
+    <p>Overall, my design was able to achieve my original goal to:
+1.  Clearly display plan options for users
+2.  Allow users to sign up quickly (less than 3 steps)
+3.  Show users where they are in the process.</p>
+    </section>
+</div>
+
+
+    <!-- connect with me -->
+      <section class="connect">
+        <br>
+        <br>
+        <br>
+        <br>
+         <h3>Let's Connect</h3>
+         <p>Please reach out if you want to chat or have any questions!</p>
+         <a href="/contact.html" class="button">Message me</a>
+       </section>
+       <!-- footer -->
+         <footer class="footer">
+           <ul class="socialmedia">
+            <li><a href="/contact.html" target="_blank"><i class="fas fa-envelope-square fa-2x"></i></a></li>
+            <li><a href="https://github.com/IRRicks" target="_blank"><i class="fab fa-github-square fa-2x"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/imani-ricks/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
+            <li><a href="https://dribbble.com/RRicks" target="_blank"><i class="fab fa-dribbble-square fa-2x"></i></a></li>
+           </ul>
+           <p>Designed and Developed by Imani Ricks 2020</p>
+         </footer>
+       </div>
+       <!-- button on scroll -->
+           <script>
+           //Get the button
+           var mybutton = document.getElementById("myBtn");
+
+           // When the user scrolls down 20px from the top of the document, show the button
+           window.onscroll = function() {scrollFunction()};
+
+           function scrollFunction() {
+             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+               mybutton.style.display = "block";
+             } else {
+               mybutton.style.display = "none";
+             }
+           }
+
+           // When the user clicks on the button, scroll to the top of the document
+           function topFunction() {
+             document.body.scrollTop = 0;
+             document.documentElement.scrollTop = 0;
+           }
+           </script>
+
+ </body>
+
+</html>
