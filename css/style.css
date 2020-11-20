@@ -138,11 +138,11 @@ h6 {
 .welcome {
   display: block;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .hero {
- height: 500px;
+ height: 400px;
  text-align: center;
 }
 
