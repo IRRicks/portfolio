@@ -1,0 +1,16 @@
+<!-- Start Sticky Navbar -->
+<div class="scrollmenu">
+  <a href="#" class="w3-bar-item w3-button">Problem</a>
+  <a href="#" class="w3-bar-item w3-button">Solution</a>
+  <a href="#" class="w3-bar-item w3-button">Discovery</a>
+  <a href="#" class="w3-bar-item w3-button">Competitive Analysis</a>
+  <a href="#" class="w3-bar-item w3-button">User Personas</a>
+  <a href="#" class="w3-bar-item w3-button">Information Architecture</a>
+  <a href="#" class="w3-bar-item w3-button">Sketches and Wireframes</a>
+  <a href="#" class="w3-bar-item w3-button">Preference Tests</a>
+  <a href="#" class="w3-bar-item w3-button">Branding</a>
+  <a href="#" class="w3-bar-item w3-button">Mockups</a>
+  <a href="#" class="w3-bar-item w3-button">Usability Tests</a>
+  <a href="#" class="w3-bar-item w3-button">Final Design</a>
+  <a href="#" class="w3-bar-item w3-button">Conclusion</a>
+</div>

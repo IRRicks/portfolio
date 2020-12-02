@@ -222,7 +222,6 @@ h6 {
 }
 
 
-
 .projects {
   display: flex;
   flex-direction: row;
@@ -246,24 +245,51 @@ h6 {
 
   .header-box {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
   }
 
   .info-section {
-    width: 300px;
-    margin: 10px;
+    width: 33%;
     text-align: center;
   }
 
-
-
+  .info-section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 .info-section li {
   list-style: none;
   padding: 15px;
+}
 
+div.scrollmenu {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  border: 2px solid;
+  color: black;
+  display: inline-block;
+  font-size: 18px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 100px 60px;
+}
+
+div.scrollmenu a:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: black;
+  display: inline-block;
+  font-size: 18px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 100px 60px;
 }
 
 .projecthero {
@@ -399,6 +425,11 @@ h6 {
   text-align: center;
   text-decoration: none;
   }
+
+  .w3-button:hover {
+    color: white!important;
+    background-color: black!important;
+}
 
 .projectmain p {
       font-family: 'Open Sans', Arial, Helvetica, sans-serif;
@@ -649,7 +680,32 @@ h6 {
   text-align: center;
   text-decoration: none;
 }
+/* button next */
+.previous {
+  color: black;
+  font-size: 25px;
+  float:left;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.next {
+  color: black;
+  font-size: 25px;
+  float:right;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 100px;
+  margin-top: 100px;
+}
 
+.next::after {
+  content: "";
+  clear: both;
+
+}
+/* end button next */
 
 /* connect */
 .connect p {
@@ -666,6 +722,7 @@ h6 {
      padding: 10px 10px;
 }
 .connect {
+      margin-top: 300px;
       text-align: center;
       height: 300px;
     }
@@ -1141,6 +1198,33 @@ footer p {
   margin-right: auto;
   width: 90%;
 }
+
+/* button next */
+.previous {
+  color: black;
+  font-size: 25px;
+  float:left;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 100px;
+}
+.next {
+  color: black;
+  font-size: 25px;
+  float:right;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-top: 100px;
+}
+
+.next::after {
+  content: "";
+  clear: both;
+
+}
+/* end button next */
    /*contact me */
 
 
@@ -1433,7 +1517,33 @@ footer p {
   .graph {
     width: 80%;
   }
+  /* button next */
+  .previous {
+    display: block;
+    color: black;
+    font-size: 25px;
+    float:left;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+  .next {
+    display: block;
+    color: black;
+    font-size: 25px;
+    float:right;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 100px;
+  }
 
+  .next::after {
+    content: "";
+    clear: both;
+
+  }
 /*contact me */
 
 
