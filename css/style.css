@@ -58,6 +58,19 @@ h6 {
 
 
 /* navigation bar */
+nav {
+  list-style-type: none;
+  overflow: hidden;
+  position:relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: white;
+  text-decoration: none;
+}
+
+
 .navbar {
   list-style-type: none;
   overflow: hidden;
@@ -994,9 +1007,23 @@ footer p {
 
 
   /* navigation bar */
+  nav {
+    list-style-type: none;
+    overflow: hidden;
+    position:relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+    text-decoration: none;
+  }
+
+
   .navbar {
     list-style-type: none;
     overflow: hidden;
+    position:fixed;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -1333,9 +1360,23 @@ footer p {
       background-color: #FFB2E0;
     }
   /* navigation bar */
+  nav {
+    list-style-type: none;
+    overflow: hidden;
+    position:relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+    text-decoration: none;
+  }
+
+
   .navbar {
     list-style-type: none;
     overflow: hidden;
+    position:fixed;
     margin: 0;
     padding: 0;
     width: 100%;
